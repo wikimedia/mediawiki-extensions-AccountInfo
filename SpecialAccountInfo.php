@@ -28,6 +28,12 @@ class SpecialAccountInfo extends SpecialPage {
 		return $ua;
 	}
 
+	public function formatTime( $ts ) {
+		return $this->getLanguage()->formatTimePeriod( $ts,
+			array( 'avoid' => 'avoidminutes', 'noabbrevs' => true )
+		);
+	}
+
 	public function execute( $par ) {
 		$user = $this->getUser();
 		$out = $this->getOutput();
@@ -57,7 +63,10 @@ class SpecialAccountInfo extends SpecialPage {
 		if ( AccountInfo::areIPsInRC() ) {
 			$this->addHeader( 'accountinfo-recentchanges' );
 			global $wgRCMaxAge;
-			$out->addHTML( $this->msg( 'accountinfo-length-rc' )->timeperiodParams( $wgRCMaxAge )->escaped() );
+			$out->addHTML( $this->msg( 'accountinfo-length-rc' )
+				->rawParams( $this->formatTime( $wgRCMaxAge ) )
+				->escaped()
+			);
 			// Check the table...
 			$rows = wfGetDB( DB_SLAVE )->select(
 				'recentchanges',
@@ -77,7 +86,10 @@ class SpecialAccountInfo extends SpecialPage {
 		if ( AccountInfo::isCUInstalled() ) {
 			$this->addHeader( 'accountinfo-checkuser' );
 			global $wgCUDMaxAge;
-			$out->addHTML( $this->msg( 'accountinfo-length-cu' )->timeperiodParams( $wgCUDMaxAge )->escaped() );
+			$out->addHTML( $this->msg( 'accountinfo-length-cu' )
+				->rawParams( $this->formatTime( $wgCUDMaxAge ) )
+				->escaped()
+			);
 			$rows = wfGetDB( DB_SLAVE )->select(
 				'cu_changes',
 				array( 'DISTINCT cuc_ip', 'cuc_agent', 'cuc_xff' ), // the DISTINCT applies to all columns
