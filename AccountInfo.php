@@ -23,6 +23,17 @@ $wgExtensionCredits['other'][] = array(
 
 $wgAutoloadClasses['AccountInfo'] = __DIR__ . '/AccountInfo.body.php';
 $wgAutoloadClasses['SpecialAccountInfo'] = __DIR__ . '/SpecialAccountInfo.php';
+$wgAutoloadClasses['TableBuilder'] = __DIR__ . '/includes/TableBuilder.php';
 $wgSpecialPages['AccountInfo'] = 'SpecialAccountInfo';
 $wgExtensionMessagesFiles['AccountInfo'] = __DIR__ . '/AccountInfo.i18n.php';
 $wgExtensionMessagesFiles['AccountInfoAlias'] = __DIR__ . '/AccountInfo.alias.php';
+$wgResourceModules['ext.AccountInfo.special'] = array(
+	'styles' => 'ext.AccountInfo.special.css',
+	'localBasePath' => __DIR__ . '/modules',
+	'remoteExtPath' => 'AccountInfo/modules',
+);
+$wgResourceModules['ext.AccountInfo.special.js'] = array(
+	'scripts' => 'ext.AccountInfo.special.js',
+	'localBasePath' => __DIR__ . '/modules',
+	'remoteExtPath' => 'AccountInfo/modules',
+);

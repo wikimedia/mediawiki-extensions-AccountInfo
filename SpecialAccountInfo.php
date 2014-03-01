@@ -21,11 +21,17 @@ class SpecialAccountInfo extends SpecialPage {
 	}
 
 	public function formatUA( $ua ) {
-		$ua = AccountInfo::getHumanReadableUA( $this, $ua );
-		if ( !$ua ) {
-			$ua = $this->msg( 'accountinfo-none' )->text();
+		$human = AccountInfo::getHumanReadableUA( $this, $ua );
+		if ( $human ) {
+			$return = $human . Html::element(
+					'div',
+					array( 'class' => 'mw-accountinfo-useragent' ),
+					$ua
+				);
+		} else {
+			$return = $this->msg( 'accountinfo-none' )->text();
 		}
-		return $ua;
+		return $return;
 	}
 
 	public function formatTime( $ts ) {
@@ -46,26 +52,15 @@ class SpecialAccountInfo extends SpecialPage {
 		$this->setHeaders();
 		$this->outputHeader();
 		$this->checkPermissions();
+		$out->addModuleStyles( 'ext.AccountInfo.special' );
+		$out->addModules( 'ext.AccountInfo.special.js' );
 
-		// Current info
-		$this->addHeader( 'accountinfo-current' );
-		$out->addHTML( Xml::buildTable( array( array(
-				$req->getIP(),
-				$this->formatUA( AccountInfo::getUserAgent( $req ) ),
-				$this->formatXFF( AccountInfo::getXFF( $req ) )
-		) ), array(), array(
-			$this->msg( 'accountinfo-ip' )->escaped(),
-			$this->msg( 'accountinfo-ua' )->escaped(),
-			$this->msg( 'accountinfo-xff' )->escaped()
-		) ) );
-
-		// Check RecentChanges...
-		if ( AccountInfo::areIPsInRC() ) {
-			$this->addHeader( 'accountinfo-recentchanges' );
+		// Check RecentChanges, only if CU is not installed...
+		if ( AccountInfo::areIPsInRC() && !AccountInfo::isCUInstalled() ) {
 			global $wgRCMaxAge;
 			$out->addHTML( $this->msg( 'accountinfo-length-rc' )
 				->rawParams( $this->formatTime( $wgRCMaxAge ) )
-				->escaped()
+				->parseAsBlock()
 			);
 			// Check the table...
 			$rows = wfGetDB( DB_SLAVE )->select(
@@ -79,45 +74,48 @@ class SpecialAccountInfo extends SpecialPage {
 				/** @var stdClass $arr */
 				return array( $arr->ip );
 			}, iterator_to_array( $rows ) );
-			$out->addHTML( Xml::buildTable( $rows, array(), array( $this->msg( 'accountinfo-ip' )->escaped() ) ) );
+			// Put current info on top.
+			$rows = array_merge( array( 'mw-accountinfo-current' => array( $req->getIP() ) ), $rows );
+			$out->addHTML( TableBuilder::buildTable( $rows, array( $this->msg( 'accountinfo-ip' )->parse() ) ) );
 		}
 
 		// Now CheckUser...
 		if ( AccountInfo::isCUInstalled() ) {
-			$this->addHeader( 'accountinfo-checkuser' );
 			global $wgCUDMaxAge;
 			$out->addHTML( $this->msg( 'accountinfo-length-cu' )
 				->rawParams( $this->formatTime( $wgCUDMaxAge ) )
-				->escaped()
+				->parseAsBlock()
 			);
 			$rows = wfGetDB( DB_SLAVE )->select(
 				'cu_changes',
-				array( 'DISTINCT cuc_ip', 'cuc_agent', 'cuc_xff' ), // the DISTINCT applies to all columns
+				array( 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ),
 				array( 'cuc_user' => $user->getId() ),
-				__METHOD__
+				__METHOD__,
+				array( 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' )
 			);
 			$us = $this;
 			$rows = array_map( function( $arr ) use ( $us ) {
 				return array(
+					$us->getLanguage()->formatExpiry( $arr->cuc_timestamp ),
 					$arr->cuc_ip,
-					$us->formatUA( $arr->cuc_agent ),
+					'mw-accountinfo-useragent' => $us->formatUA( $arr->cuc_agent ),
 					$us->formatXFF( $arr->cuc_xff ),
 				);
 			}, iterator_to_array( $rows ) );
-			$out->addHTML( Xml::buildTable( $rows, array(), array(
-				$this->msg( 'accountinfo-ip' )->escaped(),
-				$this->msg( 'accountinfo-ua' )->escaped(),
-				$this->msg( 'accountinfo-xff' )->escaped(),
+			// Put current info on top.
+			$rows = array_merge( array( 'mw-accountinfo-current' => array(
+				$this->msg( 'accountinfo-now' )->parse(),
+				$req->getIP(),
+				'mw-accountinfo-useragent' => $this->formatUA( AccountInfo::getUserAgent( $req ) ),
+				$this->formatXFF( AccountInfo::getXFF( $req ) ),
+			) ), $rows );
+			$out->addHTML( TableBuilder::buildTable( $rows, array(
+				$this->msg( 'accountinfo-ts' )->parse(),
+				$this->msg( 'accountinfo-ip' )->parse(),
+				$this->msg( 'accountinfo-ua' )->parse(),
+				$this->msg( 'accountinfo-xff' )->parse(),
 			) ) );
 		}
 	}
 
-	/**
-	 * @param string $key message key
-	 */
-	protected function addHeader( $key ) {
-		$this->getOutput()->addHTML(
-			Html::element( 'h2', array(), $this->msg( $key )->text() )
-		);
-	}
 }
