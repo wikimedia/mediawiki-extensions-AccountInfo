@@ -1,4 +1,11 @@
 <?php
+/**
+ * AccountInfo extension
+ *
+ * @file
+ * @ingroup Extensions
+ * @license GPL v2+
+ */
 
 $messages = array();
 
