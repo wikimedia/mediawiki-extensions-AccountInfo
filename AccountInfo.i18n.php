@@ -33,7 +33,8 @@ $messages['qqq'] = array(
 {{Identical|Account information}}',
 	'accountinfo-desc' => '{{doc-singularthey}}
 {{desc|name=AccountInfo|url=http://www.mediawiki.org/wiki/Extension:AccountInfo}}',
-	'accountinfo-ts' => 'Header for table column',
+	'accountinfo-ts' => 'Header for table column.
+{{Identical|Timestamp}}',
 	'accountinfo-ip' => 'Header for table column.
 {{Identical|IP address}}',
 	'accountinfo-ua' => 'Header for table column.
@@ -61,6 +62,24 @@ See also:
 	'accountinfo-now' => 'Text shown in "Timestamp" column to represent current information.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'accountinfo' => 'Información de la cuenta',
+	'accountinfo-desc' => 'Permite que los usuarios vean la información privada propia',
+	'accountinfo-ts' => "Marca d'hora",
+	'accountinfo-ip' => 'Direición IP',
+	'accountinfo-ua' => "Axente d'usuariu",
+	'accountinfo-xff' => 'Testera XFF',
+	'accountinfo-recentchanges' => 'Información en RecentChanges',
+	'accountinfo-length-rc' => 'La información guárdase demientres $1.',
+	'accountinfo-checkuser' => 'Información en CheckUser',
+	'accountinfo-length-cu' => 'La información guárdase demientres $1.',
+	'accountinfo-user-agent' => '$1 $2 en $3',
+	'accountinfo-now' => 'Agora',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -77,6 +96,14 @@ $messages['de'] = array(
 	'accountinfo-length-cu' => 'Die Informationen werden bereitgestellt für $1.',
 	'accountinfo-user-agent' => '$1 $2 auf $3',
 	'accountinfo-now' => 'Jetzt',
+);
+
+/** Zazaki (Zazaki)
+ * @author Mirzali
+ */
+$messages['diq'] = array(
+	'accountinfo-ip' => 'Adresa IPy',
+	'accountinfo-ua' => 'Temsilkarê karberi',
 );
 
 /** French (français)
@@ -103,9 +130,46 @@ $messages['fr'] = array(
 $messages['ja'] = array(
 	'accountinfo' => 'アカウント情報',
 	'accountinfo-desc' => '利用者についての格納されている非公開情報を利用者自身が閲覧できるようにする',
+	'accountinfo-ts' => '日時',
 	'accountinfo-ip' => 'IP アドレス',
 	'accountinfo-ua' => 'ユーザーエージェント',
 	'accountinfo-xff' => 'XFF ヘッダー',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'accountinfo-ts' => 'Zäitstempel',
+	'accountinfo-ip' => 'IP-Adress',
+	'accountinfo-now' => 'Elo',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Mantak111
+ */
+$messages['lt'] = array(
+	'accountinfo' => 'Paskyros informacija',
+	'accountinfo-ip' => 'IP Adresas',
+	'accountinfo-now' => 'Dabar',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'accountinfo' => 'Информации за сметката',
+	'accountinfo-desc' => 'Му овозможува на корисникот да гледа зачувани лични податоци за него',
+	'accountinfo-ts' => 'Време и датум',
+	'accountinfo-ip' => 'IP-адреса',
+	'accountinfo-ua' => 'Кориснички извршител',
+	'accountinfo-xff' => 'XFF-заглавје',
+	'accountinfo-recentchanges' => 'Информации во „Скорешни промени“',
+	'accountinfo-length-rc' => 'Информациите се чуваат $1.',
+	'accountinfo-checkuser' => 'Информации во Проверката на корисници (CheckUser)',
+	'accountinfo-length-cu' => 'Информациите се чуваат $1.',
+	'accountinfo-user-agent' => '$1 $2 во $3',
+	'accountinfo-now' => 'Сега',
 );
 
 /** Dutch (Nederlands)
@@ -138,8 +202,50 @@ $messages['ru'] = array(
 	'accountinfo-ip' => 'IP-адрес',
 	'accountinfo-ua' => 'Браузер',
 	'accountinfo-xff' => 'XFF-заголовок',
+	'accountinfo-recentchanges' => 'Информация в Свежих правках',
 	'accountinfo-length-rc' => 'Информация хранится за $1.',
+	'accountinfo-checkuser' => 'Информация в CheckUser',
 	'accountinfo-length-cu' => 'Информация хранится за $1.',
 	'accountinfo-user-agent' => '$1 $2 в $3',
 	'accountinfo-now' => 'Только что',
+);
+
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'accountinfo' => 'Accoont information',
+	'accountinfo-desc' => 'Permits ae uiser tae see stored private information aneat theim',
+	'accountinfo-ts' => 'Timestamp',
+	'accountinfo-ip' => 'IP address',
+	'accountinfo-ua' => 'Uiser agent',
+	'accountinfo-xff' => 'XFF heider',
+	'accountinfo-recentchanges' => 'Information in RecentChynges',
+	'accountinfo-length-rc' => 'Information is retained fer $1.',
+	'accountinfo-checkuser' => 'Information in CheckUiser',
+	'accountinfo-length-cu' => 'Information is retained fer $1.',
+	'accountinfo-user-agent' => '$1 $2 oan $3',
+	'accountinfo-now' => 'Nou',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'accountinfo' => 'ఖాతా సమాచారం',
+	'accountinfo-ts' => 'కాలముద్ర',
+	'accountinfo-ip' => 'ఐపీ చిరునామా',
+	'accountinfo-ua' => 'వాడుకరి ఏజెంటు',
+	'accountinfo-now' => 'ఇప్పుడే',
+);
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'accountinfo-ts' => 'Часова мітка',
+	'accountinfo-ip' => 'IP-адреса',
+	'accountinfo-ua' => 'Клієнтська програма',
+	'accountinfo-xff' => 'XFF заголовок',
+	'accountinfo-now' => 'Зараз',
 );
