@@ -81,18 +81,19 @@ $messages['ast'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Metalhead64
  */
 $messages['de'] = array(
 	'accountinfo' => 'Benutzerkonteninformation',
-	'accountinfo-desc' => 'Ermöglicht die Ansicht gespeicherter privater Informationen über andere Benutzer',
+	'accountinfo-desc' => 'Ermöglicht Benutzern die Ansicht der zu ihnen gespeicherten privaten Informationen',
 	'accountinfo-ts' => 'Zeitstempel',
 	'accountinfo-ip' => 'IP-Adresse',
-	'accountinfo-ua' => 'Benutzeragent',
+	'accountinfo-ua' => 'Browser',
 	'accountinfo-xff' => 'XFF-Header',
 	'accountinfo-recentchanges' => 'Informationen über „Letzte Änderungen“',
 	'accountinfo-length-rc' => 'Die Informationen werden bereitgestellt für $1.',
-	'accountinfo-checkuser' => 'Informationen über CheckUser',
+	'accountinfo-checkuser' => 'Informationen über „CheckUser“',
 	'accountinfo-length-cu' => 'Die Informationen werden bereitgestellt für $1.',
 	'accountinfo-user-agent' => '$1 $2 auf $3',
 	'accountinfo-now' => 'Jetzt',
@@ -142,6 +143,7 @@ $messages['ja'] = array(
 $messages['lb'] = array(
 	'accountinfo-ts' => 'Zäitstempel',
 	'accountinfo-ip' => 'IP-Adress',
+	'accountinfo-recentchanges' => 'Informatiounen an de "Rezenten Ännerungen"',
 	'accountinfo-now' => 'Elo',
 );
 
@@ -183,6 +185,18 @@ $messages['nl'] = array(
 	'accountinfo-ua' => 'Useragent',
 	'accountinfo-user-agent' => '$1 $2 op $3',
 	'accountinfo-now' => 'Nu',
+);
+
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'accountinfo' => 'Informacje o koncie',
+	'accountinfo-ts' => 'Sygnatura czasowa',
+	'accountinfo-ip' => 'Adres IP',
+	'accountinfo-xff' => 'Nagłówek XFF',
+	'accountinfo-recentchanges' => 'Informacje w „Ostatnich zmianach”',
+	'accountinfo-now' => 'Teraz',
 );
 
 /** tarandíne (tarandíne)
@@ -243,9 +257,46 @@ $messages['te'] = array(
  * @author Andriykopanytsia
  */
 $messages['uk'] = array(
+	'accountinfo' => 'Відомості облікового запису',
 	'accountinfo-ts' => 'Часова мітка',
 	'accountinfo-ip' => 'IP-адреса',
 	'accountinfo-ua' => 'Клієнтська програма',
 	'accountinfo-xff' => 'XFF заголовок',
 	'accountinfo-now' => 'Зараз',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'accountinfo' => '帐户信息',
+	'accountinfo-desc' => '允许用户查看已存储的关于他们的私人信息',
+	'accountinfo-ts' => '时间戳',
+	'accountinfo-ip' => 'IP地址',
+	'accountinfo-ua' => '用户代理',
+	'accountinfo-xff' => 'XFF标头',
+	'accountinfo-recentchanges' => '最近更改中的信息',
+	'accountinfo-length-rc' => '信息已为$1保存。',
+	'accountinfo-checkuser' => '用户查核中的信息',
+	'accountinfo-length-cu' => '信息已为$1保存。',
+	'accountinfo-user-agent' => '$1 $2在$3',
+	'accountinfo-now' => '现在',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hant'] = array(
+	'accountinfo' => '帳戶資訊',
+	'accountinfo-desc' => '允許用戶查閱關於他們的已存儲私人資訊',
+	'accountinfo-ts' => '時間戳',
+	'accountinfo-ip' => 'IP位址',
+	'accountinfo-ua' => '用戶代理',
+	'accountinfo-xff' => 'XFF標頭',
+	'accountinfo-recentchanges' => '於最近更改之資訊',
+	'accountinfo-length-rc' => '資訊已保留為$1。',
+	'accountinfo-checkuser' => '於用戶查核之資訊',
+	'accountinfo-length-cu' => '資訊已保留為$1。',
+	'accountinfo-user-agent' => '$1 $2於$3',
+	'accountinfo-now' => '現在',
 );
