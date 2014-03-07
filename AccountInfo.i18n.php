@@ -107,6 +107,24 @@ $messages['diq'] = array(
 	'accountinfo-ua' => 'Temsilkarê karberi',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'accountinfo' => 'اطلاعات حساب',
+	'accountinfo-desc' => 'اجازه به کاربر برای مشاهده اطلاعات خصوصی ذخیره شده درباره آن‌ها',
+	'accountinfo-ts' => 'برچسب زمان',
+	'accountinfo-ip' => 'آدرس آی‌پی',
+	'accountinfo-ua' => 'عامل کاربر',
+	'accountinfo-xff' => 'سرفصل ایکس‌اف‌اف',
+	'accountinfo-recentchanges' => 'اطلاعات در تغییرات اخیر',
+	'accountinfo-length-rc' => 'اطلاعات برای $1 حفظ شده‌‌است.',
+	'accountinfo-checkuser' => 'اطلاعات در بررسی کاربر',
+	'accountinfo-length-cu' => 'اطلاعات برای $1 حفظ شده‌‌است.',
+	'accountinfo-user-agent' => '$1 $2 در $3',
+	'accountinfo-now' => 'اکنون',
+);
+
 /** French (français)
  * @author Gomoko
  */
@@ -125,6 +143,14 @@ $messages['fr'] = array(
 	'accountinfo-now' => 'Maintenant',
 );
 
+/** Italian (italiano)
+ * @author FrancescaGermani
+ */
+$messages['it'] = array(
+	'accountinfo-desc' => "Consente all'utente di vedere informazioni private memorizzate su di loro",
+	'accountinfo-ts' => 'data e ora',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
@@ -135,6 +161,20 @@ $messages['ja'] = array(
 	'accountinfo-ip' => 'IP アドレス',
 	'accountinfo-ua' => 'ユーザーエージェント',
 	'accountinfo-xff' => 'XFF ヘッダー',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'accountinfo-ip' => 'De <i lang="en">IP</i>-Adräß',
+	'accountinfo-ua' => 'Däm Metmaacher singe Brauser',
+	'accountinfo-xff' => '<i lang="en" xml:lang="en">XFF</i>-Kopp',
+	'accountinfo-recentchanges' => 'Aanjaabe en de neuste Änderonge',
+	'accountinfo-length-rc' => 'Daate wääde faßjahallde för $1.',
+	'accountinfo-length-cu' => 'Daate wääde faßjahallde för $1.',
+	'accountinfo-user-agent' => 'Dä $1 Väsjohn $2 op $3',
+	'accountinfo-now' => 'Jäz',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
