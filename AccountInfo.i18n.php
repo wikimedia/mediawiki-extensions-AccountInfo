@@ -100,11 +100,50 @@ $messages['de'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Michawiki
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'accountinfo' => 'Account information',
 	'accountinfo-ip' => 'Adresa IPy',
 	'accountinfo-ua' => 'Temsilkarê karberi',
+	'accountinfo-now' => 'Nıka',
+);
+
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'accountinfo' => 'Kontowe informacije',
+	'accountinfo-desc' => 'Dowólujo wužywarjeju, składowane priwatne informacije wó njom wiźeś',
+	'accountinfo-ts' => 'Casowy kołk',
+	'accountinfo-ip' => 'IP-adresa',
+	'accountinfo-ua' => 'Identifikator wobglědowaka',
+	'accountinfo-xff' => 'XFF-głowa',
+	'accountinfo-recentchanges' => 'Informacije wó "Aktualnych změnach"',
+	'accountinfo-length-rc' => 'Informacije maju se za $1 pśigótowane.',
+	'accountinfo-checkuser' => 'Informacije wó "CheckUser"',
+	'accountinfo-length-cu' => 'Informacije maju se za $1 pśigótowane.',
+	'accountinfo-user-agent' => '$1 $2 na $3',
+	'accountinfo-now' => 'Něnto',
+);
+
+/** Spanish (español)
+ * @author Sporeunai
+ */
+$messages['es'] = array(
+	'accountinfo' => 'Información de cuenta',
+	'accountinfo-desc' => 'Permite al usuario ver información privada almacenada sobre ellos',
+	'accountinfo-ts' => 'Fecha y hora',
+	'accountinfo-ip' => 'Dirección IP',
+	'accountinfo-ua' => 'Agente de usuario',
+	'accountinfo-xff' => 'XFF encabezado',
+	'accountinfo-recentchanges' => 'Información en RecentChanges',
+	'accountinfo-length-rc' => 'Información se ha mantenido para  $1 .',
+	'accountinfo-checkuser' => 'Información en CheckUser',
+	'accountinfo-length-cu' => 'Información se ha mantenido para  $1 .',
+	'accountinfo-user-agent' => '$1 $2 en $3',
+	'accountinfo-now' => 'Ahora',
 );
 
 /** Persian (فارسی)
@@ -143,12 +182,58 @@ $messages['fr'] = array(
 	'accountinfo-now' => 'Maintenant',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author KartikMistry
+ */
+$messages['gu'] = array(
+	'accountinfo' => 'ખાતા માહિતી',
+	'accountinfo-ts' => 'સમયછાપ',
+	'accountinfo-now' => 'હવે',
+);
+
+/** Hawaiian (Hawai`i)
+ * @author Kolonahe
+ */
+$messages['haw'] = array(
+	'accountinfo' => 'ʻIke moʻokāki',
+	'accountinfo-desc' => 'Hoʻokuʻu i ka mea hoʻohana e ʻike i nā ʻike pilikino i waiho ʻia e pili ana iā ia iho',
+	'accountinfo-ts' => 'Poʻohola',
+	'accountinfo-ip' => 'Wahinoho IP',
+	'accountinfo-ua' => 'ʻĀkena mea hoʻohana',
+	'accountinfo-xff' => 'Poʻo XFF',
+	'accountinfo-recentchanges' => 'Nā ʻike ma LoliHou',
+	'accountinfo-length-rc' => 'Nā ʻike i mālama ʻia no $1.',
+	'accountinfo-checkuser' => 'Nā ʻike i MeahoʻohanaHōʻoiaʻiʻo',
+	'accountinfo-length-cu' => 'Mālama ʻia i nā ʻike no $1.',
+	'accountinfo-user-agent' => '$1 $2 ma ka $3',
+	'accountinfo-now' => 'I kēia manawa',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'accountinfo' => 'Kontowe informacije',
+	'accountinfo-desc' => 'Dowola wužiwarjej, składowane priwatne informacije wo nim widźeć',
+	'accountinfo-ts' => 'Časowy kołk',
+	'accountinfo-ip' => 'IP-adresa',
+	'accountinfo-ua' => 'Identifikator wobhladowaka',
+	'accountinfo-xff' => 'XFF-hłowa',
+	'accountinfo-recentchanges' => 'Informacije wo "Aktualnych změnach"',
+	'accountinfo-length-rc' => 'Informacije so za $1 přihotowane dźěrža.',
+	'accountinfo-checkuser' => 'Informacije wo "CheckUser"',
+	'accountinfo-length-cu' => 'Informacije so za $1 přihotowane dźěrža.',
+	'accountinfo-user-agent' => '$1 $2 na $3',
+	'accountinfo-now' => 'Nětko',
+);
+
 /** Italian (italiano)
+ * @author Beta16
  * @author FrancescaGermani
  */
 $messages['it'] = array(
 	'accountinfo-desc' => "Consente all'utente di vedere informazioni private memorizzate su di loro",
-	'accountinfo-ts' => 'data e ora',
+	'accountinfo-ts' => 'Data e ora',
 );
 
 /** Japanese (日本語)
@@ -239,6 +324,24 @@ $messages['pl'] = array(
 	'accountinfo-now' => 'Teraz',
 );
 
+/** Portuguese (português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'accountinfo' => 'Informação da conta',
+	'accountinfo-desc' => 'Permite que um utilizador veja as informações privadas armazenadas sobre si',
+	'accountinfo-ts' => 'Data e hora',
+	'accountinfo-ip' => 'Endereço IP',
+	'accountinfo-ua' => 'User-Agent',
+	'accountinfo-xff' => 'XFF header',
+	'accountinfo-recentchanges' => 'Informação nas Mudanças Recentes',
+	'accountinfo-length-rc' => 'A informação é armazenada durante $1.',
+	'accountinfo-checkuser' => 'Informação na Verificação de Utilizadores (CheckUser)',
+	'accountinfo-length-cu' => 'A informação é armazenada durante $1.',
+	'accountinfo-user-agent' => '$1 $2 na plataforma $3',
+	'accountinfo-now' => 'Agora',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
@@ -282,6 +385,13 @@ $messages['sco'] = array(
 	'accountinfo-now' => 'Nou',
 );
 
+/** Tamil (தமிழ்)
+ * @author Jayarathina
+ */
+$messages['ta'] = array(
+	'accountinfo-ts' => 'நேரமுத்திரை',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
@@ -298,10 +408,16 @@ $messages['te'] = array(
  */
 $messages['uk'] = array(
 	'accountinfo' => 'Відомості облікового запису',
+	'accountinfo-desc' => 'Дозволяє користувачу переглянути збережені особисті дані про нього',
 	'accountinfo-ts' => 'Часова мітка',
 	'accountinfo-ip' => 'IP-адреса',
 	'accountinfo-ua' => 'Клієнтська програма',
 	'accountinfo-xff' => 'XFF заголовок',
+	'accountinfo-recentchanges' => 'Інформація у свіжих змінах',
+	'accountinfo-length-rc' => 'Інформація зберігається на $1.',
+	'accountinfo-checkuser' => 'Інформація в CheckUser',
+	'accountinfo-length-cu' => 'Інформація зберігається на $1.',
+	'accountinfo-user-agent' => '$1 $2 на $3',
 	'accountinfo-now' => 'Зараз',
 );
 
