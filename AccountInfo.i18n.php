@@ -234,6 +234,10 @@ $messages['hsb'] = array(
 $messages['it'] = array(
 	'accountinfo-desc' => "Consente all'utente di vedere informazioni private memorizzate su di loro",
 	'accountinfo-ts' => 'Data e ora',
+	'accountinfo-ip' => 'Indirizzo IP',
+	'accountinfo-xff' => 'Intestazione XFF',
+	'accountinfo-user-agent' => '$1 $2 su $3',
+	'accountinfo-now' => 'Ora',
 );
 
 /** Japanese (日本語)
