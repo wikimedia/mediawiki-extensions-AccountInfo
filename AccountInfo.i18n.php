@@ -80,6 +80,23 @@ $messages['ast'] = array(
 	'accountinfo-now' => 'Agora',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'accountinfo' => 'Декъашхочун дӀаяздарех лаьцна хаамаш',
+	'accountinfo-ts' => 'Терахь/хан',
+	'accountinfo-ip' => 'IP-адрес',
+	'accountinfo-ua' => 'Браузер',
+	'accountinfo-xff' => 'XFF-корта',
+	'accountinfo-recentchanges' => 'Керла нисдарех лаьцна хаамаш',
+	'accountinfo-length-rc' => 'Хаамаш латта бо $1.',
+	'accountinfo-checkuser' => 'CheckUser чохь хаам',
+	'accountinfo-length-cu' => 'Хаамаш латта бо $1.',
+	'accountinfo-user-agent' => '$1 $2 $3 чу',
+	'accountinfo-now' => 'ХӀинца',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -104,7 +121,7 @@ $messages['de'] = array(
  * @author Mirzali
  */
 $messages['diq'] = array(
-	'accountinfo' => 'Account information',
+	'accountinfo' => 'Melumatê hesabi',
 	'accountinfo-ip' => 'Adresa IPy',
 	'accountinfo-ua' => 'Temsilkarê karberi',
 	'accountinfo-now' => 'Nıka',
@@ -180,6 +197,13 @@ $messages['fr'] = array(
 	'accountinfo-length-cu' => 'L’information est conservée pour $1.',
 	'accountinfo-user-agent' => '$1 $2 sur $3',
 	'accountinfo-now' => 'Maintenant',
+);
+
+/** Galician (galego)
+ * @author Elisardojm
+ */
+$messages['gl'] = array(
+	'accountinfo' => 'Información sobre a conta',
 );
 
 /** Gujarati (ગુજરાતી)
@@ -303,6 +327,24 @@ $messages['mk'] = array(
 	'accountinfo-now' => 'Сега',
 );
 
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'accountinfo' => 'खात्याची माहिती',
+	'accountinfo-desc' => 'सदस्यास त्याच्याबद्दलची माहिती बघण्यास परवानगी देते',
+	'accountinfo-ts' => 'वेळशिक्का',
+	'accountinfo-ip' => 'अंकपत्ता',
+	'accountinfo-ua' => 'सदस्य प्रतिनीधी',
+	'accountinfo-xff' => 'XFF हेडर',
+	'accountinfo-recentchanges' => 'अलीकडील बदलातली माहिती',
+	'accountinfo-length-rc' => '$1 साठी माहिती राखून ठेवली आहे.',
+	'accountinfo-checkuser' => 'चेकयूजर मधील माहिती',
+	'accountinfo-length-cu' => '$1 साठी माहिती राखून ठेवली आहे.',
+	'accountinfo-user-agent' => '$3 वर $1 $2',
+	'accountinfo-now' => 'आत्ता',
+);
+
 /** Dutch (Nederlands)
  * @author JurgenNL
  * @author Sjoerddebruin
@@ -387,6 +429,24 @@ $messages['sco'] = array(
 	'accountinfo-length-cu' => 'Information is retained fer $1.',
 	'accountinfo-user-agent' => '$1 $2 oan $3',
 	'accountinfo-now' => 'Nou',
+);
+
+/** Swedish (svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'accountinfo' => 'Kontoinformation',
+	'accountinfo-desc' => 'Tillåter en användare att se lagrade privat information om dem',
+	'accountinfo-ts' => 'Tidsstämpel',
+	'accountinfo-ip' => 'IP-adress',
+	'accountinfo-ua' => 'Användaragent',
+	'accountinfo-xff' => 'XFF-huvud',
+	'accountinfo-recentchanges' => 'Information i "Senaste Ändringar"',
+	'accountinfo-length-rc' => 'Informationen lagras i $1.',
+	'accountinfo-checkuser' => 'Information i CheckUser',
+	'accountinfo-length-cu' => 'Informationen lagras i $1.',
+	'accountinfo-user-agent' => '$1 $2 på $3',
+	'accountinfo-now' => 'Nu',
 );
 
 /** Tamil (தமிழ்)
