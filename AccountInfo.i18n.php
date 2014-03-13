@@ -347,10 +347,11 @@ $messages['mr'] = array(
 
 /** Dutch (Nederlands)
  * @author JurgenNL
+ * @author Siebrand
  * @author Sjoerddebruin
  */
 $messages['nl'] = array(
-	'accountinfo' => 'Accountgegevens',
+	'accountinfo' => 'Gebruikersgegevens',
 	'accountinfo-ts' => 'Tijdstip',
 	'accountinfo-ip' => 'IP-adres',
 	'accountinfo-ua' => 'Useragent',
@@ -457,6 +458,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Ravichandra
  * @author Veeven
  */
 $messages['te'] = array(
@@ -464,6 +466,7 @@ $messages['te'] = array(
 	'accountinfo-ts' => 'కాలముద్ర',
 	'accountinfo-ip' => 'ఐపీ చిరునామా',
 	'accountinfo-ua' => 'వాడుకరి ఏజెంటు',
+	'accountinfo-user-agent' => '$3 మీద $1 $2',
 	'accountinfo-now' => 'ఇప్పుడే',
 );
 
