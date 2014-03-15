@@ -80,6 +80,24 @@ $messages['ast'] = array(
 	'accountinfo-now' => 'Agora',
 );
 
+/** Azerbaijani (azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'accountinfo-ip' => 'IP ünvanı',
+	'accountinfo-ua' => 'İstifadəçi agent',
+);
+
+/** Bengali (বাংলা)
+ * @author Aftab1995
+ */
+$messages['bn'] = array(
+	'accountinfo-ts' => 'সময়বার্তা',
+	'accountinfo-ip' => 'আইপি ঠিকানা',
+	'accountinfo-ua' => 'ব্যবহারকারী এজেন্ট',
+	'accountinfo-now' => 'এখন',
+);
+
 /** Chechen (нохчийн)
  * @author Умар
  */
@@ -146,19 +164,20 @@ $messages['dsb'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Sporeunai
  */
 $messages['es'] = array(
 	'accountinfo' => 'Información de cuenta',
-	'accountinfo-desc' => 'Permite al usuario ver información privada almacenada sobre ellos',
+	'accountinfo-desc' => 'Permite que el usuario consulte información personal almacenada',
 	'accountinfo-ts' => 'Fecha y hora',
 	'accountinfo-ip' => 'Dirección IP',
 	'accountinfo-ua' => 'Agente de usuario',
-	'accountinfo-xff' => 'XFF encabezado',
-	'accountinfo-recentchanges' => 'Información en RecentChanges',
-	'accountinfo-length-rc' => 'Información se ha mantenido para  $1 .',
+	'accountinfo-xff' => 'Cabecera XFF',
+	'accountinfo-recentchanges' => 'Información en Cambios recientes',
+	'accountinfo-length-rc' => 'La información se conserva para $1.',
 	'accountinfo-checkuser' => 'Información en CheckUser',
-	'accountinfo-length-cu' => 'Información se ha mantenido para  $1 .',
+	'accountinfo-length-cu' => 'La información se conserva para $1.',
 	'accountinfo-user-agent' => '$1 $2 en $3',
 	'accountinfo-now' => 'Ahora',
 );
@@ -346,6 +365,7 @@ $messages['mr'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Arent
  * @author JurgenNL
  * @author Siebrand
  * @author Sjoerddebruin
@@ -355,8 +375,28 @@ $messages['nl'] = array(
 	'accountinfo-ts' => 'Tijdstip',
 	'accountinfo-ip' => 'IP-adres',
 	'accountinfo-ua' => 'Useragent',
+	'accountinfo-checkuser' => 'Informatie in CheckUser',
+	'accountinfo-length-cu' => 'Informatie wordt bewaard voor $1.',
 	'accountinfo-user-agent' => '$1 $2 op $3',
 	'accountinfo-now' => 'Nu',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'accountinfo' => 'Informacions del compte',
+	'accountinfo-desc' => "Permet a un utilizaire de veire d'informacions privadas emmaazinadas sus el",
+	'accountinfo-ts' => 'Orodatatge',
+	'accountinfo-ip' => 'Adreça IP',
+	'accountinfo-ua' => 'Agent utilizaire',
+	'accountinfo-xff' => 'Entèsta XFF',
+	'accountinfo-recentchanges' => 'Informacion dins los darrièrs cambiaments',
+	'accountinfo-length-rc' => 'L’informacion es conservada per $1.',
+	'accountinfo-checkuser' => 'Informacion dins CheckUser',
+	'accountinfo-length-cu' => 'L’informacion es conservada per $1.',
+	'accountinfo-user-agent' => '$1 $2 sus $3',
+	'accountinfo-now' => 'Ara',
 );
 
 /** Polish (polski)

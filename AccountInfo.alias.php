@@ -14,6 +14,11 @@ $specialPageAliases['en'] = array(
 	'AccountInfo' => array( 'AccountInfo' ),
 );
 
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'AccountInfo' => array( 'Konteninformation' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'AccountInfo' => array( '账户信息' ),
