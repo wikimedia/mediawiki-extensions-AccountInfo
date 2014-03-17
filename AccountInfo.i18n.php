@@ -299,11 +299,15 @@ $messages['ja'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'accountinfo' => 'Prevaate Dahte',
+	'accountinfo-desc' => 'Löht ene Metmaacher de faßjehallde prevaate Dahte ovver en belooere.',
+	'accountinfo-ts' => 'Dattum un Zigg',
 	'accountinfo-ip' => 'De <i lang="en">IP</i>-Adräß',
 	'accountinfo-ua' => 'Däm Metmaacher singe Brauser',
 	'accountinfo-xff' => '<i lang="en" xml:lang="en">XFF</i>-Kopp',
 	'accountinfo-recentchanges' => 'Aanjaabe en de neuste Änderonge',
 	'accountinfo-length-rc' => 'Daate wääde faßjahallde för $1.',
+	'accountinfo-checkuser' => 'Aanjahbe beim Metmaacher Prööve',
 	'accountinfo-length-cu' => 'Daate wääde faßjahallde för $1.',
 	'accountinfo-user-agent' => 'Dä $1 Väsjohn $2 op $3',
 	'accountinfo-now' => 'Jäz',
@@ -316,6 +320,8 @@ $messages['lb'] = array(
 	'accountinfo-ts' => 'Zäitstempel',
 	'accountinfo-ip' => 'IP-Adress',
 	'accountinfo-recentchanges' => 'Informatiounen an de "Rezenten Ännerungen"',
+	'accountinfo-length-rc' => "D'Informatioune gi während $1 versuergt.",
+	'accountinfo-checkuser' => 'Informatiounen am CheckUser',
 	'accountinfo-now' => 'Elo',
 );
 
@@ -409,6 +415,13 @@ $messages['pl'] = array(
 	'accountinfo-xff' => 'Nagłówek XFF',
 	'accountinfo-recentchanges' => 'Informacje w „Ostatnich zmianach”',
 	'accountinfo-now' => 'Teraz',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'accountinfo-now' => 'اوس',
 );
 
 /** Portuguese (português)
