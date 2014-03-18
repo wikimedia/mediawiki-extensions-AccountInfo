@@ -486,11 +486,12 @@ $messages['sco'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author Lokal Profil
  */
 $messages['sv'] = array(
 	'accountinfo' => 'Kontoinformation',
-	'accountinfo-desc' => 'Tillåter en användare att se lagrade privat information om dem',
+	'accountinfo-desc' => 'Tillåter en användare att se lagrad privat information om dem',
 	'accountinfo-ts' => 'Tidsstämpel',
 	'accountinfo-ip' => 'IP-adress',
 	'accountinfo-ua' => 'Användaragent',
