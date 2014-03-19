@@ -252,6 +252,22 @@ $messages['haw'] = array(
 	'accountinfo-now' => 'I kēia manawa',
 );
 
+/** Hebrew (עברית)
+ * @author Inkbug
+ */
+$messages['he'] = array(
+	'accountinfo' => 'פרטי חשבון',
+	'accountinfo-desc' => 'מאפשר למשתמשים לראות מידע פרטי שמור על עצמם',
+	'accountinfo-ts' => 'חותם זמן',
+	'accountinfo-ip' => 'כתובת IP',
+	'accountinfo-ua' => 'זיהוי דפדפן',
+	'accountinfo-recentchanges' => 'מידע בשינויים האחרונים',
+	'accountinfo-length-rc' => 'המידע נשמר ל־$1.',
+	'accountinfo-length-cu' => 'המידע נשמר ל־$1.',
+	'accountinfo-user-agent' => '$1 $2 ב$3',
+	'accountinfo-now' => 'עכשיו',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -373,14 +389,18 @@ $messages['mr'] = array(
 /** Dutch (Nederlands)
  * @author Arent
  * @author JurgenNL
+ * @author Niknetniko
  * @author Siebrand
  * @author Sjoerddebruin
  */
 $messages['nl'] = array(
 	'accountinfo' => 'Gebruikersgegevens',
+	'accountinfo-desc' => 'Hiermee kan een gebruiker zijn opgeslagen privé-informatie bekijken',
 	'accountinfo-ts' => 'Tijdstip',
 	'accountinfo-ip' => 'IP-adres',
 	'accountinfo-ua' => 'Useragent',
+	'accountinfo-xff' => 'XFF-hoofdding',
+	'accountinfo-length-rc' => 'Informatie wordt bewaard voor  $1.',
 	'accountinfo-checkuser' => 'Informatie in CheckUser',
 	'accountinfo-length-cu' => 'Informatie wordt bewaard voor $1.',
 	'accountinfo-user-agent' => '$1 $2 op $3',
@@ -439,6 +459,21 @@ $messages['pt'] = array(
 	'accountinfo-checkuser' => 'Informação na Verificação de Utilizadores (CheckUser)',
 	'accountinfo-length-cu' => 'A informação é armazenada durante $1.',
 	'accountinfo-user-agent' => '$1 $2 na plataforma $3',
+	'accountinfo-now' => 'Agora',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Anaclaudiaml
+ */
+$messages['pt-br'] = array(
+	'accountinfo' => 'Informações da Conta',
+	'accountinfo-desc' => 'Permite ao usuário ver informações privadas armazenadas sobre eles',
+	'accountinfo-ts' => 'Data e hora',
+	'accountinfo-ip' => 'Endereço de IP',
+	'accountinfo-ua' => 'Agente usuário',
+	'accountinfo-xff' => 'Cabeçalho XFF',
+	'accountinfo-recentchanges' => 'Informações em Modificações Recentes',
+	'accountinfo-user-agent' => '$1 $2 em $3',
 	'accountinfo-now' => 'Agora',
 );
 
@@ -520,6 +555,10 @@ $messages['te'] = array(
 	'accountinfo-ts' => 'కాలముద్ర',
 	'accountinfo-ip' => 'ఐపీ చిరునామా',
 	'accountinfo-ua' => 'వాడుకరి ఏజెంటు',
+	'accountinfo-xff' => 'XFF శీర్షిక',
+	'accountinfo-recentchanges' => 'ఇటీవలి మార్పుల సమాచారం',
+	'accountinfo-length-rc' => '$1 సమాచారం అట్టే ఉంచబడినది.',
+	'accountinfo-length-cu' => '$1 సమాచారం అట్టే ఉంచబడినది.',
 	'accountinfo-user-agent' => '$3 మీద $1 $2',
 	'accountinfo-now' => 'ఇప్పుడే',
 );
