@@ -399,7 +399,7 @@ $messages['nl'] = array(
 	'accountinfo-ts' => 'Tijdstip',
 	'accountinfo-ip' => 'IP-adres',
 	'accountinfo-ua' => 'Useragent',
-	'accountinfo-xff' => 'XFF-hoofdding',
+	'accountinfo-xff' => 'XFF-header',
 	'accountinfo-length-rc' => 'Informatie wordt bewaard voor  $1.',
 	'accountinfo-checkuser' => 'Informatie in CheckUser',
 	'accountinfo-length-cu' => 'Informatie wordt bewaard voor $1.',
@@ -583,9 +583,10 @@ $messages['uk'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Liuxinyu970226
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'accountinfo' => '帐户信息',
+	'accountinfo' => '账户信息',
 	'accountinfo-desc' => '允许用户查看已存储的关于他们的私人信息',
 	'accountinfo-ts' => '时间戳',
 	'accountinfo-ip' => 'IP地址',
