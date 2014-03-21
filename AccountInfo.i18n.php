@@ -400,6 +400,7 @@ $messages['nl'] = array(
 	'accountinfo-ip' => 'IP-adres',
 	'accountinfo-ua' => 'Useragent',
 	'accountinfo-xff' => 'XFF-header',
+	'accountinfo-recentchanges' => 'Informatie in recente wijzigingen',
 	'accountinfo-length-rc' => 'Informatie wordt bewaard voor  $1.',
 	'accountinfo-checkuser' => 'Informatie in CheckUser',
 	'accountinfo-length-cu' => 'Informatie wordt bewaard voor $1.',

@@ -19,6 +19,11 @@ $specialPageAliases['de'] = array(
 	'AccountInfo' => array( 'Konteninformation' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'AccountInfo' => array( 'HesabMalumat' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'AccountInfo' => array( '账户信息' ),
