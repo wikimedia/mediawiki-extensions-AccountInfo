@@ -140,6 +140,7 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'accountinfo' => 'Melumatê hesabi',
+	'accountinfo-ts' => 'Mareyê demi',
 	'accountinfo-ip' => 'Adresa IPy',
 	'accountinfo-ua' => 'Temsilkarê karberi',
 	'accountinfo-now' => 'Nıka',
@@ -253,6 +254,7 @@ $messages['haw'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Inkbug
  */
 $messages['he'] = array(
@@ -261,8 +263,10 @@ $messages['he'] = array(
 	'accountinfo-ts' => 'חותם זמן',
 	'accountinfo-ip' => 'כתובת IP',
 	'accountinfo-ua' => 'זיהוי דפדפן',
+	'accountinfo-xff' => 'כותרת XFF',
 	'accountinfo-recentchanges' => 'מידע בשינויים האחרונים',
 	'accountinfo-length-rc' => 'המידע נשמר ל־$1.',
+	'accountinfo-checkuser' => 'מידע ב־CheckUser',
 	'accountinfo-length-cu' => 'המידע נשמר ל־$1.',
 	'accountinfo-user-agent' => '$1 $2 ב$3',
 	'accountinfo-now' => 'עכשיו',
@@ -395,15 +399,15 @@ $messages['mr'] = array(
  */
 $messages['nl'] = array(
 	'accountinfo' => 'Gebruikersgegevens',
-	'accountinfo-desc' => 'Hiermee kan een gebruiker zijn opgeslagen privé-informatie bekijken',
+	'accountinfo-desc' => 'Hiermee kan een gebruiker opgeslagen eigen privégegevens bekijken',
 	'accountinfo-ts' => 'Tijdstip',
 	'accountinfo-ip' => 'IP-adres',
 	'accountinfo-ua' => 'Useragent',
 	'accountinfo-xff' => 'XFF-header',
 	'accountinfo-recentchanges' => 'Informatie in recente wijzigingen',
 	'accountinfo-length-rc' => 'Informatie wordt bewaard voor  $1.',
-	'accountinfo-checkuser' => 'Informatie in CheckUser',
-	'accountinfo-length-cu' => 'Informatie wordt bewaard voor $1.',
+	'accountinfo-checkuser' => 'Gegevens in CheckUser',
+	'accountinfo-length-cu' => 'Gegevens worden bewaard voor $1.',
 	'accountinfo-user-agent' => '$1 $2 op $3',
 	'accountinfo-now' => 'Nu',
 );
@@ -464,12 +468,13 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Amgauna
  * @author Anaclaudiaml
  */
 $messages['pt-br'] = array(
 	'accountinfo' => 'Informações da Conta',
 	'accountinfo-desc' => 'Permite ao usuário ver informações privadas armazenadas sobre eles',
-	'accountinfo-ts' => 'Data e hora',
+	'accountinfo-ts' => 'Hora de gravação',
 	'accountinfo-ip' => 'Endereço de IP',
 	'accountinfo-ua' => 'Agente usuário',
 	'accountinfo-xff' => 'Cabeçalho XFF',
