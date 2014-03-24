@@ -337,6 +337,7 @@ $messages['ksh'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'accountinfo' => 'Benotzerkontinformatioun',
 	'accountinfo-ts' => 'Zäitstempel',
 	'accountinfo-ip' => 'IP-Adress',
 	'accountinfo-recentchanges' => 'Informatiounen an de "Rezenten Ännerungen"',
@@ -526,6 +527,20 @@ $messages['sco'] = array(
 	'accountinfo-now' => 'Nou',
 );
 
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author Kolega2357
+ */
+$messages['sh'] = array(
+	'accountinfo' => 'Informacije o korisniku',
+	'accountinfo-desc' => 'Dozvoli korisniku da vidi sačuvane informacije o njemu',
+	'accountinfo-ts' => 'Vremenska oznaka',
+	'accountinfo-ip' => 'IP adresa',
+	'accountinfo-ua' => 'Korisnički agent',
+	'accountinfo-xff' => 'XFF zaglavlje',
+	'accountinfo-recentchanges' => 'Informacije u skorašnjim izmenama',
+	'accountinfo-now' => 'Sada',
+);
+
 /** Swedish (svenska)
  * @author Jopparn
  * @author Lokal Profil
@@ -567,6 +582,16 @@ $messages['te'] = array(
 	'accountinfo-length-cu' => '$1 సమాచారం అట్టే ఉంచబడినది.',
 	'accountinfo-user-agent' => '$3 మీద $1 $2',
 	'accountinfo-now' => 'ఇప్పుడే',
+);
+
+/** Turkish (Türkçe)
+ * @author SiLveRLeaD
+ */
+$messages['tr'] = array(
+	'accountinfo' => 'Hesap bilgileri',
+	'accountinfo-ip' => 'IP adresi:',
+	'accountinfo-xff' => 'XFF başlığı',
+	'accountinfo-now' => 'Şimdi',
 );
 
 /** Ukrainian (українська)
