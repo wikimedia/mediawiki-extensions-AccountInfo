@@ -98,6 +98,24 @@ $messages['bn'] = array(
 	'accountinfo-now' => 'এখন',
 );
 
+/** Breton (brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'accountinfo' => 'Titouroù diwar-benn ar gont',
+	'accountinfo-desc' => 'Aotren un implijer da welet an titouroù prevez stoket diwar e benn',
+	'accountinfo-ts' => 'Deiziad hag eur',
+	'accountinfo-ip' => "Chomlec'h IP",
+	'accountinfo-ua' => 'Gwazour implijer',
+	'accountinfo-xff' => 'Talbenn XFF',
+	'accountinfo-recentchanges' => "Titouroù diwar-benn ar c'hemmoù graet nevez zo",
+	'accountinfo-length-rc' => 'Miret eo an titouroù evit $1.',
+	'accountinfo-checkuser' => 'Titouroù e-barzh CheckUser',
+	'accountinfo-length-cu' => 'Miret eo an titouroù evit $1.',
+	'accountinfo-user-agent' => '$1 $2 war $3',
+	'accountinfo-now' => 'Bremañ',
+);
+
 /** Chechen (нохчийн)
  * @author Умар
  */
