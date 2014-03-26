@@ -333,6 +333,24 @@ $messages['ja'] = array(
 	'accountinfo-xff' => 'XFF ヘッダー',
 );
 
+/** Karachay-Balkar (къарачай-малкъар)
+ * @author Iltever
+ */
+$messages['krc'] = array(
+	'accountinfo' => 'Аккаунтну юсюнден информация',
+	'accountinfo-desc' => 'Къошулуучугъа, кесини юсюнден сакъланнган билгилени кёрюрге эркинлик береди',
+	'accountinfo-ts' => 'Дата/заман',
+	'accountinfo-ip' => 'IP-адрес',
+	'accountinfo-ua' => 'Браузер',
+	'accountinfo-xff' => 'XFF-башлыкъ',
+	'accountinfo-recentchanges' => 'Информация Ахыр тюрлениуледеди',
+	'accountinfo-length-rc' => 'Информация, $1 чакълы бир сакъланады.',
+	'accountinfo-checkuser' => "Информация CheckUser'де",
+	'accountinfo-length-cu' => 'Информация, $1 чакълы бир сакъланады.',
+	'accountinfo-user-agent' => '$1 $2, $3',
+	'accountinfo-now' => 'Бусагъатда',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
