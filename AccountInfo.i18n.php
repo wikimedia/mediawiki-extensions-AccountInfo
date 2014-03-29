@@ -88,6 +88,13 @@ $messages['az'] = array(
 	'accountinfo-ua' => 'İstifadəçi agent',
 );
 
+/** Bulgarian (български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'accountinfo-ip' => 'IP адрес',
+);
+
 /** Bengali (বাংলা)
  * @author Aftab1995
  */
@@ -575,6 +582,16 @@ $messages['sh'] = array(
 	'accountinfo-xff' => 'XFF zaglavlje',
 	'accountinfo-recentchanges' => 'Informacije u skorašnjim izmenama',
 	'accountinfo-now' => 'Sada',
+);
+
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
+ */
+$messages['sr-ec'] = array(
+	'accountinfo-ip' => 'IP адреса',
+	'accountinfo-ua' => 'Кориснички агент',
+	'accountinfo-recentchanges' => 'Информације у скорашњим изменама',
+	'accountinfo-now' => 'Сада',
 );
 
 /** Swedish (svenska)
