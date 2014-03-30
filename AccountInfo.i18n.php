@@ -246,9 +246,21 @@ $messages['fr'] = array(
 
 /** Galician (galego)
  * @author Elisardojm
+ * @author Toliño
  */
 $messages['gl'] = array(
 	'accountinfo' => 'Información sobre a conta',
+	'accountinfo-desc' => 'Permite a un usuario consultar a información privada almacenada sobre el',
+	'accountinfo-ts' => 'Data e hora',
+	'accountinfo-ip' => 'Enderezo IP',
+	'accountinfo-ua' => 'Axente de usuario',
+	'accountinfo-xff' => 'Cabeceira XFF',
+	'accountinfo-recentchanges' => 'Información nos cambios recentes',
+	'accountinfo-length-rc' => 'A información gárdase durante $1.',
+	'accountinfo-checkuser' => 'Información na verificación de usuarios',
+	'accountinfo-length-cu' => 'A información gárdase durante $1.',
+	'accountinfo-user-agent' => '$1 $2 en $3',
+	'accountinfo-now' => 'Agora',
 );
 
 /** Gujarati (ગુજરાતી)
@@ -338,6 +350,24 @@ $messages['ja'] = array(
 	'accountinfo-ip' => 'IP アドレス',
 	'accountinfo-ua' => 'ユーザーエージェント',
 	'accountinfo-xff' => 'XFF ヘッダー',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'accountinfo' => '계정 정보',
+	'accountinfo-desc' => '사용자가 그 자신에 대해 저장된 개인 정보를 볼 수 있습니다',
+	'accountinfo-ts' => '시간 기록',
+	'accountinfo-ip' => 'IP 주소',
+	'accountinfo-ua' => '유저 에이전트',
+	'accountinfo-xff' => 'XFF 헤더',
+	'accountinfo-recentchanges' => '최근 바뀜에서 정보',
+	'accountinfo-length-rc' => '정보는 $1에 그대로 유지됩니다.',
+	'accountinfo-checkuser' => '사용자검사관에서 정보',
+	'accountinfo-length-cu' => '정보는 $1에 그대로 유지됩니다.',
+	'accountinfo-user-agent' => '$3에서 $1 $2',
+	'accountinfo-now' => '지금',
 );
 
 /** Karachay-Balkar (къарачай-малкъар)
@@ -490,6 +520,12 @@ $messages['pl'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'accountinfo' => 'گڼون مالومات',
+	'accountinfo-ts' => 'وخت ټاپه',
+	'accountinfo-ip' => 'IP پته',
+	'accountinfo-ua' => 'د کارن پلاوی',
+	'accountinfo-recentchanges' => 'مالومات په وروستي بدلونونو کې',
+	'accountinfo-length-rc' => 'مالومات تر $1 پورې ساتل شوي.',
 	'accountinfo-now' => 'اوس',
 );
 
