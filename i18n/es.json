@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Fitoschido",
+            "Sporeunai"
+        ]
+    },
+    "accountinfo": "Información de cuenta",
+    "accountinfo-desc": "Permite que el usuario consulte información personal almacenada",
+    "accountinfo-ts": "Fecha y hora",
+    "accountinfo-ip": "Dirección IP",
+    "accountinfo-ua": "Agente de usuario",
+    "accountinfo-xff": "Cabecera XFF",
+    "accountinfo-recentchanges": "Información en Cambios recientes",
+    "accountinfo-length-rc": "La información se conserva para $1.",
+    "accountinfo-checkuser": "Información en CheckUser",
+    "accountinfo-length-cu": "La información se conserva para $1.",
+    "accountinfo-user-agent": "$1 $2 en $3",
+    "accountinfo-now": "Ahora"
+}

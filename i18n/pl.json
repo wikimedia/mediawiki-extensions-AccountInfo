@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Chrumps"
+        ]
+    },
+    "accountinfo": "Informacje o koncie",
+    "accountinfo-ts": "Sygnatura czasowa",
+    "accountinfo-ip": "Adres IP",
+    "accountinfo-xff": "Nagłówek XFF",
+    "accountinfo-recentchanges": "Informacje w „Ostatnich zmianach”",
+    "accountinfo-now": "Teraz"
+}

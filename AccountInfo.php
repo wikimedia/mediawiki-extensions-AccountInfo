@@ -18,13 +18,14 @@ $wgExtensionCredits['other'][] = array(
 	'author' => array( 'Kunal Mehta', 'Benjamin Lees' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AccountInfo',
 	'descriptionmsg' => 'accountinfo-desc',
-	'version' => '0.1',
+	'version' => '0.2.0',
 );
 
 $wgAutoloadClasses['AccountInfo'] = __DIR__ . '/AccountInfo.body.php';
 $wgAutoloadClasses['SpecialAccountInfo'] = __DIR__ . '/SpecialAccountInfo.php';
 $wgAutoloadClasses['TableBuilder'] = __DIR__ . '/includes/TableBuilder.php';
 $wgSpecialPages['AccountInfo'] = 'SpecialAccountInfo';
+$wgMessagesDirs['AccountInfo'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['AccountInfo'] = __DIR__ . '/AccountInfo.i18n.php';
 $wgExtensionMessagesFiles['AccountInfoAlias'] = __DIR__ . '/AccountInfo.alias.php';
 $wgResourceModules['ext.AccountInfo.special'] = array(

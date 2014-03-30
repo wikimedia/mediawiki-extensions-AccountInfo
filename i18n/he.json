@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Amire80",
+            "Inkbug"
+        ]
+    },
+    "accountinfo": "פרטי חשבון",
+    "accountinfo-desc": "מאפשר למשתמשים לראות מידע פרטי שמור על עצמם",
+    "accountinfo-ts": "חותם זמן",
+    "accountinfo-ip": "כתובת IP",
+    "accountinfo-ua": "זיהוי דפדפן",
+    "accountinfo-xff": "כותרת XFF",
+    "accountinfo-recentchanges": "מידע בשינויים האחרונים",
+    "accountinfo-length-rc": "המידע נשמר ל־$1.",
+    "accountinfo-checkuser": "מידע ב־CheckUser",
+    "accountinfo-length-cu": "המידע נשמר ל־$1.",
+    "accountinfo-user-agent": "$1 $2 ב$3",
+    "accountinfo-now": "עכשיו"
+}

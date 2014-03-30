@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "아라"
+        ]
+    },
+    "accountinfo": "계정 정보",
+    "accountinfo-desc": "사용자가 그 자신에 대해 저장된 개인 정보를 볼 수 있습니다",
+    "accountinfo-ts": "시간 기록",
+    "accountinfo-ip": "IP 주소",
+    "accountinfo-ua": "유저 에이전트",
+    "accountinfo-xff": "XFF 헤더",
+    "accountinfo-recentchanges": "최근 바뀜에서 정보",
+    "accountinfo-length-rc": "정보는 $1에 그대로 유지됩니다.",
+    "accountinfo-checkuser": "사용자검사관에서 정보",
+    "accountinfo-length-cu": "정보는 $1에 그대로 유지됩니다.",
+    "accountinfo-user-agent": "$3에서 $1 $2",
+    "accountinfo-now": "지금"
+}

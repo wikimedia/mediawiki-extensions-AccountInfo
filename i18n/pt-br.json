@@ -1,0 +1,17 @@
+{
+    "@metadata": {
+        "authors": [
+            "Amgauna",
+            "Anaclaudiaml"
+        ]
+    },
+    "accountinfo": "Informações da Conta",
+    "accountinfo-desc": "Permite ao usuário ver informações privadas armazenadas sobre eles",
+    "accountinfo-ts": "Hora de gravação",
+    "accountinfo-ip": "Endereço de IP",
+    "accountinfo-ua": "Agente usuário",
+    "accountinfo-xff": "Cabeçalho XFF",
+    "accountinfo-recentchanges": "Informações em Modificações Recentes",
+    "accountinfo-user-agent": "$1 $2 em $3",
+    "accountinfo-now": "Agora"
+}

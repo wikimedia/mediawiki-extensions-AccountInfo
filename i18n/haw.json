@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kolonahe"
+        ]
+    },
+    "accountinfo": "ʻIke moʻokāki",
+    "accountinfo-desc": "Hoʻokuʻu i ka mea hoʻohana e ʻike i nā ʻike pilikino i waiho ʻia e pili ana iā ia iho",
+    "accountinfo-ts": "Poʻohola",
+    "accountinfo-ip": "Wahinoho IP",
+    "accountinfo-ua": "ʻĀkena mea hoʻohana",
+    "accountinfo-xff": "Poʻo XFF",
+    "accountinfo-recentchanges": "Nā ʻike ma LoliHou",
+    "accountinfo-length-rc": "Nā ʻike i mālama ʻia no $1.",
+    "accountinfo-checkuser": "Nā ʻike i MeahoʻohanaHōʻoiaʻiʻo",
+    "accountinfo-length-cu": "Mālama ʻia i nā ʻike no $1.",
+    "accountinfo-user-agent": "$1 $2 ma ka $3",
+    "accountinfo-now": "I kēia manawa"
+}

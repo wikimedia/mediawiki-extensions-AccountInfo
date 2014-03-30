@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Armin1392"
+        ]
+    },
+    "accountinfo": "اطلاعات حساب",
+    "accountinfo-desc": "اجازه به کاربر برای مشاهده اطلاعات خصوصی ذخیره شده درباره آن‌ها",
+    "accountinfo-ts": "برچسب زمان",
+    "accountinfo-ip": "آدرس آی‌پی",
+    "accountinfo-ua": "عامل کاربر",
+    "accountinfo-xff": "سرفصل ایکس‌اف‌اف",
+    "accountinfo-recentchanges": "اطلاعات در تغییرات اخیر",
+    "accountinfo-length-rc": "اطلاعات برای $1 حفظ شده‌‌است.",
+    "accountinfo-checkuser": "اطلاعات در بررسی کاربر",
+    "accountinfo-length-cu": "اطلاعات برای $1 حفظ شده‌‌است.",
+    "accountinfo-user-agent": "$1 $2 در $3",
+    "accountinfo-now": "اکنون"
+}
