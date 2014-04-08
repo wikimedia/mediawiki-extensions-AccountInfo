@@ -24,6 +24,11 @@ $specialPageAliases['diq'] = array(
 	'AccountInfo' => array( 'HesabMalumat' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'AccountInfo' => array( 'InfoUtenza' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'AccountInfo' => array( '账户信息' ),
