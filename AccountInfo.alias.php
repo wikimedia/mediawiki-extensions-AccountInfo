@@ -24,6 +24,11 @@ $specialPageAliases['diq'] = array(
 	'AccountInfo' => array( 'HesabMalumat' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'AccountInfo' => array( 'ʻIkeMōʻaukaki', 'IkeMoaukaki' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'AccountInfo' => array( 'InfoUtenza' ),
