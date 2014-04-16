@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ahmed-Najib-Biabani-Ibrahimkhel"
-        ]
-    },
-    "accountinfo": "گڼون مالومات",
-    "accountinfo-ts": "وخت ټاپه",
-    "accountinfo-ip": "IP پته",
-    "accountinfo-ua": "د کارن پلاوی",
-    "accountinfo-recentchanges": "مالومات په وروستي بدلونونو کې",
-    "accountinfo-length-rc": "مالومات تر $1 پورې ساتل شوي.",
-    "accountinfo-now": "اوس"
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"accountinfo": "گڼون مالومات",
+	"accountinfo-ts": "وخت ټاپه",
+	"accountinfo-ip": "IP پته",
+	"accountinfo-ua": "د کارن پلاوی",
+	"accountinfo-recentchanges": "مالومات په وروستي بدلونونو کې",
+	"accountinfo-length-rc": "مالومات تر $1 پورې ساتل شوي.",
+	"accountinfo-now": "اوس"
 }

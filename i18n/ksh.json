@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha"
-        ]
-    },
-    "accountinfo": "Prevaate Dahte",
-    "accountinfo-desc": "Löht ene Metmaacher de faßjehallde prevaate Dahte ovver en belooere.",
-    "accountinfo-ts": "Dattum un Zigg",
-    "accountinfo-ip": "De <i lang=\"en\">IP</i>-Adräß",
-    "accountinfo-ua": "Däm Metmaacher singe Brauser",
-    "accountinfo-xff": "<i lang=\"en\" xml:lang=\"en\">XFF</i>-Kopp",
-    "accountinfo-recentchanges": "Aanjaabe en de neuste Änderonge",
-    "accountinfo-length-rc": "Daate wääde faßjahallde för $1.",
-    "accountinfo-checkuser": "Aanjahbe beim Metmaacher Prööve",
-    "accountinfo-length-cu": "Daate wääde faßjahallde för $1.",
-    "accountinfo-user-agent": "Dä $1 Väsjohn $2 op $3",
-    "accountinfo-now": "Jäz"
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"accountinfo": "Prevaate Dahte",
+	"accountinfo-desc": "Löht ene Metmaacher de faßjehallde prevaate Dahte ovver en belooere.",
+	"accountinfo-ts": "Dattum un Zigg",
+	"accountinfo-ip": "De <i lang=\"en\">IP</i>-Adräß",
+	"accountinfo-ua": "Däm Metmaacher singe Brauser",
+	"accountinfo-xff": "<i lang=\"en\" xml:lang=\"en\">XFF</i>-Kopp",
+	"accountinfo-recentchanges": "Aanjaabe en de neuste Änderonge",
+	"accountinfo-length-rc": "Daate wääde faßjahallde för $1.",
+	"accountinfo-checkuser": "Aanjahbe beim Metmaacher Prööve",
+	"accountinfo-length-cu": "Daate wääde faßjahallde för $1.",
+	"accountinfo-user-agent": "Dä $1 Väsjohn $2 op $3",
+	"accountinfo-now": "Jäz"
 }

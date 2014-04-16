@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chrumps",
-            "Pan Cube",
-            "WTM"
-        ]
-    },
-    "accountinfo": "Informacje o koncie",
-    "accountinfo-ts": "Sygnatura czasowa",
-    "accountinfo-ip": "Adres IP",
-    "accountinfo-ua": "Aplikacja klienta",
-    "accountinfo-xff": "Nagłówek XFF",
-    "accountinfo-recentchanges": "Informacje w „Ostatnich zmianach”",
-    "accountinfo-length-rc": "Informacja ta jest przechowywana przez $1.",
-    "accountinfo-checkuser": "Informacje w CheckUser",
-    "accountinfo-length-cu": "Informacja ta jest przechowywana przez $1.",
-    "accountinfo-user-agent": "$1 $2 na platformie $3",
-    "accountinfo-now": "Teraz"
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Pan Cube",
+			"WTM"
+		]
+	},
+	"accountinfo": "Informacje o koncie",
+	"accountinfo-ts": "Sygnatura czasowa",
+	"accountinfo-ip": "Adres IP",
+	"accountinfo-ua": "Aplikacja klienta",
+	"accountinfo-xff": "Nagłówek XFF",
+	"accountinfo-recentchanges": "Informacje w „Ostatnich zmianach”",
+	"accountinfo-length-rc": "Informacja ta jest przechowywana przez $1.",
+	"accountinfo-checkuser": "Informacje w CheckUser",
+	"accountinfo-length-cu": "Informacja ta jest przechowywana przez $1.",
+	"accountinfo-user-agent": "$1 $2 na platformie $3",
+	"accountinfo-now": "Teraz"
 }

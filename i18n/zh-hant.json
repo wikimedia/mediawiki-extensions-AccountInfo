@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liuxinyu970226"
-        ]
-    },
-    "accountinfo": "帳戶資訊",
-    "accountinfo-desc": "允許用戶查閱關於他們的已存儲私人資訊",
-    "accountinfo-ts": "時間戳",
-    "accountinfo-ip": "IP位址",
-    "accountinfo-ua": "用戶代理",
-    "accountinfo-xff": "XFF標頭",
-    "accountinfo-recentchanges": "於最近更改之資訊",
-    "accountinfo-length-rc": "資訊已保留為$1。",
-    "accountinfo-checkuser": "於用戶查核之資訊",
-    "accountinfo-length-cu": "資訊已保留為$1。",
-    "accountinfo-user-agent": "$1 $2於$3",
-    "accountinfo-now": "現在"
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"accountinfo": "帳戶資訊",
+	"accountinfo-desc": "允許用戶查閱關於他們的已存儲私人資訊",
+	"accountinfo-ts": "時間戳",
+	"accountinfo-ip": "IP位址",
+	"accountinfo-ua": "用戶代理",
+	"accountinfo-xff": "XFF標頭",
+	"accountinfo-recentchanges": "於最近更改之資訊",
+	"accountinfo-length-rc": "資訊已保留為$1。",
+	"accountinfo-checkuser": "於用戶查核之資訊",
+	"accountinfo-length-cu": "資訊已保留為$1。",
+	"accountinfo-user-agent": "$1 $2於$3",
+	"accountinfo-now": "現在"
 }

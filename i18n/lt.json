@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mantak111"
-        ]
-    },
-    "accountinfo": "Paskyros informacija",
-    "accountinfo-ip": "IP Adresas",
-    "accountinfo-now": "Dabar"
+	"@metadata": {
+		"authors": [
+			"Mantak111"
+		]
+	},
+	"accountinfo": "Paskyros informacija",
+	"accountinfo-ip": "IP Adresas",
+	"accountinfo-now": "Dabar"
 }

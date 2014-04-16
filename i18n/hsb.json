@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "accountinfo": "Kontowe informacije",
-    "accountinfo-desc": "Dowola wužiwarjej, składowane priwatne informacije wo nim widźeć",
-    "accountinfo-ts": "Časowy kołk",
-    "accountinfo-ip": "IP-adresa",
-    "accountinfo-ua": "Identifikator wobhladowaka",
-    "accountinfo-xff": "XFF-hłowa",
-    "accountinfo-recentchanges": "Informacije wo \"Aktualnych změnach\"",
-    "accountinfo-length-rc": "Informacije so za $1 přihotowane dźěrža.",
-    "accountinfo-checkuser": "Informacije wo \"CheckUser\"",
-    "accountinfo-length-cu": "Informacije so za $1 přihotowane dźěrža.",
-    "accountinfo-user-agent": "$1 $2 na $3",
-    "accountinfo-now": "Nětko"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"accountinfo": "Kontowe informacije",
+	"accountinfo-desc": "Dowola wužiwarjej, składowane priwatne informacije wo nim widźeć",
+	"accountinfo-ts": "Časowy kołk",
+	"accountinfo-ip": "IP-adresa",
+	"accountinfo-ua": "Identifikator wobhladowaka",
+	"accountinfo-xff": "XFF-hłowa",
+	"accountinfo-recentchanges": "Informacije wo \"Aktualnych změnach\"",
+	"accountinfo-length-rc": "Informacije so za $1 přihotowane dźěrža.",
+	"accountinfo-checkuser": "Informacije wo \"CheckUser\"",
+	"accountinfo-length-cu": "Informacije so za $1 přihotowane dźěrža.",
+	"accountinfo-user-agent": "$1 $2 na $3",
+	"accountinfo-now": "Nětko"
 }

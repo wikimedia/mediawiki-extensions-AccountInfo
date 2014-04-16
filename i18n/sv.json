@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jopparn",
-            "Lokal Profil"
-        ]
-    },
-    "accountinfo": "Kontoinformation",
-    "accountinfo-desc": "Tillåter en användare att se lagrad privat information om dem",
-    "accountinfo-ts": "Tidsstämpel",
-    "accountinfo-ip": "IP-adress",
-    "accountinfo-ua": "Användaragent",
-    "accountinfo-xff": "XFF-huvud",
-    "accountinfo-recentchanges": "Information i \"Senaste Ändringar\"",
-    "accountinfo-length-rc": "Informationen lagras i $1.",
-    "accountinfo-checkuser": "Information i CheckUser",
-    "accountinfo-length-cu": "Informationen lagras i $1.",
-    "accountinfo-user-agent": "$1 $2 på $3",
-    "accountinfo-now": "Nu"
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil"
+		]
+	},
+	"accountinfo": "Kontoinformation",
+	"accountinfo-desc": "Tillåter en användare att se lagrad privat information om dem",
+	"accountinfo-ts": "Tidsstämpel",
+	"accountinfo-ip": "IP-adress",
+	"accountinfo-ua": "Användaragent",
+	"accountinfo-xff": "XFF-huvud",
+	"accountinfo-recentchanges": "Information i \"Senaste Ändringar\"",
+	"accountinfo-length-rc": "Informationen lagras i $1.",
+	"accountinfo-checkuser": "Information i CheckUser",
+	"accountinfo-length-cu": "Informationen lagras i $1.",
+	"accountinfo-user-agent": "$1 $2 på $3",
+	"accountinfo-now": "Nu"
 }

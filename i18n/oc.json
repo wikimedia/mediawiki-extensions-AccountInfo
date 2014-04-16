@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "accountinfo": "Informacions del compte",
-    "accountinfo-desc": "Permet a un utilizaire de veire d'informacions privadas emmaazinadas sus el",
-    "accountinfo-ts": "Orodatatge",
-    "accountinfo-ip": "Adreça IP",
-    "accountinfo-ua": "Agent utilizaire",
-    "accountinfo-xff": "Entèsta XFF",
-    "accountinfo-recentchanges": "Informacion dins los darrièrs cambiaments",
-    "accountinfo-length-rc": "L’informacion es conservada per $1.",
-    "accountinfo-checkuser": "Informacion dins CheckUser",
-    "accountinfo-length-cu": "L’informacion es conservada per $1.",
-    "accountinfo-user-agent": "$1 $2 sus $3",
-    "accountinfo-now": "Ara"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"accountinfo": "Informacions del compte",
+	"accountinfo-desc": "Permet a un utilizaire de veire d'informacions privadas emmaazinadas sus el",
+	"accountinfo-ts": "Orodatatge",
+	"accountinfo-ip": "Adreça IP",
+	"accountinfo-ua": "Agent utilizaire",
+	"accountinfo-xff": "Entèsta XFF",
+	"accountinfo-recentchanges": "Informacion dins los darrièrs cambiaments",
+	"accountinfo-length-rc": "L’informacion es conservada per $1.",
+	"accountinfo-checkuser": "Informacion dins CheckUser",
+	"accountinfo-length-cu": "L’informacion es conservada per $1.",
+	"accountinfo-user-agent": "$1 $2 sus $3",
+	"accountinfo-now": "Ara"
 }

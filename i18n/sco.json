@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "John Reid"
-        ]
-    },
-    "accountinfo": "Accoont information",
-    "accountinfo-desc": "Permits ae uiser tae see stored private information aneat theim",
-    "accountinfo-ts": "Timestamp",
-    "accountinfo-ip": "IP address",
-    "accountinfo-ua": "Uiser agent",
-    "accountinfo-xff": "XFF heider",
-    "accountinfo-recentchanges": "Information in RecentChynges",
-    "accountinfo-length-rc": "Information is retained fer $1.",
-    "accountinfo-checkuser": "Information in CheckUiser",
-    "accountinfo-length-cu": "Information is retained fer $1.",
-    "accountinfo-user-agent": "$1 $2 oan $3",
-    "accountinfo-now": "Nou"
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"accountinfo": "Accoont information",
+	"accountinfo-desc": "Permits ae uiser tae see stored private information aneat theim",
+	"accountinfo-ts": "Timestamp",
+	"accountinfo-ip": "IP address",
+	"accountinfo-ua": "Uiser agent",
+	"accountinfo-xff": "XFF heider",
+	"accountinfo-recentchanges": "Information in RecentChynges",
+	"accountinfo-length-rc": "Information is retained fer $1.",
+	"accountinfo-checkuser": "Information in CheckUiser",
+	"accountinfo-length-cu": "Information is retained fer $1.",
+	"accountinfo-user-agent": "$1 $2 oan $3",
+	"accountinfo-now": "Nou"
 }

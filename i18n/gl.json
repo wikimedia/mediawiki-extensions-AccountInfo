@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Elisardojm",
-            "Toliño"
-        ]
-    },
-    "accountinfo": "Información sobre a conta",
-    "accountinfo-desc": "Permite a un usuario consultar a información privada almacenada sobre el",
-    "accountinfo-ts": "Data e hora",
-    "accountinfo-ip": "Enderezo IP",
-    "accountinfo-ua": "Axente de usuario",
-    "accountinfo-xff": "Cabeceira XFF",
-    "accountinfo-recentchanges": "Información nos cambios recentes",
-    "accountinfo-length-rc": "A información gárdase durante $1.",
-    "accountinfo-checkuser": "Información na verificación de usuarios",
-    "accountinfo-length-cu": "A información gárdase durante $1.",
-    "accountinfo-user-agent": "$1 $2 en $3",
-    "accountinfo-now": "Agora"
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"accountinfo": "Información sobre a conta",
+	"accountinfo-desc": "Permite a un usuario consultar a información privada almacenada sobre el",
+	"accountinfo-ts": "Data e hora",
+	"accountinfo-ip": "Enderezo IP",
+	"accountinfo-ua": "Axente de usuario",
+	"accountinfo-xff": "Cabeceira XFF",
+	"accountinfo-recentchanges": "Información nos cambios recentes",
+	"accountinfo-length-rc": "A información gárdase durante $1.",
+	"accountinfo-checkuser": "Información na verificación de usuarios",
+	"accountinfo-length-cu": "A información gárdase durante $1.",
+	"accountinfo-user-agent": "$1 $2 en $3",
+	"accountinfo-now": "Agora"
 }

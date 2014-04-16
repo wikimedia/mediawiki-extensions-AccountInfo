@@ -1,20 +1,20 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liuxinyu970226",
-            "Xiaomingyan"
-        ]
-    },
-    "accountinfo": "账户信息",
-    "accountinfo-desc": "允许用户查看已存储的关于他们的私人信息",
-    "accountinfo-ts": "时间戳",
-    "accountinfo-ip": "IP地址",
-    "accountinfo-ua": "用户代理",
-    "accountinfo-xff": "XFF标头",
-    "accountinfo-recentchanges": "最近更改中的信息",
-    "accountinfo-length-rc": "信息已为$1保存。",
-    "accountinfo-checkuser": "用户查核中的信息",
-    "accountinfo-length-cu": "信息已为$1保存。",
-    "accountinfo-user-agent": "$1 $2在$3",
-    "accountinfo-now": "现在"
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Xiaomingyan"
+		]
+	},
+	"accountinfo": "账户信息",
+	"accountinfo-desc": "允许用户查看已存储的关于他们的私人信息",
+	"accountinfo-ts": "时间戳",
+	"accountinfo-ip": "IP地址",
+	"accountinfo-ua": "用户代理",
+	"accountinfo-xff": "XFF标头",
+	"accountinfo-recentchanges": "最近更改中的信息",
+	"accountinfo-length-rc": "信息已为$1保存。",
+	"accountinfo-checkuser": "用户查核中的信息",
+	"accountinfo-length-cu": "信息已为$1保存。",
+	"accountinfo-user-agent": "$1 $2在$3",
+	"accountinfo-now": "现在"
 }

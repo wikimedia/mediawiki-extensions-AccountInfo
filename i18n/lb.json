@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "accountinfo": "Benotzerkontinformatioun",
-    "accountinfo-ts": "Zäitstempel",
-    "accountinfo-ip": "IP-Adress",
-    "accountinfo-recentchanges": "Informatiounen an de \"Rezenten Ännerungen\"",
-    "accountinfo-length-rc": "D'Informatioune gi während $1 versuergt.",
-    "accountinfo-checkuser": "Informatiounen am CheckUser",
-    "accountinfo-now": "Elo"
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"accountinfo": "Benotzerkontinformatioun",
+	"accountinfo-ts": "Zäitstempel",
+	"accountinfo-ip": "IP-Adress",
+	"accountinfo-recentchanges": "Informatiounen an de \"Rezenten Ännerungen\"",
+	"accountinfo-length-rc": "D'Informatioune gi während $1 versuergt.",
+	"accountinfo-checkuser": "Informatiounen am CheckUser",
+	"accountinfo-now": "Elo"
 }

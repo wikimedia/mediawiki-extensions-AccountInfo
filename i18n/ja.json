@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "accountinfo": "アカウント情報",
-    "accountinfo-desc": "利用者についての格納されている非公開情報を利用者自身が閲覧できるようにする",
-    "accountinfo-ts": "日時",
-    "accountinfo-ip": "IP アドレス",
-    "accountinfo-ua": "ユーザーエージェント",
-    "accountinfo-xff": "XFF ヘッダー"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"accountinfo": "アカウント情報",
+	"accountinfo-desc": "利用者についての格納されている非公開情報を利用者自身が閲覧できるようにする",
+	"accountinfo-ts": "日時",
+	"accountinfo-ip": "IP アドレス",
+	"accountinfo-ua": "ユーザーエージェント",
+	"accountinfo-xff": "XFF ヘッダー"
 }

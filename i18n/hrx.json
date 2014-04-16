@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Paul Beppler"
-        ]
-    },
-    "accountinfo": "Benutzerkonteinformation",
-    "accountinfo-ts": "Zeitstempel",
-    "accountinfo-ip": "IP-Adress",
-    "accountinfo-ua": "Browser",
-    "accountinfo-xff": "XFF-Header",
-    "accountinfo-recentchanges": "Informatione üwer \"Letzte Ännrunge\"",
-    "accountinfo-length-rc": "Die Informatione werre bereitgestellt für $1.",
-    "accountinfo-checkuser": "Informatione üwer \"CheckUser\"",
-    "accountinfo-length-cu": "Die Informatione were fertichgestellt für $1.",
-    "accountinfo-user-agent": "$1 $2 uff $3",
-    "accountinfo-now": "Jetzt"
+	"@metadata": {
+		"authors": [
+			"Paul Beppler"
+		]
+	},
+	"accountinfo": "Benutzerkonteinformation",
+	"accountinfo-ts": "Zeitstempel",
+	"accountinfo-ip": "IP-Adress",
+	"accountinfo-ua": "Browser",
+	"accountinfo-xff": "XFF-Header",
+	"accountinfo-recentchanges": "Informatione üwer \"Letzte Ännrunge\"",
+	"accountinfo-length-rc": "Die Informatione werre bereitgestellt für $1.",
+	"accountinfo-checkuser": "Informatione üwer \"CheckUser\"",
+	"accountinfo-length-cu": "Die Informatione were fertichgestellt für $1.",
+	"accountinfo-user-agent": "$1 $2 uff $3",
+	"accountinfo-now": "Jetzt"
 }

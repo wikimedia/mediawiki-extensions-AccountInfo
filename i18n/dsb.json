@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "accountinfo": "Kontowe informacije",
-    "accountinfo-desc": "Dowólujo wužywarjeju, składowane priwatne informacije wó njom wiźeś",
-    "accountinfo-ts": "Casowy kołk",
-    "accountinfo-ip": "IP-adresa",
-    "accountinfo-ua": "Identifikator wobglědowaka",
-    "accountinfo-xff": "XFF-głowa",
-    "accountinfo-recentchanges": "Informacije wó \"Aktualnych změnach\"",
-    "accountinfo-length-rc": "Informacije maju se za $1 pśigótowane.",
-    "accountinfo-checkuser": "Informacije wó \"CheckUser\"",
-    "accountinfo-length-cu": "Informacije maju se za $1 pśigótowane.",
-    "accountinfo-user-agent": "$1 $2 na $3",
-    "accountinfo-now": "Něnto"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"accountinfo": "Kontowe informacije",
+	"accountinfo-desc": "Dowólujo wužywarjeju, składowane priwatne informacije wó njom wiźeś",
+	"accountinfo-ts": "Casowy kołk",
+	"accountinfo-ip": "IP-adresa",
+	"accountinfo-ua": "Identifikator wobglědowaka",
+	"accountinfo-xff": "XFF-głowa",
+	"accountinfo-recentchanges": "Informacije wó \"Aktualnych změnach\"",
+	"accountinfo-length-rc": "Informacije maju se za $1 pśigótowane.",
+	"accountinfo-checkuser": "Informacije wó \"CheckUser\"",
+	"accountinfo-length-cu": "Informacije maju se za $1 pśigótowane.",
+	"accountinfo-user-agent": "$1 $2 na $3",
+	"accountinfo-now": "Něnto"
 }

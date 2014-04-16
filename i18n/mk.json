@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "accountinfo": "Информации за сметката",
-    "accountinfo-desc": "Му овозможува на корисникот да гледа зачувани лични податоци за него",
-    "accountinfo-ts": "Време и датум",
-    "accountinfo-ip": "IP-адреса",
-    "accountinfo-ua": "Кориснички извршител",
-    "accountinfo-xff": "XFF-заглавје",
-    "accountinfo-recentchanges": "Информации во „Скорешни промени“",
-    "accountinfo-length-rc": "Информациите се чуваат $1.",
-    "accountinfo-checkuser": "Информации во Проверката на корисници (CheckUser)",
-    "accountinfo-length-cu": "Информациите се чуваат $1.",
-    "accountinfo-user-agent": "$1 $2 во $3",
-    "accountinfo-now": "Сега"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"accountinfo": "Информации за сметката",
+	"accountinfo-desc": "Му овозможува на корисникот да гледа зачувани лични податоци за него",
+	"accountinfo-ts": "Време и датум",
+	"accountinfo-ip": "IP-адреса",
+	"accountinfo-ua": "Кориснички извршител",
+	"accountinfo-xff": "XFF-заглавје",
+	"accountinfo-recentchanges": "Информации во „Скорешни промени“",
+	"accountinfo-length-rc": "Информациите се чуваат $1.",
+	"accountinfo-checkuser": "Информации во Проверката на корисници (CheckUser)",
+	"accountinfo-length-cu": "Информациите се чуваат $1.",
+	"accountinfo-user-agent": "$1 $2 во $3",
+	"accountinfo-now": "Сега"
 }

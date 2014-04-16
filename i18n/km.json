@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sovichet"
-        ]
-    },
-    "accountinfo": "ព័ត៌មាន​គណនី",
-    "accountinfo-ts": "ពេលវេលា",
-    "accountinfo-ip": "អាសយដ្ឋាន IP",
-    "accountinfo-user-agent": "$1 $2 នៅ $3",
-    "accountinfo-now": "ឥឡូវ"
+	"@metadata": {
+		"authors": [
+			"Sovichet"
+		]
+	},
+	"accountinfo": "ព័ត៌មាន​គណនី",
+	"accountinfo-ts": "ពេលវេលា",
+	"accountinfo-ip": "អាសយដ្ឋាន IP",
+	"accountinfo-user-agent": "$1 $2 នៅ $3",
+	"accountinfo-now": "ឥឡូវ"
 }

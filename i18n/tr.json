@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "SiLveRLeaD"
-        ]
-    },
-    "accountinfo": "Hesap bilgileri",
-    "accountinfo-ip": "IP adresi:",
-    "accountinfo-xff": "XFF başlığı",
-    "accountinfo-now": "Şimdi"
+	"@metadata": {
+		"authors": [
+			"SiLveRLeaD"
+		]
+	},
+	"accountinfo": "Hesap bilgileri",
+	"accountinfo-ip": "IP adresi:",
+	"accountinfo-xff": "XFF başlığı",
+	"accountinfo-now": "Şimdi"
 }
