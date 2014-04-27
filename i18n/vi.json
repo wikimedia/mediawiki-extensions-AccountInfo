@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Withoutaname"
+		]
+	},
+	"accountinfo": "Thông tin tài khoản",
+	"accountinfo-desc": "Cho phép người dùng để xem được lưu trữ thông tin cá nhân về họ",
+	"accountinfo-ts": "Dấu thời gian",
+	"accountinfo-ip": "Địa chỉ IP",
+	"accountinfo-recentchanges": "Thông tin trong thay đổi gần đây",
+	"accountinfo-length-rc": "Thông tin được giữ lại cho $1.",
+	"accountinfo-checkuser": "Thông tin cho Kiểm Định Viên",
+	"accountinfo-length-cu": "Thông tin được giữ lại cho $1.",
+	"accountinfo-user-agent": "$1 $2 cho $3",
+	"accountinfo-now": "Bây giờ"
+}
