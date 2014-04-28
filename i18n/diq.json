@@ -2,12 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Mirzali"
+			"Mirzali",
+			"Marmase"
 		]
 	},
 	"accountinfo": "Melumatê hesabi",
 	"accountinfo-ts": "Mareyê demi",
 	"accountinfo-ip": "Adresa IPy",
 	"accountinfo-ua": "Temsilkarê karberi",
+	"accountinfo-xff": "XFF sername",
+	"accountinfo-recentchanges": "Malumata vurnayışan de peyênan",
+	"accountinfo-checkuser": "Malumata Kontroloğan",
+	"accountinfo-user-agent": "$1 $2 de $3",
 	"accountinfo-now": "Nıka"
 }
