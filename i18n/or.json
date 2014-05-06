@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Psubhashish"
+		]
+	},
+	"accountinfo": "ଖାତା ସୂଚନା",
+	"accountinfo-ts": "ସମୟଚିହ୍ନ",
+	"accountinfo-ip": "IP ଠିକଣା:",
+	"accountinfo-ua": "ସଭ୍ୟ ଏଜେଣ୍ଟ",
+	"accountinfo-xff": "XFF ହେଡ଼ର",
+	"accountinfo-recentchanges": "ନଗଦ ବଦଳରେ ଥିବା ସୂଚନା",
+	"accountinfo-length-rc": "$1 ପାଇଁ ସଂରକ୍ଷିତ ସୂଚନା",
+	"accountinfo-checkuser": "CheckUserରେ ଥିବା ସୂଚନା",
+	"accountinfo-length-cu": "$1 ପାଇଁ ସୂଚନା ସଂରକ୍ଷିତ ହୋଇ ରହିଛି",
+	"accountinfo-user-agent": "$3ରେ $1 $2",
+	"accountinfo-now": "ଅଧୁନା"
+}
