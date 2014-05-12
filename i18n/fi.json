@@ -4,7 +4,10 @@
 			"Stryn"
 		]
 	},
+	"accountinfo": "Tunnuksen tiedot",
 	"accountinfo-ts": "Aikaleima",
 	"accountinfo-ip": "IP-osoite",
+	"accountinfo-ua": "Selaintunniste",
+	"accountinfo-xff": "XFF-otsikko",
 	"accountinfo-now": "Nyt"
 }

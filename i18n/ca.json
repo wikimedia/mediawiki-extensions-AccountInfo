@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toniher"
+		]
+	},
+	"accountinfo-ts": "Marca horària",
+	"accountinfo-ip": "Adreça IP",
+	"accountinfo-ua": "Agent d'usuari",
+	"accountinfo-now": "Ara"
+}
