@@ -3,10 +3,12 @@
 		"authors": [
 			"Chrumps",
 			"Pan Cube",
-			"WTM"
+			"WTM",
+			"Vengir"
 		]
 	},
 	"accountinfo": "Informacje o koncie",
+	"accountinfo-desc": "Pozwala użytkownikowi na przeglądanie prywatnych danych na jego temat",
 	"accountinfo-ts": "Sygnatura czasowa",
 	"accountinfo-ip": "Adres IP",
 	"accountinfo-ua": "Aplikacja klienta",
