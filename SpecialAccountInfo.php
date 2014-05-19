@@ -21,7 +21,7 @@ class SpecialAccountInfo extends SpecialPage {
 	}
 
 	public function formatUA( $ua ) {
-		$human = AccountInfo::getHumanReadableUA( $this, $ua );
+		$human = AccountInfo::getHumanReadableUA( $this->getLanguage(), $ua );
 		if ( $human ) {
 			$return = $human . Html::element(
 					'div',

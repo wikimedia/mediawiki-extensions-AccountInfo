@@ -13,6 +13,5 @@
     "accountinfo-length-rc": "Information is retained for $1.",
     "accountinfo-checkuser": "Information in CheckUser",
     "accountinfo-length-cu": "Information is retained for $1.",
-    "accountinfo-user-agent": "$1 $2 on $3",
     "accountinfo-now": "Now"
 }

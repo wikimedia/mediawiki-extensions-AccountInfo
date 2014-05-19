@@ -1,0 +1,8 @@
+This is a stripped down version of the PHP User-Agent parser available
+from <https://github.com/tobie/ua-parser>. The regexes.yaml file has
+been converted into JSON for ease of processing.
+
+See LICENSE.txt for copyright details.
+
+regexes.yaml was last updated to e033ec899600be6439e68fa08ae20c2f4d0eba93.
+When updating the yaml file, the JSON should also be regenerated.
