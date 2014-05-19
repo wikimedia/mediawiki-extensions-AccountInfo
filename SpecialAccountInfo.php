@@ -70,13 +70,13 @@ class SpecialAccountInfo extends SpecialPage {
 				__METHOD__
 			);
 			// Convert for table-fication...
-			$rows = array_map( function( $arr ) {
-				/** @var stdClass $arr */
-				return array( $arr->ip );
-			}, iterator_to_array( $rows ) );
+			$outRows = array();
+			foreach( $rows as $row ) {
+				$outRows[] = array( $row->ip );
+			}
 			// Put current info on top.
-			$rows = array_merge( array( 'mw-accountinfo-current' => array( $req->getIP() ) ), $rows );
-			$out->addHTML( TableBuilder::buildTable( $rows, array( $this->msg( 'accountinfo-ip' )->parse() ) ) );
+			$outRows = array_merge( array( 'mw-accountinfo-current' => array( $req->getIP() ) ), $outRows );
+			$out->addHTML( TableBuilder::buildTable( $outRows, array( $this->msg( 'accountinfo-ip' )->parse() ) ) );
 		}
 
 		// Now CheckUser...
@@ -93,23 +93,23 @@ class SpecialAccountInfo extends SpecialPage {
 				__METHOD__,
 				array( 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' )
 			);
-			$us = $this;
-			$rows = array_map( function( $arr ) use ( $us ) {
-				return array(
-					$us->getLanguage()->formatExpiry( $arr->cuc_timestamp ),
-					$arr->cuc_ip,
-					'mw-accountinfo-useragent' => $us->formatUA( $arr->cuc_agent ),
-					$us->formatXFF( $arr->cuc_xff ),
+			$outRows = array();
+			foreach( $rows as $row ) {
+				$outRows[] = array(
+					$this->getLanguage()->formatExpiry( $row->cuc_timestamp ),
+					$row->cuc_ip,
+					'mw-accountinfo-useragent' => $this->formatUA( $row->cuc_agent ),
+					$this->formatXFF( $row->cuc_xff ),
 				);
-			}, iterator_to_array( $rows ) );
+			}
 			// Put current info on top.
-			$rows = array_merge( array( 'mw-accountinfo-current' => array(
+			$outRows = array_merge( array( 'mw-accountinfo-current' => array(
 				$this->msg( 'accountinfo-now' )->parse(),
 				$req->getIP(),
 				'mw-accountinfo-useragent' => $this->formatUA( AccountInfo::getUserAgent( $req ) ),
 				$this->formatXFF( AccountInfo::getXFF( $req ) ),
-			) ), $rows );
-			$out->addHTML( TableBuilder::buildTable( $rows, array(
+			) ), $outRows );
+			$out->addHTML( TableBuilder::buildTable( $outRows, array(
 				$this->msg( 'accountinfo-ts' )->parse(),
 				$this->msg( 'accountinfo-ip' )->parse(),
 				$this->msg( 'accountinfo-ua' )->parse(),
