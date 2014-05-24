@@ -25,9 +25,22 @@ class AccountInfo {
 		return $req->getHeader( 'User-Agent' );
 	}
 
+	/**
+	 * Gets the XFF IP from a given WebRequest
+	 * Depends on CU being installed
+	 * @param WebRequest $req
+	 * @return string
+	 */
 	public static function getXFF( WebRequest $req ) {
-		// @fixme Implement CheckUserHooks::getClientIPfromXFF here.
-		return $req->getHeader( 'X-Forwarded-For' );
+		if ( !self::isCUInstalled() ) {
+			// Should not be called, but be safe.
+			return '';
+		}
+		list( $xff_ip, $isSquidOnly ) = CheckUserHooks::getClientIPfromXFF(
+			$req->getHeader( 'X-Forwarded-For' )
+		);
+
+		return ( $xff_ip && !$isSquidOnly ) ? $xff_ip : '';
 	}
 
 	/**
