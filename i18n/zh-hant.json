@@ -15,6 +15,5 @@
 	"accountinfo-length-rc": "資訊會保留 $1。",
 	"accountinfo-checkuser": "檢查使用者的資訊",
 	"accountinfo-length-cu": "資訊會保留 $1。",
-	"accountinfo-user-agent": "$1 $2 於 $3",
 	"accountinfo-now": "現在"
 }

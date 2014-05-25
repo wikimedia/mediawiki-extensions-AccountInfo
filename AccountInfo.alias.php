@@ -39,6 +39,11 @@ $specialPageAliases['it'] = array(
 	'AccountInfo' => array( 'InfoUtenza' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'AccountInfo' => array( 'അംഗത്വവിവരങ്ങൾ' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'AccountInfo' => array( 'Konto_information' ),
