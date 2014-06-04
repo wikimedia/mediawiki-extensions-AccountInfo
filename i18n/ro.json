@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"XXN"
+		]
+	},
+	"accountinfo": "Informații despre cont",
+	"accountinfo-ip": "Adresă IP",
+	"accountinfo-xff": "Antetul XFF",
+	"accountinfo-recentchanges": "Informații în modificările recente",
+	"accountinfo-now": "Acum"
+}
