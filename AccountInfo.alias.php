@@ -39,6 +39,11 @@ $specialPageAliases['it'] = array(
 	'AccountInfo' => array( 'InfoUtenza' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'AccountInfo' => array( '계정정보' ),
+);
+
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'AccountInfo' => array( 'അംഗത്വവിവരങ്ങൾ' ),
