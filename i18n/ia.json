@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"accountinfo": "Informationes del conto",
+	"accountinfo-desc": "Permitte al usator de consultar le informationes private immagazinate sur ille",
+	"accountinfo-ts": "Data e hora",
+	"accountinfo-ip": "Adresse IP",
+	"accountinfo-ua": "Agente usator",
+	"accountinfo-xff": "Capite XFF",
+	"accountinfo-recentchanges": "Information in modificationes recente",
+	"accountinfo-length-rc": "Information es retenite durante $1.",
+	"accountinfo-checkuser": "Information in CheckUser",
+	"accountinfo-length-cu": "Information es retenite durante $1.",
+	"accountinfo-now": "Ora"
+}
