@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kenrick95"
+			"Kenrick95",
+			"Arifin.wijaya"
 		]
 	},
 	"accountinfo": "Informasi akun",
@@ -11,7 +12,7 @@
 	"accountinfo-ua": "Aplikasi pengguna",
 	"accountinfo-recentchanges": "Informasi dalam perubahan terbaru",
 	"accountinfo-length-rc": "Informasi dipertahankan untuk $1.",
+	"accountinfo-checkuser": "Informasi dalam CheckUser",
 	"accountinfo-length-cu": "Informasi dipertahankan untuk $1.",
-	"accountinfo-user-agent": "$1 $2 di $3.",
 	"accountinfo-now": "Sekarang"
 }
