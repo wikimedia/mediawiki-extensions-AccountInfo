@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"SiLveRLeaD"
+			"SiLveRLeaD",
+			"Stultiwikia"
 		]
 	},
 	"accountinfo": "Hesap bilgileri",
+	"accountinfo-ts": "Zaman damgası",
 	"accountinfo-ip": "IP adresi:",
 	"accountinfo-xff": "XFF başlığı",
 	"accountinfo-now": "Şimdi"

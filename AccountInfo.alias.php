@@ -49,6 +49,11 @@ $specialPageAliases['ml'] = array(
 	'AccountInfo' => array( 'അംഗത്വവിവരങ്ങൾ' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'AccountInfo' => array( 'AccountInformatie' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'AccountInfo' => array( 'Konto_information' ),
