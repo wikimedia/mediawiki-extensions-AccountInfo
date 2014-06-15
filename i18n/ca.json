@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toniher"
+			"Toniher",
+			"Fitoschido"
 		]
 	},
+	"accountinfo": "Informació del compte",
 	"accountinfo-ts": "Marca horària",
 	"accountinfo-ip": "Adreça IP",
 	"accountinfo-ua": "Agent d'usuari",
+	"accountinfo-xff": "Capçalera XFF",
 	"accountinfo-now": "Ara"
 }
