@@ -34,6 +34,11 @@ $specialPageAliases['haw'] = array(
 	'AccountInfo' => array( 'ʻIkeMōʻaukaki', 'IkeMoaukaki' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'AccountInfo' => array( 'Kontowe_informacije' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'AccountInfo' => array( 'InfoUtenza' ),
@@ -57,6 +62,11 @@ $specialPageAliases['nl'] = array(
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'AccountInfo' => array( 'Konto_information' ),
+);
+
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'AccountInfo' => array( 'Thông_tin_tài_khoản' ),
 );
 
 /** Simplified Chinese (中文（简体）‎) */
