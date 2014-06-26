@@ -6,5 +6,6 @@
 	},
 	"accountinfo": "Зьвесткі пра рахунак",
 	"accountinfo-desc": "Дазваляе ўдзельніку праглядзець захаваныя асабістыя зьвесткі пра яго",
-	"accountinfo-ts": "Дата і час"
+	"accountinfo-ts": "Дата і час",
+	"accountinfo-ip": "IP-адрас"
 }
