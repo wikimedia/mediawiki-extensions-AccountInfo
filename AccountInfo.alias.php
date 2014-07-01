@@ -54,6 +54,11 @@ $specialPageAliases['ml'] = array(
 	'AccountInfo' => array( 'അംഗത്വവിവരങ്ങൾ' ),
 );
 
+/** Malay (Bahasa Melayu) */
+$specialPageAliases['ms'] = array(
+	'AccountInfo' => array( 'Maklumat_akaun' ),
+);
+
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'AccountInfo' => array( 'AccountInformatie' ),
