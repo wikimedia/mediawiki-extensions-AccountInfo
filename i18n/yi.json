@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"פוילישער"
+		]
+	},
+	"accountinfo": "קאנטע־אינפארמאציע",
+	"accountinfo-desc": "לאזן א באניצער זען געשפייכלערטע פריוואטע אינפארמאציע וועגן זיך",
+	"accountinfo-ts": "צײַטשטעמפל",
+	"accountinfo-ip": "IP אַדרעס",
+	"accountinfo-ua": "באַניצער אַגענט",
+	"accountinfo-xff": "XFF קעפל",
+	"accountinfo-recentchanges": "אינפארמאציע אין לעצטע ענדערונגען",
+	"accountinfo-length-rc": "אינפארמאציע ווערט געהיטן אויף $1.",
+	"accountinfo-checkuser": "אינפארמאציע אין CheckUser",
+	"accountinfo-length-cu": "אינפארמאציע ווערט געהיטן אויף $1.",
+	"accountinfo-now": "אצינד"
+}

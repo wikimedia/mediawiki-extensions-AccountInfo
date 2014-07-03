@@ -49,6 +49,11 @@ $specialPageAliases['ko'] = array(
 	'AccountInfo' => array( '계정정보' ),
 );
 
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'AccountInfo' => array( 'ИнфоЗаСметката' ),
+);
+
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'AccountInfo' => array( 'അംഗത്വവിവരങ്ങൾ' ),
