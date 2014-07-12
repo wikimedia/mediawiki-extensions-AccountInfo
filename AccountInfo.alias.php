@@ -34,6 +34,11 @@ $specialPageAliases['haw'] = array(
 	'AccountInfo' => array( 'ʻIkeMōʻaukaki', 'IkeMoaukaki' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'AccountInfo' => array( 'מידע_על_החשבון' ),
+);
+
 /** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'AccountInfo' => array( 'Kontowe_informacije' ),
