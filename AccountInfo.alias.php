@@ -14,6 +14,16 @@ $specialPageAliases['en'] = array(
 	'AccountInfo' => array( 'AccountInfo' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'AccountInfo' => array( 'معلومات_الحساب' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'AccountInfo' => array( 'معلومات_الحساب' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'AccountInfo' => array( 'Konteninformation' ),
