@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Cwlin0416"
+			"Cwlin0416",
+			"LNDDYL"
 		]
 	},
 	"accountinfo": "帳號資訊",
@@ -13,7 +14,7 @@
 	"accountinfo-xff": "XFF 標頭",
 	"accountinfo-recentchanges": "最近更改的資訊",
 	"accountinfo-length-rc": "資訊會保留 $1。",
-	"accountinfo-checkuser": "檢查使用者的資訊",
+	"accountinfo-checkuser": "用戶核查的資訊",
 	"accountinfo-length-cu": "資訊會保留 $1。",
 	"accountinfo-now": "現在"
 }
