@@ -84,6 +84,11 @@ $specialPageAliases['nl'] = array(
 	'AccountInfo' => array( 'AccountInformatie' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'AccountInfo' => array( 'ਖਾਤੇ_ਬਾਰੇ_ਜਾਣਕਾਰੀ' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'AccountInfo' => array( 'Konto_information' ),
