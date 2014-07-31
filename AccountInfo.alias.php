@@ -106,5 +106,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'AccountInfo' => array( '賬戶資訊' ),
+	'AccountInfo' => array( '帳戶資訊' ),
 );
