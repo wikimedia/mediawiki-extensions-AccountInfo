@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Misibacsi"
+		]
+	},
+	"accountinfo-ip": "IP-cím",
+	"accountinfo-ua": "Böngésző típusa",
+	"accountinfo-xff": "XFF-fejléc"
+}
