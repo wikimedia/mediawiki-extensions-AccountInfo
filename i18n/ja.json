@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Takot"
 		]
 	},
 	"accountinfo": "アカウント情報",
@@ -9,5 +10,8 @@
 	"accountinfo-ts": "日時",
 	"accountinfo-ip": "IP アドレス",
 	"accountinfo-ua": "ユーザーエージェント",
-	"accountinfo-xff": "XFF ヘッダー"
+	"accountinfo-xff": "XFF ヘッダー",
+	"accountinfo-recentchanges": "最近の更新についての情報",
+	"accountinfo-checkuser": "CheckUser についての情報",
+	"accountinfo-now": "たった今"
 }
