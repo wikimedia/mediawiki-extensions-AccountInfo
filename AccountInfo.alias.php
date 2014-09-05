@@ -64,6 +64,11 @@ $specialPageAliases['ko'] = array(
 	'AccountInfo' => array( '계정정보' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'AccountInfo' => array( 'Itan-kaonty', 'Itankaonty', 'Torohain-kaonty', 'Torohainkaonty' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'AccountInfo' => array( 'ИнфоЗаСметката' ),
