@@ -39,6 +39,11 @@ $specialPageAliases['fa'] = array(
 	'AccountInfo' => array( 'اطلاعات_حساب' ),
 );
 
+/** Finnish (suomi) */
+$specialPageAliases['fi'] = array(
+	'AccountInfo' => array( 'Tunnuksen_tiedot' ),
+);
+
 /** Hawaiian (Hawai`i) */
 $specialPageAliases['haw'] = array(
 	'AccountInfo' => array( 'ʻIkeMōʻaukaki', 'IkeMoaukaki' ),
