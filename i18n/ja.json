@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Takot"
+			"Takot",
+			"Plover-Y"
 		]
 	},
 	"accountinfo": "アカウント情報",
@@ -12,6 +13,6 @@
 	"accountinfo-ua": "ユーザーエージェント",
 	"accountinfo-xff": "XFF ヘッダー",
 	"accountinfo-recentchanges": "最近の更新についての情報",
-	"accountinfo-checkuser": "CheckUser についての情報",
+	"accountinfo-checkuser": "CheckUser (利用者調査者) についての情報",
 	"accountinfo-now": "たった今"
 }
