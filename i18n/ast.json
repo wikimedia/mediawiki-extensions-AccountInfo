@@ -14,6 +14,5 @@
 	"accountinfo-length-rc": "La información guárdase demientres $1.",
 	"accountinfo-checkuser": "Información en CheckUser",
 	"accountinfo-length-cu": "La información guárdase demientres $1.",
-	"accountinfo-user-agent": "$1 $2 en $3",
 	"accountinfo-now": "Agora"
 }

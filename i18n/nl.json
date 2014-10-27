@@ -18,6 +18,5 @@
 	"accountinfo-length-rc": "Informatie wordt bewaard voor  $1.",
 	"accountinfo-checkuser": "Gegevens in CheckUser",
 	"accountinfo-length-cu": "Gegevens worden bewaard voor $1.",
-	"accountinfo-user-agent": "$1 $2 op $3",
 	"accountinfo-now": "Nu"
 }

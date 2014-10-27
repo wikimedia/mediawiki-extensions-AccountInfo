@@ -17,6 +17,5 @@
 	"accountinfo-length-rc": "Informacja ta jest przechowywana przez $1.",
 	"accountinfo-checkuser": "Informacje w CheckUser",
 	"accountinfo-length-cu": "Informacja ta jest przechowywana przez $1.",
-	"accountinfo-user-agent": "$1 $2 na platformie $3",
 	"accountinfo-now": "Teraz"
 }

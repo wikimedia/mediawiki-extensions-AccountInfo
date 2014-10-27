@@ -15,6 +15,5 @@
 	"accountinfo-length-rc": "Text explaining how long information is retained in the recentchanges table.\n\nParameters:\n* $1 - the formatted time length\nSee also:\n* {{msg-mw|Accountinfo-length-cu}}",
 	"accountinfo-checkuser": "Section header",
 	"accountinfo-length-cu": "Text explaining how long information is retained in the CheckUser table.\n\nParameters:\n* $1 - the formatted time length.\nSee also:\n* {{msg-mw|Accountinfo-length-rc}}",
-	"accountinfo-user-agent": "Text used to format User-Agents. Parameters:\n* $1 - the browser name in English\n* $2 - the version (unformatted number)\n* $3 - the platform (Macintosh, Windows, etc.)",
 	"accountinfo-now": "Text shown in \"Timestamp\" column to represent current information.\n{{Identical|Now}}"
 }

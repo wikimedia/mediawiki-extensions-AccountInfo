@@ -14,6 +14,5 @@
 	"accountinfo-length-rc": "A informação é armazenada durante $1.",
 	"accountinfo-checkuser": "Informação na Verificação de Utilizadores (CheckUser)",
 	"accountinfo-length-cu": "A informação é armazenada durante $1.",
-	"accountinfo-user-agent": "$1 $2 na plataforma $3",
 	"accountinfo-now": "Agora"
 }

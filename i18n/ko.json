@@ -14,6 +14,5 @@
 	"accountinfo-length-rc": "정보는 $1에 그대로 유지됩니다.",
 	"accountinfo-checkuser": "사용자검사관에서 정보",
 	"accountinfo-length-cu": "정보는 $1에 그대로 유지됩니다.",
-	"accountinfo-user-agent": "$3에서 $1 $2",
 	"accountinfo-now": "지금"
 }
