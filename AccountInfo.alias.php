@@ -34,6 +34,11 @@ $specialPageAliases['diq'] = array(
 	'AccountInfo' => array( 'HesabMalumat' ),
 );
 
+/** Greek (Ελληνικά) */
+$specialPageAliases['el'] = array(
+	'AccountInfo' => array( 'ΠληροφορίεςΛογαριασμού' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'AccountInfo' => array( 'اطلاعات_حساب' ),
