@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R."
+		]
+	},
+	"accountinfo-desc": "Permette a n'utente 'e vedè nfurmaziune private memorizzate ncopp'a lloro",
+	"accountinfo-ts": "Data e ora",
+	"accountinfo-ip": "Indirizzo IP",
+	"accountinfo-ua": "Agente utente",
+	"accountinfo-xff": "Capopaggena XFF",
+	"accountinfo-recentchanges": "Nfurmaziune 'e ll'urdeme cagnamiente",
+	"accountinfo-length-rc": "'E nfurmaziune sarranno astipate pe' $1.",
+	"accountinfo-checkuser": "Nfurmaziune ncopp' 'o CheckUser",
+	"accountinfo-length-cu": "'E nfurmaziune sarranno astipate pe' $1.",
+	"accountinfo-now": "Mò mò"
+}
