@@ -15,7 +15,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'AccountInfo',
-	'author' => array( 'Kunal Mehta', 'Benjamin Lees' ),
+	'author' => array( 'Kunal Mehta', 'Benjamin Lees', 'Prateek Saxena' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AccountInfo',
 	'descriptionmsg' => 'accountinfo-desc',
 	'version' => '0.2.0',
