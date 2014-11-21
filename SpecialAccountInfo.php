@@ -20,20 +20,6 @@ class SpecialAccountInfo extends SpecialPage {
 		return $xff;
 	}
 
-	public function formatUA( $ua ) {
-		$human = AccountInfo::getHumanReadableUA( $this->getLanguage(), $ua );
-		if ( $human ) {
-			$return = $human . Html::element(
-					'div',
-					array( 'class' => 'mw-accountinfo-useragent' ),
-					$ua
-				);
-		} else {
-			$return = $this->msg( 'accountinfo-none' )->text();
-		}
-		return $return;
-	}
-
 	public function formatTime( $ts ) {
 		return $this->getLanguage()->formatTimePeriod( $ts,
 			array( 'avoid' => 'avoidminutes', 'noabbrevs' => true )
@@ -53,7 +39,6 @@ class SpecialAccountInfo extends SpecialPage {
 		$this->outputHeader();
 		$this->checkPermissions();
 		$out->addModuleStyles( 'ext.AccountInfo.special' );
-		$out->addModules( 'ext.AccountInfo.special.js' );
 
 		// Check RecentChanges, only if CU is not installed...
 		if ( AccountInfo::areIPsInRC() && !AccountInfo::isCUInstalled() ) {
@@ -98,7 +83,7 @@ class SpecialAccountInfo extends SpecialPage {
 				$outRows[] = array(
 					$this->getLanguage()->formatExpiry( $row->cuc_timestamp ),
 					$row->cuc_ip,
-					'mw-accountinfo-useragent' => $this->formatUA( $row->cuc_agent ),
+					'mw-accountinfo-useragent' => htmlspecialchars( $row->cuc_agent ),
 					$this->formatXFF( $row->cuc_xff ),
 				);
 			}
@@ -106,7 +91,7 @@ class SpecialAccountInfo extends SpecialPage {
 			$outRows = array_merge( array( 'mw-accountinfo-current' => array(
 				$this->msg( 'accountinfo-now' )->parse(),
 				$req->getIP(),
-				'mw-accountinfo-useragent' => $this->formatUA( AccountInfo::getUserAgent( $req ) ),
+				'mw-accountinfo-useragent' => htmlspecialchars( AccountInfo::getUserAgent( $req ) ),
 				$this->formatXFF( AccountInfo::getXFF( $req ) ),
 			) ), $outRows );
 			$out->addHTML( TableBuilder::buildTable( $outRows, array(

@@ -42,39 +42,4 @@ class AccountInfo {
 
 		return ( $xff_ip && !$isSquidOnly ) ? $xff_ip : '';
 	}
-
-	/**
-	 * @return \UAParser\Parser
-	 */
-	private static function getUAParser() {
-		static $parser;
-		if ( $parser ) {
-			return $parser;
-		}
-		global $wgMemc;
-		$data = $wgMemc->get( 'accountinfo-ua-regexes' );
-		$mtime = filemtime( __DIR__ . '/UAParser/regexes.json' );
-		if ( $data === false || $data['mtime'] !== $mtime ) {
-			$json = file_get_contents( __DIR__ . '/UAParser/regexes.json' );
-			$regexes = FormatJson::decode( $json );
-			$wgMemc->set( 'accountinfo-ua-regexes', array(
-				'mtime' => $mtime,
-				'regexes' => $regexes,
-			) );
-		} else {
-			$regexes = $data['regexes'];
-		}
-		$parser = new \UAParser\Parser( wfObjectToArray( $regexes ) );
-		return $parser;
-	}
-
-	/**
-	 * @param Language $lang
-	 * @param string $ua
-	 * @return String|bool
-	 */
-	public static function getHumanReadableUA( Language $lang, $ua ) {
-		$result = self::getUAParser()->parse( $ua );
-		return $lang->commaList( array( $result->ua->toString(), $result->os->toString() ) );
-	}
 }

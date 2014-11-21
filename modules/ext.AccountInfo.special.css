@@ -60,19 +60,3 @@ table tr.mw-accountinfo-current td:first-child {
 	background: #27aa65;
 	color: #fff;
 }
-
-td.mw-accountinfo-useragent {
-	cursor: pointer;
-}
-
-td div.mw-accountinfo-useragent {
-	display: block;
-	height: 0;
-	overflow: hidden;
-	transition: height 0.4s ease;
-	font-size: 0.9em;
-}
-
-td div.mw-accountinfo-useragent.mw-accountinfo-show {
-	height: 20px;
-}
