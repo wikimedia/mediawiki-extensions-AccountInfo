@@ -114,6 +114,11 @@ $specialPageAliases['vi'] = array(
 	'AccountInfo' => array( 'Thông_tin_tài_khoản' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'AccountInfo' => array( '账户信息', '帐号信息', '賬戶資訊', '帳號資訊' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'AccountInfo' => array( '账户信息' ),
