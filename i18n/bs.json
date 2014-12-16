@@ -4,6 +4,8 @@
 			"Palapa"
 		]
 	},
+	"accountinfo": "Informacije o računu",
+	"accountinfo-ts": "Vremenska oznaka",
 	"accountinfo-ip": "IP adresa",
 	"accountinfo-ua": "Korisnički agent",
 	"accountinfo-xff": "XFF zaglavlje",
