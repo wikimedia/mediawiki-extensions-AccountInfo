@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"accountinfo-ip": "IP adresa",
+	"accountinfo-xff": "XFF zaglavlje",
+	"accountinfo-length-rc": "Informacija je sačuvana za $1.",
+	"accountinfo-length-cu": "Informacija je sačuvana za $1."
+}
