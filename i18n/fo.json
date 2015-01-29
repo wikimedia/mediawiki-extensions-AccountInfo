@@ -10,6 +10,8 @@
 	"accountinfo-ip": "IP-adressa",
 	"accountinfo-xff": "XFF yvirskrift",
 	"accountinfo-recentchanges": "Kunning í seinastu broytingum",
+	"accountinfo-length-rc": "Kunning er varðveitt fyri $1.",
 	"accountinfo-checkuser": "Kunning í CheckUser",
+	"accountinfo-length-cu": "Kunning er varðveitt fyri $1.",
 	"accountinfo-now": "Nú"
 }
