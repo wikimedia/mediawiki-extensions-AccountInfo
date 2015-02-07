@@ -7,5 +7,8 @@
 	"accountinfo": "वैश्विक खाता कय जानकारी",
 	"accountinfo-ts": "समय मोहर",
 	"accountinfo-ip": "आई.पी. ठहर",
+	"accountinfo-ua": "सदस्य एजेन्ट",
+	"accountinfo-xff": "XFF हेडर",
+	"accountinfo-recentchanges": "नँवा बदलाव मा जानकारी",
 	"accountinfo-now": "अबहीनै"
 }

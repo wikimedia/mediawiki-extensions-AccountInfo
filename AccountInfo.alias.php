@@ -74,6 +74,11 @@ $specialPageAliases['ko'] = array(
 	'AccountInfo' => array( '계정정보' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'AccountInfo' => array( 'Informatioun_vum_Benotzerkont' ),
+);
+
 /** Malagasy (Malagasy) */
 $specialPageAliases['mg'] = array(
 	'AccountInfo' => array( 'Itan-kaonty', 'Itankaonty', 'Torohain-kaonty', 'Torohainkaonty' ),
