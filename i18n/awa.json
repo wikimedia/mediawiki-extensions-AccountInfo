@@ -10,5 +10,7 @@
 	"accountinfo-ua": "सदस्य एजेन्ट",
 	"accountinfo-xff": "XFF हेडर",
 	"accountinfo-recentchanges": "नँवा बदलाव मा जानकारी",
+	"accountinfo-length-rc": "$1 खत्तीर जानकारी रखी गय",
+	"accountinfo-checkuser": "जाँच सदस्य मा जानकारी",
 	"accountinfo-now": "अबहीनै"
 }
