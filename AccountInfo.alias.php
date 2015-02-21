@@ -49,6 +49,11 @@ $specialPageAliases['fi'] = array(
 	'AccountInfo' => array( 'Tunnuksen_tiedot' ),
 );
 
+/** Gujarati (ગુજરાતી) */
+$specialPageAliases['gu'] = array(
+	'AccountInfo' => array( 'ખાતાંનીમાહિતી' ),
+);
+
 /** Hawaiian (Hawai`i) */
 $specialPageAliases['haw'] = array(
 	'AccountInfo' => array( 'ʻIkeMōʻaukaki', 'IkeMoaukaki' ),

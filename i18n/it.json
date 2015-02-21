@@ -2,18 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"FrancescaGermani"
+			"FrancescaGermani",
+			"FRacco"
 		]
 	},
 	"accountinfo": "Informazioni sull'utenza",
-	"accountinfo-desc": "Consente all'utente di vedere informazioni private memorizzate su di loro",
+	"accountinfo-desc": "Consente all'utente di vedere informazioni private memorizzate su di sé",
 	"accountinfo-ts": "Data e ora",
 	"accountinfo-ip": "Indirizzo IP",
 	"accountinfo-ua": "Agente utente",
 	"accountinfo-xff": "Intestazione XFF",
 	"accountinfo-recentchanges": "Informazioni dalle ultime modifiche",
 	"accountinfo-length-rc": "Le informazioni verranno mantenute per $1.",
-	"accountinfo-checkuser": "Informazioni dal Check User",
+	"accountinfo-checkuser": "Informazioni dal CheckUser",
 	"accountinfo-length-cu": "Le informazioni verranno mantenute per $1.",
 	"accountinfo-now": "Ora"
 }
