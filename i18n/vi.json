@@ -10,7 +10,7 @@
 	"accountinfo-desc": "Cho phép xem các thông tin cá nhân được lưu giữ về mình",
 	"accountinfo-ts": "Thời gian",
 	"accountinfo-ip": "Địa chỉ IP",
-	"accountinfo-ua": "Đại diện người dùng",
+	"accountinfo-ua": "Tác nhân người dùng",
 	"accountinfo-recentchanges": "Thông tin trong thay đổi gần đây",
 	"accountinfo-length-rc": "Thông tin được lưu trữ cho $1.",
 	"accountinfo-checkuser": "Thông tin cho kiểm định viên",
