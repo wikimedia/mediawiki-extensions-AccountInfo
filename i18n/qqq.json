@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"accountinfo": "{{doc-special|AccountInfo}}\n{{Identical|Account information}}",
-	"accountinfo-desc": "{{doc-singularthey}}\n{{desc|name=AccountInfo|url=http://www.mediawiki.org/wiki/Extension:AccountInfo}}",
+	"accountinfo-desc": "{{doc-singularthey}}\n{{desc|name=AccountInfo|url=https://www.mediawiki.org/wiki/Extension:AccountInfo}}",
 	"accountinfo-ts": "Header for table column.\n{{Identical|Timestamp}}",
 	"accountinfo-ip": "Header for table column.\n{{Identical|IP address}}",
 	"accountinfo-ua": "Header for table column.\n{{Identical|User agent}}",
