@@ -114,6 +114,11 @@ $specialPageAliases['pa'] = array(
 	'AccountInfo' => array( 'ਖਾਤੇ_ਬਾਰੇ_ਜਾਣਕਾਰੀ' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'AccountInfo' => array( 'Informações_da_conta' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'AccountInfo' => array( 'Konto_information' ),
