@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'AccountInfo' => array( 'معلومات_الحساب' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'AccountInfo' => array( 'هیساب_ئی_مالومات' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'AccountInfo' => array( 'Konteninformation' ),
