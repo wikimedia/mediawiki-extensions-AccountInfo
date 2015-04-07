@@ -54,6 +54,11 @@ $specialPageAliases['fi'] = array(
 	'AccountInfo' => array( 'Tunnuksen_tiedot' ),
 );
 
+/** Western Frisian (Frysk) */
+$specialPageAliases['fy'] = array(
+	'AccountInfo' => array( 'AccountYnformaasje' ),
+);
+
 /** Gujarati (ગુજરાતી) */
 $specialPageAliases['gu'] = array(
 	'AccountInfo' => array( 'ખાતાંનીમાહિતી' ),
