@@ -84,6 +84,11 @@ $specialPageAliases['it'] = array(
 	'AccountInfo' => array( 'InfoUtenza' ),
 );
 
+/** Georgian (ქართული) */
+$specialPageAliases['ka'] = array(
+	'AccountInfo' => array( 'ანგარიშის_ინფო' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'AccountInfo' => array( '계정정보' ),
