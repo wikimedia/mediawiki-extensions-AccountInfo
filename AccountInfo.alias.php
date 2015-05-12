@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'AccountInfo' => array( 'معلومات_الحساب' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'AccountInfo' => array( 'معلومات_الحساب' ),
 );
@@ -99,7 +99,7 @@ $specialPageAliases['lb'] = array(
 	'AccountInfo' => array( 'Informatioun_vum_Benotzerkont' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'AccountInfo' => array( 'دونسمنیا_حساو' ),
 );
