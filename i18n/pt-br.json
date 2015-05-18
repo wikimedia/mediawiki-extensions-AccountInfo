@@ -3,7 +3,8 @@
 		"authors": [
 			"Amgauna",
 			"Anaclaudiaml",
-			"Cainamarques"
+			"Cainamarques",
+			"Dianakc"
 		]
 	},
 	"accountinfo": "Informações da Conta",
@@ -14,6 +15,7 @@
 	"accountinfo-xff": "Cabeçalho XFF",
 	"accountinfo-recentchanges": "Informações em Modificações Recentes",
 	"accountinfo-length-rc": "A informação é armazenada por $1.",
+	"accountinfo-checkuser": "Informação no CheckUser",
 	"accountinfo-length-cu": "A informação é armazenada por $1.",
 	"accountinfo-now": "Agora"
 }
