@@ -4,5 +4,10 @@
 			"Amikeco"
 		]
 	},
-	"accountinfo-ts": "Датæ/рæстæг"
+	"accountinfo": "Аккаунты тыххæй",
+	"accountinfo-ts": "Датæ/рæстæг",
+	"accountinfo-ip": "IP-адрис",
+	"accountinfo-ua": "Браузер",
+	"accountinfo-xff": "XFF-сæргонд",
+	"accountinfo-now": "Ныртæккæ"
 }

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द"
+		]
+	},
+	"accountinfo": "खाता जानकारी हेर्ने",
+	"accountinfo-desc": "एउटा प्रयोगकर्तालाई आफ्नो व्यक्तिगत जानकारी रक्षण गर्न दिने",
+	"accountinfo-ts": "समयछाप",
+	"accountinfo-ip": "आइपी ठेगाना",
+	"accountinfo-ua": "प्रयोगकर्ता एजेन्ट",
+	"accountinfo-xff": "एक्सयफयफ हेडर",
+	"accountinfo-recentchanges": "नयाँ परिवर्तनहरूमा जानकारी",
+	"accountinfo-length-rc": "सूचना $1 को लागि खोलिरहेको छ।",
+	"accountinfo-checkuser": "प्रयोगकर्ताजाँचमा जानकारी",
+	"accountinfo-length-cu": "सूचना $1 को लागि खोलिरहेको छ।",
+	"accountinfo-now": "अहिले"
+}
