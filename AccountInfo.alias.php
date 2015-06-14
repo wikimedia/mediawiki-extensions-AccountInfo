@@ -99,7 +99,7 @@ $specialPageAliases['lb'] = array(
 	'AccountInfo' => array( 'Informatioun_vum_Benotzerkont' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'AccountInfo' => array( 'دوٙنسمأنیا_حئساڤ' ),
 );
