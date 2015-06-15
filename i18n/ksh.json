@@ -10,7 +10,7 @@
 	"accountinfo-ip": "De <i lang=\"en\">IP</i>-Adräß",
 	"accountinfo-ua": "Däm Metmaacher singe Brauser",
 	"accountinfo-xff": "<i lang=\"en\" xml:lang=\"en\">XFF</i>-Kopp",
-	"accountinfo-recentchanges": "Aanjaabe en de {{lcfirst:{{int:recentchanges}}}}",
+	"accountinfo-recentchanges": "Aanjahbe en de {{lcfirst:{{int:recentchanges}}}}",
 	"accountinfo-length-rc": "Daate wääde faßjahallde för $1.",
 	"accountinfo-checkuser": "Aanjahbe beim Metmaacher Prööve",
 	"accountinfo-length-cu": "Daate wääde faßjahallde för $1.",
