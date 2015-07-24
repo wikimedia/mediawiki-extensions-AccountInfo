@@ -1,15 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Palapa"
+			"Palapa",
+			"Srdjan m"
 		]
 	},
 	"accountinfo": "Informacije o računu",
+	"accountinfo-desc": "Dozvoljava korisniku da vidi privatne informacije o sebi",
 	"accountinfo-ts": "Vremenska oznaka",
 	"accountinfo-ip": "IP adresa",
 	"accountinfo-ua": "Korisnički agent",
 	"accountinfo-xff": "XFF zaglavlje",
+	"accountinfo-recentchanges": "Informacije u nedavnim izmjenama",
 	"accountinfo-length-rc": "Informacija je sačuvana za $1.",
+	"accountinfo-checkuser": "Informacije u CheckUseru",
 	"accountinfo-length-cu": "Informacija je sačuvana za $1.",
 	"accountinfo-now": "Sada"
 }

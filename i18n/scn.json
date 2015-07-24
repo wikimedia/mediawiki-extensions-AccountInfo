@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pippinu"
+		]
+	},
+	"accountinfo": "Nfurmazzioni supra ô cuntu",
+	"accountinfo-desc": "Fa’ a’ vìdiri a’ l’utenti li nfurmazzioni risirvati mimurizzati supra ô so cuntu",
+	"accountinfo-ts": "Data e ura",
+	"accountinfo-ip": "Nnirizzu IP",
+	"accountinfo-ua": "Aggenti di l’utenti",
+	"accountinfo-xff": "Ntistazzioni XFF",
+	"accountinfo-recentchanges": "Nfurmazzioni dî canciamenti ricenti",
+	"accountinfo-length-rc": "Li nfurmazzioni rèstunu sarvati pi’ $1.",
+	"accountinfo-checkuser": "Nfurmazzioni di CheckUser",
+	"accountinfo-length-cu": "Li nfurmazzioni rèstunu sarvati pi’ $1.",
+	"accountinfo-now": "Ora"
+}
