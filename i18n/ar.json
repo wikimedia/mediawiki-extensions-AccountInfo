@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kuwaity26"
+			"Kuwaity26",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
+	"accountinfo": "معلومات الحساب",
+	"accountinfo-desc": "يسمح للمستخدمين بعرض معلومات خاصة عنهم.",
+	"accountinfo-ts": "الطابع الزمني",
 	"accountinfo-ip": "عنوان الآيبي",
+	"accountinfo-ua": "وكيل المستخدم",
 	"accountinfo-now": "الآن"
 }
