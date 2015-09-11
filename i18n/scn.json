@@ -1,18 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pippinu"
+			"Pippinu",
+			"Sarvaturi"
 		]
 	},
 	"accountinfo": "Nfurmazzioni supra ô cuntu",
-	"accountinfo-desc": "Fa’ a’ vìdiri a’ l’utenti li nfurmazzioni risirvati mimurizzati supra ô so cuntu",
+	"accountinfo-desc": "Fa vìdiri a l'utenti li nfurmazzioni risirvati mimurizzati supra ô sò cuntu",
 	"accountinfo-ts": "Data e ura",
 	"accountinfo-ip": "Nnirizzu IP",
-	"accountinfo-ua": "Aggenti di l’utenti",
+	"accountinfo-ua": "Aggenti di l'utenti",
 	"accountinfo-xff": "Ntistazzioni XFF",
 	"accountinfo-recentchanges": "Nfurmazzioni dî canciamenti ricenti",
-	"accountinfo-length-rc": "Li nfurmazzioni rèstunu sarvati pi’ $1.",
+	"accountinfo-length-rc": "Li nfurmazzioni arrèstanu sarvati pi $1.",
 	"accountinfo-checkuser": "Nfurmazzioni di CheckUser",
-	"accountinfo-length-cu": "Li nfurmazzioni rèstunu sarvati pi’ $1.",
+	"accountinfo-length-cu": "Li nfurmazzioni arrèstanu sarvati pi $1.",
 	"accountinfo-now": "Ora"
 }
