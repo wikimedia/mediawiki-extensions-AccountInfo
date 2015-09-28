@@ -17,6 +17,7 @@ class SpecialAccountInfo extends SpecialPage {
 		if ( !$xff ) {
 			$xff = $this->msg( 'accountinfo-none' )->text();
 		}
+
 		return $xff;
 	}
 
@@ -56,12 +57,15 @@ class SpecialAccountInfo extends SpecialPage {
 			);
 			// Convert for table-fication...
 			$outRows = array();
-			foreach( $rows as $row ) {
+			foreach ( $rows as $row ) {
 				$outRows[] = array( $row->ip );
 			}
 			// Put current info on top.
 			$outRows = array_merge( array( 'mw-accountinfo-current' => array( $req->getIP() ) ), $outRows );
-			$out->addHTML( TableBuilder::buildTable( $outRows, array( $this->msg( 'accountinfo-ip' )->parse() ) ) );
+			$out->addHTML( TableBuilder::buildTable(
+				$outRows,
+				array( $this->msg( 'accountinfo-ip' )->parse() )
+			) );
 		}
 
 		// Now CheckUser...
@@ -79,7 +83,7 @@ class SpecialAccountInfo extends SpecialPage {
 				array( 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' )
 			);
 			$outRows = array();
-			foreach( $rows as $row ) {
+			foreach ( $rows as $row ) {
 				$outRows[] = array(
 					$this->getLanguage()->formatExpiry( $row->cuc_timestamp ),
 					$row->cuc_ip,
