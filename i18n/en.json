@@ -1,17 +1,17 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "accountinfo": "Account information",
-    "accountinfo-desc": "Allows a user to see stored private information about them",
-    "accountinfo-ts": "Timestamp",
-    "accountinfo-ip": "IP address",
-    "accountinfo-ua": "User agent",
-    "accountinfo-xff": "XFF header",
-    "accountinfo-none": "–",
-    "accountinfo-recentchanges": "Information in recent changes",
-    "accountinfo-length-rc": "Information is retained for $1.",
-    "accountinfo-checkuser": "Information in CheckUser",
-    "accountinfo-length-cu": "Information is retained for $1.",
-    "accountinfo-now": "Now"
+	"@metadata": {
+		"authors": []
+	},
+	"accountinfo": "Account information",
+	"accountinfo-desc": "Allows a user to see stored private information about them",
+	"accountinfo-ts": "Timestamp",
+	"accountinfo-ip": "IP address",
+	"accountinfo-ua": "User agent",
+	"accountinfo-xff": "XFF header",
+	"accountinfo-none": "–",
+	"accountinfo-recentchanges": "Information in recent changes",
+	"accountinfo-length-rc": "Information is retained for $1.",
+	"accountinfo-checkuser": "Information in CheckUser",
+	"accountinfo-length-cu": "Information is retained for $1.",
+	"accountinfo-now": "Now"
 }
