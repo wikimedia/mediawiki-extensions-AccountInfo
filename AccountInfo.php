@@ -27,7 +27,6 @@ $wgAutoloadClasses['TableBuilder'] = __DIR__ . '/includes/TableBuilder.php';
 
 $wgSpecialPages['AccountInfo'] = 'SpecialAccountInfo';
 $wgMessagesDirs['AccountInfo'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AccountInfo'] = __DIR__ . '/AccountInfo.i18n.php';
 $wgExtensionMessagesFiles['AccountInfoAlias'] = __DIR__ . '/AccountInfo.alias.php';
 $wgResourceModules['ext.AccountInfo.special'] = array(
 	'styles' => 'ext.AccountInfo.special.css',
