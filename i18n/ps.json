@@ -5,6 +5,7 @@
 		]
 	},
 	"accountinfo": "گڼون مالومات",
+	"accountinfo-desc": "يو کارن ته اجازه ورکوي چې د خپل ځان په اړه شخصي ساتل شوي مالومات وگوري",
 	"accountinfo-ts": "وخت ټاپه",
 	"accountinfo-ip": "IP پته",
 	"accountinfo-ua": "کارن پلاوی",
