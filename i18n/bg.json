@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"Vodnokon4e"
 		]
 	},
-	"accountinfo-ip": "IP адрес"
+	"accountinfo": "Информация за сметката",
+	"accountinfo-ip": "IP адрес",
+	"accountinfo-now": "Сега"
 }
