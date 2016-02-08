@@ -5,7 +5,6 @@
  * Lets users see private info stored about them
  *
  * @license GPL v2+
- * Also includes MIT licensed code
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
@@ -19,6 +18,7 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AccountInfo',
 	'descriptionmsg' => 'accountinfo-desc',
 	'version' => '0.2.0',
+	'license-name' => 'GPL-2.0+',
 );
 
 $wgAutoloadClasses['AccountInfo'] = __DIR__ . '/AccountInfo.body.php';
