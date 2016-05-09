@@ -11,14 +11,14 @@ class TableBuilder {
 	 * @param array $attribs
 	 * @return string
 	 */
-	public static function buildTable( $rows, $headers, $attribs = array() ) {
+	public static function buildTable( $rows, $headers, $attribs = [] ) {
 		$s = Xml::openElement( 'table', $attribs );
 
 		if ( is_array( $headers ) ) {
 			$s .= Xml::openElement( 'thead', $attribs );
 
 			foreach ( $headers as $class => $header ) {
-				$attribs = array();
+				$attribs = [];
 
 				if ( is_string( $class ) ) {
 					$attribs['class'] = $class;
@@ -30,7 +30,7 @@ class TableBuilder {
 		}
 
 		foreach ( $rows as $class => $row ) {
-			$attribs = array();
+			$attribs = [];
 
 			if ( is_string( $class ) ) {
 				$attribs['class'] = $class;
@@ -54,7 +54,7 @@ class TableBuilder {
 		$s = Xml::openElement( 'tr', $attribs );
 
 		foreach ( $cells as $class => $cell ) {
-			$attribs = array();
+			$attribs = [];
 
 			if ( is_string( $class ) ) {
 				$attribs['class'] = $class;

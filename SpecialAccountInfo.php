@@ -23,7 +23,7 @@ class SpecialAccountInfo extends SpecialPage {
 
 	public function formatTime( $ts ) {
 		return $this->getLanguage()->formatTimePeriod( $ts,
-			array( 'avoid' => 'avoidminutes', 'noabbrevs' => true )
+			[ 'avoid' => 'avoidminutes', 'noabbrevs' => true ]
 		);
 	}
 
@@ -52,19 +52,19 @@ class SpecialAccountInfo extends SpecialPage {
 			$rows = wfGetDB( DB_SLAVE )->select(
 				'recentchanges',
 				'DISTINCT(rc_ip) AS ip',
-				array( 'rc_user' => $user->getId() ),
+				[ 'rc_user' => $user->getId() ],
 				__METHOD__
 			);
 			// Convert for table-fication...
-			$outRows = array();
+			$outRows = [];
 			foreach ( $rows as $row ) {
-				$outRows[] = array( $row->ip );
+				$outRows[] = [ $row->ip ];
 			}
 			// Put current info on top.
-			$outRows = array_merge( array( 'mw-accountinfo-current' => array( $req->getIP() ) ), $outRows );
+			$outRows = array_merge( [ 'mw-accountinfo-current' => [ $req->getIP() ] ], $outRows );
 			$out->addHTML( TableBuilder::buildTable(
 				$outRows,
-				array( $this->msg( 'accountinfo-ip' )->parse() )
+				[ $this->msg( 'accountinfo-ip' )->parse() ]
 			) );
 		}
 
@@ -77,33 +77,33 @@ class SpecialAccountInfo extends SpecialPage {
 			);
 			$rows = wfGetDB( DB_SLAVE )->select(
 				'cu_changes',
-				array( 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ),
-				array( 'cuc_user' => $user->getId() ),
+				[ 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ],
+				[ 'cuc_user' => $user->getId() ],
 				__METHOD__,
-				array( 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' )
+				[ 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' ]
 			);
-			$outRows = array();
+			$outRows = [];
 			foreach ( $rows as $row ) {
-				$outRows[] = array(
+				$outRows[] = [
 					$this->getLanguage()->formatExpiry( $row->cuc_timestamp ),
 					$row->cuc_ip,
 					'mw-accountinfo-useragent' => htmlspecialchars( $row->cuc_agent ),
 					$this->formatXFF( $row->cuc_xff ),
-				);
+				];
 			}
 			// Put current info on top.
-			$outRows = array_merge( array( 'mw-accountinfo-current' => array(
+			$outRows = array_merge( [ 'mw-accountinfo-current' => [
 				$this->msg( 'accountinfo-now' )->parse(),
 				$req->getIP(),
 				'mw-accountinfo-useragent' => htmlspecialchars( AccountInfo::getUserAgent( $req ) ),
 				$this->formatXFF( AccountInfo::getXFF( $req ) ),
-			) ), $outRows );
-			$out->addHTML( TableBuilder::buildTable( $outRows, array(
+			] ], $outRows );
+			$out->addHTML( TableBuilder::buildTable( $outRows, [
 				$this->msg( 'accountinfo-ts' )->parse(),
 				$this->msg( 'accountinfo-ip' )->parse(),
 				$this->msg( 'accountinfo-ua' )->parse(),
 				$this->msg( 'accountinfo-xff' )->parse(),
-			) ) );
+			] ) );
 		}
 	}
 
