@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Misibacsi",
-			"Dorgan"
+			"Dorgan",
+			"Wolf Rex"
 		]
 	},
+	"accountinfo": "Fiókinformációk",
+	"accountinfo-ts": "Időbélyeg",
 	"accountinfo-ip": "IP-cím",
 	"accountinfo-ua": "Böngésző típusa",
 	"accountinfo-xff": "XFF-fejléc",
