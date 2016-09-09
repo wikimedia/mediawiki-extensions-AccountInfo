@@ -3,15 +3,19 @@
 		"authors": [
 			"Michawiki",
 			"Mirzali",
-			"Marmase"
+			"Marmase",
+			"Kumkumuk"
 		]
 	},
 	"accountinfo": "Melumatê hesabi",
+	"accountinfo-desc": "Karber heqa xo malumati weynayışi rê icazet dano",
 	"accountinfo-ts": "Mareyê demi",
 	"accountinfo-ip": "Adresa IPy",
 	"accountinfo-ua": "Temsilkarê karberi",
 	"accountinfo-xff": "XFF sername",
 	"accountinfo-recentchanges": "Malumata vurnayışan de peyênan",
+	"accountinfo-length-rc": "Malumat qandé $1'i nımnê no.",
 	"accountinfo-checkuser": "Malumata Kontroloğan",
+	"accountinfo-length-cu": "Malumat qandé $1'i nımnè no",
 	"accountinfo-now": "Nıka"
 }
