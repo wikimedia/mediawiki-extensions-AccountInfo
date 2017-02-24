@@ -4,7 +4,8 @@
 			"Michawiki",
 			"Mirzali",
 			"Marmase",
-			"Kumkumuk"
+			"Kumkumuk",
+			"Gırd"
 		]
 	},
 	"accountinfo": "Melumatê hesabi",
@@ -13,7 +14,7 @@
 	"accountinfo-ip": "Adresa IPy",
 	"accountinfo-ua": "Temsilkarê karberi",
 	"accountinfo-xff": "XFF sername",
-	"accountinfo-recentchanges": "Malumata vurnayışan de peyênan",
+	"accountinfo-recentchanges": "Melumatê vırnayışanê peyênan",
 	"accountinfo-length-rc": "Malumat qandé $1'i nımnê no.",
 	"accountinfo-checkuser": "Malumata Kontroloğan",
 	"accountinfo-length-cu": "Malumat qandé $1'i nımnè no",
