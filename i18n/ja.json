@@ -4,7 +4,8 @@
 			"Shirayuki",
 			"Takot",
 			"Plover-Y",
-			"Otokoume"
+			"Otokoume",
+			"W.CC"
 		]
 	},
 	"accountinfo": "アカウント情報",
@@ -15,7 +16,7 @@
 	"accountinfo-xff": "XFF ヘッダー",
 	"accountinfo-recentchanges": "最近の更新についての情報",
 	"accountinfo-length-rc": "$1 の情報が保持されています。",
-	"accountinfo-checkuser": "CheckUser (利用者調査者) についての情報",
+	"accountinfo-checkuser": "利用者調査者についての情報",
 	"accountinfo-length-cu": "$1 の情報が保持されています。",
 	"accountinfo-now": "たった今"
 }
