@@ -44,6 +44,11 @@ $specialPageAliases['el'] = array(
 	'AccountInfo' => array( 'ΠληροφορίεςΛογαριασμού' ),
 );
 
+/** Spanish (español) */
+$specialPageAliases['es'] = array(
+	'AccountInfo' => array( 'Información_de_la_cuenta', ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'AccountInfo' => array( 'اطلاعات_حساب' ),
