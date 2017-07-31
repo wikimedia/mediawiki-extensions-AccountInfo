@@ -3,10 +3,12 @@
 		"authors": [
 			"Toniher",
 			"Fitoschido",
-			"Jmarchn"
+			"Jmarchn",
+			"Ssola"
 		]
 	},
 	"accountinfo": "Informació del compte",
+	"accountinfo-desc": "Permet a l'usuari veure la seva informació personal emmagatzemada",
 	"accountinfo-ts": "Marca horària",
 	"accountinfo-ip": "Adreça IP",
 	"accountinfo-ua": "Agent d'usuari",
