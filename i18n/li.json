@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"accountinfo": "Gebroekergegaeves",
+	"accountinfo-desc": "Hiemit kan 'ne gebroeker opgeslage eige privaatgegaeves betrachte",
+	"accountinfo-ts": "Tied",
+	"accountinfo-ip": "IP-adres",
+	"accountinfo-ua": "Gebroekeragent",
+	"accountinfo-xff": "XFF-header",
+	"accountinfo-recentchanges": "Infermasie in recènte verangeringe",
+	"accountinfo-length-rc": "Infermasie weurt bewaardj veur $1.",
+	"accountinfo-checkuser": "Gegaeves in CheckUser",
+	"accountinfo-length-cu": "Gegaeves waere bewaardj veur $1.",
+	"accountinfo-now": "Noe"
+}
