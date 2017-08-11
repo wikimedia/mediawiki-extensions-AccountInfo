@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kirsan"
+			"Kirsan",
+			"Kaszeba"
 		]
 	},
-	"accountinfo-ts": "Czasowô sygnatura"
+	"accountinfo": "Wëdowiédzô ò kònce",
+	"accountinfo-desc": "Zezwôlô brëkòwnikòwi na przezéranié priwatny wëdowiédzë ò nim",
+	"accountinfo-ts": "Czasowô sygnatura",
+	"accountinfo-ip": "Adresa IP",
+	"accountinfo-ua": "Browser",
+	"accountinfo-xff": "Nagłówk XFF",
+	"accountinfo-recentchanges": "Wëdowiédzô ò slédnych zjinakach",
+	"accountinfo-length-rc": "Wëdowiédzô bãdze ùtrzëmónô dlô $1.",
+	"accountinfo-checkuser": "Wëdowiédzô w CheckUser",
+	"accountinfo-length-cu": "Wëdowiédzô bãdze ùtrzëmónô dlô $1.",
+	"accountinfo-now": "Terô"
 }
