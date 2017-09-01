@@ -49,7 +49,7 @@ class SpecialAccountInfo extends SpecialPage {
 				->parseAsBlock()
 			);
 			// Check the table...
-			$rows = wfGetDB( DB_SLAVE )->select(
+			$rows = wfGetDB( DB_REPLICA )->select(
 				'recentchanges',
 				'DISTINCT(rc_ip) AS ip',
 				[ 'rc_user' => $user->getId() ],
@@ -75,7 +75,7 @@ class SpecialAccountInfo extends SpecialPage {
 				->rawParams( $this->formatTime( $wgCUDMaxAge ) )
 				->parseAsBlock()
 			);
-			$rows = wfGetDB( DB_SLAVE )->select(
+			$rows = wfGetDB( DB_REPLICA )->select(
 				'cu_changes',
 				[ 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ],
 				[ 'cuc_user' => $user->getId() ],
