@@ -5,166 +5,165 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'AccountInfo' => array( 'AccountInfo' ),
-);
+$specialPageAliases['en'] = [
+	'AccountInfo' => [ 'AccountInfo' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'AccountInfo' => array( 'معلومات_الحساب' ),
-);
+$specialPageAliases['ar'] = [
+	'AccountInfo' => [ 'معلومات_الحساب' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'AccountInfo' => array( 'معلومات_الحساب' ),
-);
+$specialPageAliases['arz'] = [
+	'AccountInfo' => [ 'معلومات_الحساب' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'AccountInfo' => array( 'هیساب_ئی_مالومات' ),
-);
+$specialPageAliases['bgn'] = [
+	'AccountInfo' => [ 'هیساب_ئی_مالومات' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'AccountInfo' => array( 'Konteninformation' ),
-);
+$specialPageAliases['de'] = [
+	'AccountInfo' => [ 'Konteninformation' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'AccountInfo' => array( 'MelumatêHesabi' ),
-);
+$specialPageAliases['diq'] = [
+	'AccountInfo' => [ 'MelumatêHesabi' ],
+];
 
 /** Greek (Ελληνικά) */
-$specialPageAliases['el'] = array(
-	'AccountInfo' => array( 'ΠληροφορίεςΛογαριασμού' ),
-);
+$specialPageAliases['el'] = [
+	'AccountInfo' => [ 'ΠληροφορίεςΛογαριασμού' ],
+];
 
 /** Spanish (español) */
-$specialPageAliases['es'] = array(
-	'AccountInfo' => array( 'Información_de_la_cuenta', ),
-);
+$specialPageAliases['es'] = [
+	'AccountInfo' => [ 'Información_de_la_cuenta', ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'AccountInfo' => array( 'اطلاعات_حساب' ),
-);
+$specialPageAliases['fa'] = [
+	'AccountInfo' => [ 'اطلاعات_حساب' ],
+];
 
 /** Finnish (suomi) */
-$specialPageAliases['fi'] = array(
-	'AccountInfo' => array( 'Tunnuksen_tiedot' ),
-);
+$specialPageAliases['fi'] = [
+	'AccountInfo' => [ 'Tunnuksen_tiedot' ],
+];
 
 /** Western Frisian (Frysk) */
-$specialPageAliases['fy'] = array(
-	'AccountInfo' => array( 'AccountYnformaasje' ),
-);
+$specialPageAliases['fy'] = [
+	'AccountInfo' => [ 'AccountYnformaasje' ],
+];
 
 /** Gujarati (ગુજરાતી) */
-$specialPageAliases['gu'] = array(
-	'AccountInfo' => array( 'ખાતાંનીમાહિતી' ),
-);
+$specialPageAliases['gu'] = [
+	'AccountInfo' => [ 'ખાતાંનીમાહિતી' ],
+];
 
 /** Hawaiian (Hawai`i) */
-$specialPageAliases['haw'] = array(
-	'AccountInfo' => array( 'ʻIkeMōʻaukaki', 'IkeMoaukaki' ),
-);
+$specialPageAliases['haw'] = [
+	'AccountInfo' => [ 'ʻIkeMōʻaukaki', 'IkeMoaukaki' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'AccountInfo' => array( 'מידע_על_החשבון' ),
-);
+$specialPageAliases['he'] = [
+	'AccountInfo' => [ 'מידע_על_החשבון' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'AccountInfo' => array( 'Kontowe_informacije' ),
-);
+$specialPageAliases['hsb'] = [
+	'AccountInfo' => [ 'Kontowe_informacije' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'AccountInfo' => array( 'InfoUtenza' ),
-);
+$specialPageAliases['it'] = [
+	'AccountInfo' => [ 'InfoUtenza' ],
+];
 
 /** Georgian (ქართული) */
-$specialPageAliases['ka'] = array(
-	'AccountInfo' => array( 'ანგარიშის_ინფო' ),
-);
+$specialPageAliases['ka'] = [
+	'AccountInfo' => [ 'ანგარიშის_ინფო' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'AccountInfo' => array( '계정정보' ),
-);
+$specialPageAliases['ko'] = [
+	'AccountInfo' => [ '계정정보' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'AccountInfo' => array( 'Informatioun_vum_Benotzerkont' ),
-);
+$specialPageAliases['lb'] = [
+	'AccountInfo' => [ 'Informatioun_vum_Benotzerkont' ],
+];
 
 /** Northern Luri (لۊری شومالی) */
-$specialPageAliases['lrc'] = array(
-	'AccountInfo' => array( 'دوٙنسمأنیا_حئساڤ' ),
-);
+$specialPageAliases['lrc'] = [
+	'AccountInfo' => [ 'دوٙنسمأنیا_حئساڤ' ],
+];
 
 /** Malagasy (Malagasy) */
-$specialPageAliases['mg'] = array(
-	'AccountInfo' => array( 'Itan-kaonty', 'Itankaonty', 'Torohain-kaonty', 'Torohainkaonty' ),
-);
+$specialPageAliases['mg'] = [
+	'AccountInfo' => [ 'Itan-kaonty', 'Itankaonty', 'Torohain-kaonty', 'Torohainkaonty' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'AccountInfo' => array( 'ИнфоЗаСметката' ),
-);
+$specialPageAliases['mk'] = [
+	'AccountInfo' => [ 'ИнфоЗаСметката' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'AccountInfo' => array( 'അംഗത്വവിവരങ്ങൾ' ),
-);
+$specialPageAliases['ml'] = [
+	'AccountInfo' => [ 'അംഗത്വവിവരങ്ങൾ' ],
+];
 
 /** Malay (Bahasa Melayu) */
-$specialPageAliases['ms'] = array(
-	'AccountInfo' => array( 'Maklumat_akaun' ),
-);
+$specialPageAliases['ms'] = [
+	'AccountInfo' => [ 'Maklumat_akaun' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'AccountInfo' => array( 'AccountInformatie' ),
-);
+$specialPageAliases['nl'] = [
+	'AccountInfo' => [ 'AccountInformatie' ],
+];
 
 /** Punjabi (ਪੰਜਾਬੀ) */
-$specialPageAliases['pa'] = array(
-	'AccountInfo' => array( 'ਖਾਤੇ_ਬਾਰੇ_ਜਾਣਕਾਰੀ' ),
-);
+$specialPageAliases['pa'] = [
+	'AccountInfo' => [ 'ਖਾਤੇ_ਬਾਰੇ_ਜਾਣਕਾਰੀ' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'AccountInfo' => array( 'Informações_da_conta' ),
-);
+$specialPageAliases['pt-br'] = [
+	'AccountInfo' => [ 'Informações_da_conta' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'AccountInfo' => array( 'Konto_information' ),
-);
+$specialPageAliases['sv'] = [
+	'AccountInfo' => [ 'Konto_information' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'AccountInfo' => array( 'Thông_tin_tài_khoản' ),
-);
+$specialPageAliases['vi'] = [
+	'AccountInfo' => [ 'Thông_tin_tài_khoản' ],
+];
 
 /** Chinese (中文) */
-$specialPageAliases['zh'] = array(
-	'AccountInfo' => array( '账户信息', '帐号信息', '賬戶資訊', '帳號資訊' ),
-);
+$specialPageAliases['zh'] = [
+	'AccountInfo' => [ '账户信息', '帐号信息', '賬戶資訊', '帳號資訊' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'AccountInfo' => array( '账户信息' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'AccountInfo' => [ '账户信息' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'AccountInfo' => array( '帳號資訊' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'AccountInfo' => [ '帳號資訊' ],
+];
