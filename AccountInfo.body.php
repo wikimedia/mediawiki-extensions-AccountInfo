@@ -7,9 +7,7 @@ class AccountInfo {
 	 * @return bool
 	 */
 	public static function isCUInstalled() {
-		// Some other extension has a class named 'CheckUser'
-		// so we'll use a hopefully more unique name
-		return class_exists( 'CheckUserHooks' );
+		return ExtensionRegistry::getInstance()->isLoaded( 'CheckUser' );
 	}
 
 	/**
