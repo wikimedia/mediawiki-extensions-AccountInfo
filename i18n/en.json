@@ -9,7 +9,6 @@
 	"accountinfo-ua": "User agent",
 	"accountinfo-xff": "XFF header",
 	"accountinfo-none": "–",
-	"accountinfo-length-rc": "Information is retained for $1.",
-	"accountinfo-length-cu": "Information is retained for $1.",
+	"accountinfo-length": "Information is retained for $1.",
 	"accountinfo-now": "Now"
 }

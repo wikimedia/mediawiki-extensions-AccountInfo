@@ -32,11 +32,10 @@ class SpecialAccountInfo extends SpecialPage {
 	}
 
 	/**
-	 * Only public so it can be called via a closure
 	 * @param string $xff
 	 * @return String
 	 */
-	public function formatXFF( $xff ) {
+	private function formatXFF( $xff ) {
 		if ( !$xff ) {
 			$xff = $this->msg( 'accountinfo-none' )->text();
 		}
@@ -44,7 +43,7 @@ class SpecialAccountInfo extends SpecialPage {
 		return $xff;
 	}
 
-	public function formatTime( $ts ) {
+	private function formatTime( $ts ) {
 		return $this->getLanguage()->formatTimePeriod( $ts,
 			[ 'avoid' => 'avoidminutes', 'noabbrevs' => true ]
 		);
@@ -64,70 +63,36 @@ class SpecialAccountInfo extends SpecialPage {
 		$this->checkPermissions();
 		$out->addModuleStyles( 'ext.AccountInfo.special' );
 
-		// Check RecentChanges, only if CU is not installed...
-		if ( AccountInfo::areIPsInRC() && !AccountInfo::isCUInstalled() ) {
-			global $wgRCMaxAge;
-			$out->addHTML( $this->msg( 'accountinfo-length-rc' )
-				->rawParams( $this->formatTime( $wgRCMaxAge ) )
-				->parseAsBlock()
-			);
-			// Check the table...
-			$rows = wfGetDB( DB_REPLICA )->select(
-				'recentchanges',
-				'DISTINCT(rc_ip) AS ip',
-				[ 'rc_user' => $user->getId() ],
-				__METHOD__
-			);
-			// Convert for table-fication...
-			$outRows = [];
-			foreach ( $rows as $row ) {
-				$outRows[] = [ $row->ip ];
-			}
-			// Put current info on top.
-			$outRows = array_merge( [ 'mw-accountinfo-current' => [ $req->getIP() ] ], $outRows );
-			$out->addHTML( TableBuilder::buildTable(
-				$outRows,
-				[ $this->msg( 'accountinfo-ip' )->parse() ]
-			) );
-		}
+		$lookup = new InfoLookup();
+		$info = $lookup->getUserInfo( $user );
+		$out->addHTML( $this->msg( 'accountinfo-length' )
+			->rawParams( $this->formatTime( $info['length'] ) )
+			->parseAsBlock()
+		);
 
-		// Now CheckUser...
-		if ( AccountInfo::isCUInstalled() ) {
-			global $wgCUDMaxAge;
-			$out->addHTML( $this->msg( 'accountinfo-length-cu' )
-				->rawParams( $this->formatTime( $wgCUDMaxAge ) )
-				->parseAsBlock()
-			);
-			$rows = wfGetDB( DB_REPLICA )->select(
-				'cu_changes',
-				[ 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ],
-				[ 'cuc_user' => $user->getId() ],
-				__METHOD__,
-				[ 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' ]
-			);
-			$outRows = [];
-			foreach ( $rows as $row ) {
-				$outRows[] = [
-					$this->getLanguage()->formatExpiry( $row->cuc_timestamp ),
-					$row->cuc_ip,
-					'mw-accountinfo-useragent' => htmlspecialchars( $row->cuc_agent ),
-					$this->formatXFF( $row->cuc_xff ),
-				];
-			}
-			// Put current info on top.
-			$outRows = array_merge( [ 'mw-accountinfo-current' => [
-				$this->msg( 'accountinfo-now' )->parse(),
-				$req->getIP(),
-				'mw-accountinfo-useragent' => htmlspecialchars( AccountInfo::getUserAgent( $req ) ),
-				$this->formatXFF( AccountInfo::getXFF( $req ) ),
-			] ], $outRows );
-			$out->addHTML( TableBuilder::buildTable( $outRows, [
-				$this->msg( 'accountinfo-ts' )->parse(),
-				$this->msg( 'accountinfo-ip' )->parse(),
-				$this->msg( 'accountinfo-ua' )->parse(),
-				$this->msg( 'accountinfo-xff' )->parse(),
-			] ) );
+		$outRows = [];
+		foreach ( $info['rows'] as $row ) {
+			list( $ts, $ip, $ua, $xff ) = $row;
+			$outRows[] = [
+				$ts ? $this->getLanguage()->formatExpiry( $ts ) : '',
+				$ip ?: '',
+				'mw-accountinfo-useragent' => $ua ? htmlspecialchars( $ua ) : '',
+				$xff ? $this->formatXFF( $xff ) : '',
+			];
 		}
+		// Put current info on top.
+		$outRows = array_merge( [ 'mw-accountinfo-current' => [
+			$this->msg( 'accountinfo-now' )->parse(),
+			$req->getIP(),
+			'mw-accountinfo-useragent' => htmlspecialchars( $lookup->getUserAgent( $req ) ),
+			$this->formatXFF( $lookup->getXFF( $req ) ),
+		] ], $outRows );
+		$out->addHTML( TableBuilder::buildTable( $outRows, [
+			$this->msg( 'accountinfo-ts' )->parse(),
+			$this->msg( 'accountinfo-ip' )->parse(),
+			$this->msg( 'accountinfo-ua' )->parse(),
+			$this->msg( 'accountinfo-xff' )->parse(),
+		] ) );
 	}
 
 }

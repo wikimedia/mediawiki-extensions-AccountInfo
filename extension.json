@@ -22,7 +22,7 @@
 		"AccountInfoAlias": "AccountInfo.alias.php"
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\AccountInfo\\AccountInfo": "includes/AccountInfo.php",
+		"MediaWiki\\AccountInfo\\InfoLookup": "includes/InfoLookup.php",
 		"MediaWiki\\AccountInfo\\SpecialAccountInfo": "includes/SpecialAccountInfo.php",
 		"MediaWiki\\AccountInfo\\TableBuilder": "includes/TableBuilder.php"
 	},

@@ -22,15 +22,16 @@ namespace MediaWiki\AccountInfo;
 
 use CheckUserHooks;
 use ExtensionRegistry;
+use User;
 use WebRequest;
 
-class AccountInfo {
+class InfoLookup {
 
 	/**
 	 * Whether CheckUser extension is installed
 	 * @return bool
 	 */
-	public static function isCUInstalled() {
+	public function isCUInstalled() {
 		return ExtensionRegistry::getInstance()->isLoaded( 'CheckUser' );
 	}
 
@@ -38,13 +39,13 @@ class AccountInfo {
 	 * Whether IP's are stored in the RecentChanges table
 	 * @return bool
 	 */
-	public static function areIPsInRC() {
+	public function areIPsInRC() {
 		global $wgPutIPinRC;
 
 		return $wgPutIPinRC;
 	}
 
-	public static function getUserAgent( WebRequest $req ) {
+	public function getUserAgent( WebRequest $req ) {
 		return $req->getHeader( 'User-Agent' );
 	}
 
@@ -54,8 +55,8 @@ class AccountInfo {
 	 * @param WebRequest $req
 	 * @return string
 	 */
-	public static function getXFF( WebRequest $req ) {
-		if ( !self::isCUInstalled() ) {
+	public function getXFF( WebRequest $req ) {
+		if ( !$this->isCUInstalled() ) {
 			// Should not be called, but be safe.
 			return '';
 		}
@@ -64,5 +65,53 @@ class AccountInfo {
 		);
 
 		return ( $xff_ip && !$isSquidOnly ) ? $xff_ip : '';
+	}
+
+	public function getUserInfo( User $user ) {
+		global $wgRCMaxAge, $wgCUDMaxAge;
+		if ( $this->areIPsInRC() && !$this->isCUInstalled() ) {
+			// Check the table...
+			$rows = wfGetDB( DB_REPLICA )->select(
+				'recentchanges',
+				'DISTINCT(rc_ip) AS ip',
+				[ 'rc_user' => $user->getId() ],
+				__METHOD__
+			);
+			// Convert for table-fication...
+			$outRows = [];
+			foreach ( $rows as $row ) {
+				$outRows[] = [ null, $row->ip, null, null ];
+			}
+
+			return [
+				'rows' => $outRows,
+				'length' => $wgRCMaxAge,
+			];
+		}
+
+		// Now CheckUser...
+		if ( $this->isCUInstalled() ) {
+			$rows = wfGetDB( DB_REPLICA )->select(
+				'cu_changes',
+				[ 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ],
+				[ 'cuc_user' => $user->getId() ],
+				__METHOD__,
+				[ 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' ]
+			);
+			$outRows = [];
+			foreach ( $rows as $row ) {
+				$outRows[] = [
+					$row->cuc_timestamp,
+					$row->cuc_ip,
+					$row->cuc_agent,
+					$row->cuc_xff,
+				];
+			}
+
+			return [
+				'rows' => $outRows,
+				'length' => $wgCUDMaxAge,
+			];
+		}
 	}
 }
