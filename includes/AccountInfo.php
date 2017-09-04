@@ -18,6 +18,12 @@
  * @file
  */
 
+namespace MediaWiki\AccountInfo;
+
+use CheckUserHooks;
+use ExtensionRegistry;
+use WebRequest;
+
 class AccountInfo {
 
 	/**
@@ -34,6 +40,7 @@ class AccountInfo {
 	 */
 	public static function areIPsInRC() {
 		global $wgPutIPinRC;
+
 		return $wgPutIPinRC;
 	}
 

@@ -18,6 +18,11 @@
  * @file
  */
 
+namespace MediaWiki\AccountInfo;
+
+use Html;
+use Xml;
+
 /**
  * Fork of Xml::buildTable to use classes instead of ids.
  */

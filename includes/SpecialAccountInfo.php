@@ -18,6 +18,11 @@
  * @file
  */
 
+namespace MediaWiki\AccountInfo;
+
+use SpecialPage;
+use UserNotLoggedIn;
+
 /**
  * @todo figure out if this special page should require a token
  */

@@ -11,7 +11,7 @@
 	"license-name": "GPL-2.0+",
 	"type": "other",
 	"SpecialPages": {
-		"AccountInfo": "SpecialAccountInfo"
+		"AccountInfo": "MediaWiki\\AccountInfo\\SpecialAccountInfo"
 	},
 	"MessagesDirs": {
 		"AccountInfo": [
@@ -22,9 +22,9 @@
 		"AccountInfoAlias": "AccountInfo.alias.php"
 	},
 	"AutoloadClasses": {
-		"AccountInfo": "AccountInfo.body.php",
-		"SpecialAccountInfo": "SpecialAccountInfo.php",
-		"TableBuilder": "includes/TableBuilder.php"
+		"MediaWiki\\AccountInfo\\AccountInfo": "includes/AccountInfo.php",
+		"MediaWiki\\AccountInfo\\SpecialAccountInfo": "includes/SpecialAccountInfo.php",
+		"MediaWiki\\AccountInfo\\TableBuilder": "includes/TableBuilder.php"
 	},
 	"ResourceModules": {
 		"ext.AccountInfo.special": {
