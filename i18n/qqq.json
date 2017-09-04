@@ -12,9 +12,7 @@
 	"accountinfo-ua": "Header for table column.\n{{Identical|User agent}}",
 	"accountinfo-xff": "Header for table column",
 	"accountinfo-none": "Text in table row when no information is available",
-	"accountinfo-recentchanges": "Section header",
 	"accountinfo-length-rc": "Text explaining how long information is retained in the recentchanges table.\n\nParameters:\n* $1 - the formatted time length\nSee also:\n* {{msg-mw|Accountinfo-length-cu}}",
-	"accountinfo-checkuser": "Section header",
 	"accountinfo-length-cu": "Text explaining how long information is retained in the CheckUser table.\n\nParameters:\n* $1 - the formatted time length.\nSee also:\n* {{msg-mw|Accountinfo-length-rc}}",
 	"accountinfo-now": "Text shown in \"Timestamp\" column to represent current information.\n{{Identical|Now}}"
 }
