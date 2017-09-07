@@ -8,5 +8,6 @@
 	"accountinfo-desc": "Дазваляе ўдзельніку праглядзець захаваныя асабістыя зьвесткі пра яго",
 	"accountinfo-ts": "Дата і час",
 	"accountinfo-ip": "IP-адрас",
-	"accountinfo-ua": "Браўзэр"
+	"accountinfo-ua": "Браўзэр",
+	"accountinfo-xff": "XFF-загаловак"
 }
