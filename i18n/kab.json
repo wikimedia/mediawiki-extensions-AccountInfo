@@ -10,9 +10,6 @@
 	"accountinfo-ip": "Tansa IP",
 	"accountinfo-ua": "Imeggi aseqdac",
 	"accountinfo-xff": "Aqeṛṛu XFF",
-	"accountinfo-recentchanges": "Talɣut ɣef usnifel aneggaru",
-	"accountinfo-length-rc": "Talɣut ad tetwaḥrez i $1.",
-	"accountinfo-checkuser": "Talɣut di CheckUser",
-	"accountinfo-length-cu": "Talqut ad tettwaḥrez i $1",
+	"accountinfo-length": "Talɣut ad tettwaḥrez i $1.",
 	"accountinfo-now": "Tura"
 }

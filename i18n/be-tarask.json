@@ -9,5 +9,7 @@
 	"accountinfo-ts": "Дата і час",
 	"accountinfo-ip": "IP-адрас",
 	"accountinfo-ua": "Браўзэр",
-	"accountinfo-xff": "XFF-загаловак"
+	"accountinfo-xff": "XFF-загаловак",
+	"accountinfo-length": "Зьвесткі ўтрымліваюцца $1.",
+	"accountinfo-now": "Цяпер"
 }
