@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"Piramidion"
 		]
 	},
 	"accountinfo": "Відомості облікового запису",
@@ -10,9 +11,6 @@
 	"accountinfo-ip": "IP-адреса",
 	"accountinfo-ua": "Клієнтська програма",
 	"accountinfo-xff": "XFF заголовок",
-	"accountinfo-recentchanges": "Інформація у свіжих змінах",
-	"accountinfo-length-rc": "Інформація зберігається на $1.",
-	"accountinfo-checkuser": "Інформація в CheckUser",
-	"accountinfo-length-cu": "Інформація зберігається на $1.",
+	"accountinfo-length": "Інформація зберігається протягом $1.",
 	"accountinfo-now": "Зараз"
 }
