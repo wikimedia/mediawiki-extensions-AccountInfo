@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aursani"
+			"Aursani",
+			"Mehtab ahmed"
 		]
 	},
 	"accountinfo": "کاتي جي معلومات",
 	"accountinfo-ts": "اوقاتي مهر",
 	"accountinfo-ip": "آءِ پِي پتو",
-	"accountinfo-ua": "يُوزر ايجنٽ",
-	"accountinfo-recentchanges": "تازين تبديلين ۾ موجود معلومات",
+	"accountinfo-ua": "واھپ ايجنٽ",
 	"accountinfo-now": "هاڻي"
 }
