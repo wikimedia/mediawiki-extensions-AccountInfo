@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Aursani",
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Indus Asia"
 		]
 	},
 	"accountinfo": "کاتي جي معلومات",
 	"accountinfo-ts": "اوقاتي مهر",
 	"accountinfo-ip": "آءِ پِي پتو",
-	"accountinfo-ua": "واھپ ايجنٽ",
+	"accountinfo-ua": "واھپ (يوزر) ايجنٽ",
 	"accountinfo-now": "هاڻي"
 }
