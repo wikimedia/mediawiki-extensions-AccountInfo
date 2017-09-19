@@ -10,9 +10,6 @@
 	"accountinfo-ip": "Direición IP",
 	"accountinfo-ua": "Axente d'usuariu",
 	"accountinfo-xff": "Testera XFF",
-	"accountinfo-recentchanges": "Información en RecentChanges",
-	"accountinfo-length-rc": "La información guárdase demientres $1.",
-	"accountinfo-checkuser": "Información en CheckUser",
-	"accountinfo-length-cu": "La información guárdase demientres $1.",
+	"accountinfo-length": "La información ta retenida demientres $1.",
 	"accountinfo-now": "Agora"
 }
