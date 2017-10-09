@@ -5,7 +5,8 @@
 			"JurgenNL",
 			"Niknetniko",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
 	"accountinfo": "Accountgegevens",
@@ -14,9 +15,6 @@
 	"accountinfo-ip": "IP-adres",
 	"accountinfo-ua": "Useragent",
 	"accountinfo-xff": "XFF-header",
-	"accountinfo-recentchanges": "Informatie in recente wijzigingen",
-	"accountinfo-length-rc": "Informatie wordt bewaard voor  $1.",
-	"accountinfo-checkuser": "Gegevens in CheckUser",
-	"accountinfo-length-cu": "Gegevens worden bewaard voor $1.",
+	"accountinfo-length": "Informatie wordt bewaard voor $1.",
 	"accountinfo-now": "Nu"
 }
