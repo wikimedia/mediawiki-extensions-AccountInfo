@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP地址",
 	"accountinfo-ua": "用户代理",
 	"accountinfo-xff": "XFF标头",
-	"accountinfo-recentchanges": "最近更改中的信息",
-	"accountinfo-length-rc": "信息已保存$1。",
-	"accountinfo-checkuser": "用户查核中的信息",
-	"accountinfo-length-cu": "信息已保存$1。",
+	"accountinfo-length": "信息已保留$1。",
 	"accountinfo-now": "现在"
 }
