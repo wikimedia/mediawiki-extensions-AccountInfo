@@ -1,8 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ans"
+			"Ans",
+			"Aefgh39622"
 		]
 	},
-	"accountinfo-ts": "วัน-เวลา"
+	"accountinfo": "ข้อมูลบัญชี",
+	"accountinfo-ts": "วัน-เวลา",
+	"accountinfo-ip": "ที่อยู่ไอพี",
+	"accountinfo-ua": "ตัวแทนผู้ใช้",
+	"accountinfo-xff": "หัวเรื่อง XFF",
+	"accountinfo-length": "ข้อมูลถูกเก็บไว้สำหรับ $1",
+	"accountinfo-now": "ขณะนี้"
 }
