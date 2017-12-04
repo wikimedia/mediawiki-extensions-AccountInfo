@@ -10,9 +10,6 @@
 	"accountinfo-ip": "Endereço IP",
 	"accountinfo-ua": "User-Agent",
 	"accountinfo-xff": "XFF header",
-	"accountinfo-recentchanges": "Informação nas Mudanças Recentes",
-	"accountinfo-length-rc": "A informação é armazenada durante $1.",
-	"accountinfo-checkuser": "Informação na Verificação de Utilizadores (CheckUser)",
-	"accountinfo-length-cu": "A informação é armazenada durante $1.",
+	"accountinfo-length": "A informação é armazenada durante $1.",
 	"accountinfo-now": "Agora"
 }

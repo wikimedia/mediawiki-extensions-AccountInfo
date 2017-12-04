@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP-Adress",
 	"accountinfo-ua": "Browser",
 	"accountinfo-xff": "XFF-Header",
-	"accountinfo-recentchanges": "Informatiounen an de \"Rezenten Ännerungen\"",
-	"accountinfo-length-rc": "D'Informatioune gi während $1 versuergt.",
-	"accountinfo-checkuser": "Informatiounen am CheckUser",
-	"accountinfo-length-cu": "D'Informatioune gi während $1 versuergt.",
+	"accountinfo-length": "D'Informatioune gi während $1 versuergt.",
 	"accountinfo-now": "Elo"
 }

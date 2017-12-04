@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP-адрес",
 	"accountinfo-ua": "Браузер",
 	"accountinfo-xff": "XFF-заголовок",
-	"accountinfo-recentchanges": "Информация в Свежих правках",
-	"accountinfo-length-rc": "Информация хранится за $1.",
-	"accountinfo-checkuser": "Информация в CheckUser",
-	"accountinfo-length-cu": "Информация хранится за $1.",
+	"accountinfo-length": "Информация хранится за $1.",
 	"accountinfo-now": "Только что"
 }

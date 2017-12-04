@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP-adresa",
 	"accountinfo-ua": "Identifikator wobglědowaka",
 	"accountinfo-xff": "XFF-głowa",
-	"accountinfo-recentchanges": "Informacije wó \"Aktualnych změnach\"",
-	"accountinfo-length-rc": "Informacije maju se za $1 pśigótowane.",
-	"accountinfo-checkuser": "Informacije wó \"CheckUser\"",
-	"accountinfo-length-cu": "Informacije maju se za $1 pśigótowane.",
+	"accountinfo-length": "Informacije maju se za $1 pśigótowane.",
 	"accountinfo-now": "Něnto"
 }

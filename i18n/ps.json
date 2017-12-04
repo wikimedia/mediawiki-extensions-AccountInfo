@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP پته",
 	"accountinfo-ua": "کارن پلاوی",
 	"accountinfo-xff": "XFF سرليک",
-	"accountinfo-recentchanges": "مالومات په وروستي بدلونونو کې",
-	"accountinfo-length-rc": "مالومات تر $1 پورې ساتل شوي.",
-	"accountinfo-checkuser": "په کارنڅارونکی کې مالومات",
-	"accountinfo-length-cu": "مالومات تر $1 پورې ساتل شوي.",
+	"accountinfo-length": "مالومات تر $1 پورې ساتل شوي.",
 	"accountinfo-now": "اوس"
 }

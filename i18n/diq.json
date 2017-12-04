@@ -14,9 +14,6 @@
 	"accountinfo-ip": "Adresa IPy",
 	"accountinfo-ua": "Temsilkarê karberi",
 	"accountinfo-xff": "XFF sername",
-	"accountinfo-recentchanges": "Melumatê vırnayışanê peyênan",
-	"accountinfo-length-rc": "Malumat qandé $1'i nımnê no.",
-	"accountinfo-checkuser": "Malumata Kontroloğan",
-	"accountinfo-length-cu": "Malumat qandé $1'i nımnè no",
+	"accountinfo-length": "Malumat qandé $1'i nımnê no.",
 	"accountinfo-now": "Nıka"
 }

@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP-адрес",
 	"accountinfo-ua": "Браузер",
 	"accountinfo-xff": "XFF-башлыкъ",
-	"accountinfo-recentchanges": "Информация Ахыр тюрлениуледеди",
-	"accountinfo-length-rc": "Информация, $1 чакълы бир сакъланады.",
-	"accountinfo-checkuser": "Информация CheckUser'де",
-	"accountinfo-length-cu": "Информация, $1 чакълы бир сакъланады.",
+	"accountinfo-length": "Информация, $1 чакълы бир сакъланады.",
 	"accountinfo-now": "Бусагъатда"
 }

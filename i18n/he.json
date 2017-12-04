@@ -11,9 +11,6 @@
 	"accountinfo-ip": "כתובת IP",
 	"accountinfo-ua": "זיהוי דפדפן",
 	"accountinfo-xff": "כותרת XFF",
-	"accountinfo-recentchanges": "מידע בשינויים האחרונים",
-	"accountinfo-length-rc": "המידע נשמר ל־$1.",
-	"accountinfo-checkuser": "מידע ב־CheckUser",
-	"accountinfo-length-cu": "המידע נשמר ל־$1.",
+	"accountinfo-length": "המידע נשמר ל־$1.",
 	"accountinfo-now": "עכשיו"
 }

@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP adresa",
 	"accountinfo-ua": "Korisnički agent",
 	"accountinfo-xff": "XFF zaglavlje",
-	"accountinfo-recentchanges": "Informacije u nedavnim izmjenama",
-	"accountinfo-length-rc": "Informacija je sačuvana za $1.",
-	"accountinfo-checkuser": "Informacije u CheckUseru",
-	"accountinfo-length-cu": "Informacija je sačuvana za $1.",
+	"accountinfo-length": "Informacija je sačuvana za $1.",
 	"accountinfo-now": "Sada"
 }

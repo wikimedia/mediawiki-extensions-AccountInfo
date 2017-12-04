@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP 주소",
 	"accountinfo-ua": "유저 에이전트",
 	"accountinfo-xff": "XFF 헤더",
-	"accountinfo-recentchanges": "최근 바뀜에서 정보",
-	"accountinfo-length-rc": "정보는 $1에 그대로 유지됩니다.",
-	"accountinfo-checkuser": "사용자검사관에서 정보",
-	"accountinfo-length-cu": "정보는 $1에 그대로 유지됩니다.",
+	"accountinfo-length": "정보는 $1에 그대로 유지됩니다.",
 	"accountinfo-now": "지금"
 }

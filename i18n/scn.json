@@ -11,9 +11,6 @@
 	"accountinfo-ip": "Nnirizzu IP",
 	"accountinfo-ua": "Aggenti di l'utenti",
 	"accountinfo-xff": "Ntistazzioni XFF",
-	"accountinfo-recentchanges": "Nfurmazzioni dî canciamenti ricenti",
-	"accountinfo-length-rc": "Li nfurmazzioni arrèstanu sarvati pi $1.",
-	"accountinfo-checkuser": "Nfurmazzioni di CheckUser",
-	"accountinfo-length-cu": "Li nfurmazzioni arrèstanu sarvati pi $1.",
+	"accountinfo-length": "Li nfurmazzioni arrèstanu sarvati pi $1.",
 	"accountinfo-now": "Ora"
 }

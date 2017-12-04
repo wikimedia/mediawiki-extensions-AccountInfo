@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP Adresas",
 	"accountinfo-ua": "Vartotojo veiksnys",
 	"accountinfo-xff": "XFF antraštė",
-	"accountinfo-recentchanges": "Informacija naujausiuose pakeitimuose",
-	"accountinfo-length-rc": "Informacija saugoma $1.",
-	"accountinfo-checkuser": "Informacija CheckUser",
-	"accountinfo-length-cu": "Informacija saugoma $1.",
+	"accountinfo-length": "Informacija saugoma $1.",
 	"accountinfo-now": "Dabar"
 }

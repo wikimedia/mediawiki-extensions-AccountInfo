@@ -9,9 +9,6 @@
 	"accountinfo-ip": "IP-адрес",
 	"accountinfo-ua": "Браузер",
 	"accountinfo-xff": "XFF-корта",
-	"accountinfo-recentchanges": "Керла нисдарех лаьцна хаамаш",
-	"accountinfo-length-rc": "Хаамаш латта бо $1.",
-	"accountinfo-checkuser": "CheckUser чохь хаам",
-	"accountinfo-length-cu": "Хаамаш латта бо $1.",
+	"accountinfo-length": "Хаамаш латта бо $1.",
 	"accountinfo-now": "ХӀинца"
 }

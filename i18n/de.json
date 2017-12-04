@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP-Adresse",
 	"accountinfo-ua": "Browser",
 	"accountinfo-xff": "XFF-Header",
-	"accountinfo-recentchanges": "Informationen über „Letzte Änderungen“",
-	"accountinfo-length-rc": "Die Informationen werden bereitgestellt für $1.",
-	"accountinfo-checkuser": "Informationen über „CheckUser“",
-	"accountinfo-length-cu": "Die Informationen werden bereitgestellt für $1.",
+	"accountinfo-length": "Die Informationen werden bereitgestellt für $1.",
 	"accountinfo-now": "Jetzt"
 }

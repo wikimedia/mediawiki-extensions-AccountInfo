@@ -10,9 +10,6 @@
 	"accountinfo-ip": "آدرس آی‌پی",
 	"accountinfo-ua": "عامل کاربر",
 	"accountinfo-xff": "سرفصل ایکس‌اف‌اف",
-	"accountinfo-recentchanges": "اطلاعات در تغییرات اخیر",
-	"accountinfo-length-rc": "اطلاعات برای $1 حفظ شده‌‌است.",
-	"accountinfo-checkuser": "اطلاعات در بررسی کاربر",
-	"accountinfo-length-cu": "اطلاعات برای $1 حفظ شده‌‌است.",
+	"accountinfo-length": "اطلاعات برای $1 حفظ شده‌‌است.",
 	"accountinfo-now": "اکنون"
 }

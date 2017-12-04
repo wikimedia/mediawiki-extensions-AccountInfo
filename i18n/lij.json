@@ -10,9 +10,6 @@
 	"accountinfo-ip": "Adresso IP",
 	"accountinfo-ua": "Agente utente:",
 	"accountinfo-xff": "Intestaçion XFF",
-	"accountinfo-recentchanges": "Informaçioin da-i urtimi cangiamenti",
-	"accountinfo-length-rc": "E informaçioin saian mantegnue pe $1.",
-	"accountinfo-checkuser": "Informaçioin da-o CheckUser",
-	"accountinfo-length-cu": "E informaçioin saian mantegnue pe $1.",
+	"accountinfo-length": "E informaçioin saian mantegnue pe $1.",
 	"accountinfo-now": "Oua"
 }

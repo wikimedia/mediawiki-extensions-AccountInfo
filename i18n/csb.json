@@ -11,9 +11,6 @@
 	"accountinfo-ip": "Adresa IP",
 	"accountinfo-ua": "Browser",
 	"accountinfo-xff": "Nagłówk XFF",
-	"accountinfo-recentchanges": "Wëdowiédzô ò slédnych zjinakach",
-	"accountinfo-length-rc": "Wëdowiédzô bãdze ùtrzëmónô dlô $1.",
-	"accountinfo-checkuser": "Wëdowiédzô w CheckUser",
-	"accountinfo-length-cu": "Wëdowiédzô bãdze ùtrzëmónô dlô $1.",
+	"accountinfo-length": "Wëdowiédzô bãdze ùtrzëmónô dlô $1.",
 	"accountinfo-now": "Terô"
 }

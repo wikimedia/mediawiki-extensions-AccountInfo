@@ -11,9 +11,6 @@
 	"accountinfo-ip": "Alamat IP",
 	"accountinfo-ua": "Aplikasi pengguna",
 	"accountinfo-xff": "Judul XFF",
-	"accountinfo-recentchanges": "Informasi dalam perubahan terbaru",
-	"accountinfo-length-rc": "Informasi dipertahankan untuk $1.",
-	"accountinfo-checkuser": "Informasi dalam CheckUser",
-	"accountinfo-length-cu": "Informasi dipertahankan untuk $1.",
+	"accountinfo-length": "Informasi dipertahankan untuk $1.",
 	"accountinfo-now": "Sekarang"
 }

@@ -9,8 +9,5 @@
 	"accountinfo-ts": "Χρονική σήμανση",
 	"accountinfo-ip": "Διεύθυνση IP",
 	"accountinfo-xff": "Επικεφαλίδα XFF",
-	"accountinfo-recentchanges": "Πληροφορίες στις πρόσφατες αλλαγές",
-	"accountinfo-checkuser": "Πληροφορίες στο CheckUser",
-	"accountinfo-length-cu": "Οι πληροφορίες διατηρούνται για $1.",
 	"accountinfo-now": "Τώρα"
 }

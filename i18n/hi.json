@@ -11,9 +11,6 @@
 	"accountinfo-ip": "आइपी पता",
 	"accountinfo-ua": "सदस्य एजेंट",
 	"accountinfo-xff": "XFF हेडर",
-	"accountinfo-recentchanges": "हाल में हुए बदलाव में सूचना",
-	"accountinfo-length-rc": "$1 के लिए सूचना बरकरार है।",
-	"accountinfo-checkuser": "चेकयूजर में सूचना",
-	"accountinfo-length-cu": "$1 के लिए सूचना बरकरार है।",
+	"accountinfo-length": "$1 के लिए सूचना बरकरार है।",
 	"accountinfo-now": "अभी"
 }

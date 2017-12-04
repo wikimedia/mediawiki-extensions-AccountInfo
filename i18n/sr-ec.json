@@ -9,8 +9,6 @@
 	"accountinfo-ip": "ИП адреса",
 	"accountinfo-ua": "Кориснички агент",
 	"accountinfo-xff": "XFF заглавље",
-	"accountinfo-recentchanges": "Информације у скорашњим изменама",
-	"accountinfo-length-rc": "Информација је сачувана за $1.",
-	"accountinfo-length-cu": "Информација је сачувана за $1.",
+	"accountinfo-length": "Информација је сачувана за $1.",
 	"accountinfo-now": "Сада"
 }

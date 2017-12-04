@@ -10,9 +10,6 @@
 	"accountinfo-ip": "Chomlec'h IP",
 	"accountinfo-ua": "Gwazour implijer",
 	"accountinfo-xff": "Talbenn XFF",
-	"accountinfo-recentchanges": "Titouroù diwar-benn ar c'hemmoù graet nevez zo",
-	"accountinfo-length-rc": "Miret eo an titouroù evit $1.",
-	"accountinfo-checkuser": "Titouroù e-barzh CheckUser",
-	"accountinfo-length-cu": "Miret eo an titouroù evit $1.",
+	"accountinfo-length": "Miret eo an titouroù evit $1.",
 	"accountinfo-now": "Bremañ"
 }

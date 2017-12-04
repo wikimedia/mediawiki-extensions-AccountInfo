@@ -10,9 +10,6 @@
 	"accountinfo-ip": "Adreça IP",
 	"accountinfo-ua": "Agent utilizaire",
 	"accountinfo-xff": "Entèsta XFF",
-	"accountinfo-recentchanges": "Informacion dins los darrièrs cambiaments",
-	"accountinfo-length-rc": "L’informacion es conservada per $1.",
-	"accountinfo-checkuser": "Informacion dins CheckUser",
-	"accountinfo-length-cu": "L’informacion es conservada per $1.",
+	"accountinfo-length": "L’informacion es conservada per $1.",
 	"accountinfo-now": "Ara"
 }

@@ -11,9 +11,6 @@
 	"accountinfo-ts": "Thời gian",
 	"accountinfo-ip": "Địa chỉ IP",
 	"accountinfo-ua": "Tác nhân người dùng",
-	"accountinfo-recentchanges": "Thông tin trong thay đổi gần đây",
-	"accountinfo-length-rc": "Thông tin được lưu trữ cho $1.",
-	"accountinfo-checkuser": "Thông tin cho kiểm định viên",
-	"accountinfo-length-cu": "Thông tin được lưu giữ cho $1.",
+	"accountinfo-length": "Thông tin được lưu trữ cho $1.",
 	"accountinfo-now": "Bây giờ"
 }

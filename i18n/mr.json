@@ -10,9 +10,6 @@
 	"accountinfo-ip": "अंकपत्ता",
 	"accountinfo-ua": "सदस्य प्रतिनीधी",
 	"accountinfo-xff": "XFF हेडर",
-	"accountinfo-recentchanges": "अलीकडील बदलातली माहिती",
-	"accountinfo-length-rc": "$1 साठी माहिती राखून ठेवली आहे.",
-	"accountinfo-checkuser": "चेकयूजर मधील माहिती",
-	"accountinfo-length-cu": "$1 साठी माहिती राखून ठेवली आहे.",
+	"accountinfo-length": "$1 साठी माहिती राखून ठेवली आहे.",
 	"accountinfo-now": "आत्ता"
 }

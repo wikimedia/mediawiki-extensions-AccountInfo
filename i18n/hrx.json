@@ -9,9 +9,6 @@
 	"accountinfo-ip": "IP-Adress",
 	"accountinfo-ua": "Browser",
 	"accountinfo-xff": "XFF-Header",
-	"accountinfo-recentchanges": "Informatione üwer \"Letzte Ännrunge\"",
-	"accountinfo-length-rc": "Die Informatione werre bereitgestellt für $1.",
-	"accountinfo-checkuser": "Informatione üwer \"CheckUser\"",
-	"accountinfo-length-cu": "Die Informatione were fertichgestellt für $1.",
+	"accountinfo-length": "Die Informatione werre bereitgestellt für $1.",
 	"accountinfo-now": "Jetzt"
 }

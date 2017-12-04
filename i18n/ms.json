@@ -10,9 +10,6 @@
 	"accountinfo-ip": "Alamat IP",
 	"accountinfo-ua": "User agent",
 	"accountinfo-xff": "Tajuk XFF",
-	"accountinfo-recentchanges": "Maklumat dalam perubahan terkini",
-	"accountinfo-length-rc": "Maklumat telah dikekalkan untuk $1.",
-	"accountinfo-checkuser": "Maklumat dalam CheckUser",
-	"accountinfo-length-cu": "Maklumat telah dikekalkan untuk $1.",
+	"accountinfo-length": "Maklumat telah dikekalkan untuk $1.",
 	"accountinfo-now": "Sekarang"
 }

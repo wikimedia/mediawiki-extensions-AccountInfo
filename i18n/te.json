@@ -10,8 +10,6 @@
 	"accountinfo-ip": "ఐపీ చిరునామా",
 	"accountinfo-ua": "వాడుకరి ఏజెంటు",
 	"accountinfo-xff": "XFF శీర్షిక",
-	"accountinfo-recentchanges": "ఇటీవలి మార్పుల సమాచారం",
-	"accountinfo-length-rc": "$1 సమాచారం అట్టే ఉంచబడినది.",
-	"accountinfo-length-cu": "$1 సమాచారం అట్టే ఉంచబడినది.",
+	"accountinfo-length": "$1 సమాచారం అట్టే ఉంచబడినది.",
 	"accountinfo-now": "ఇప్పుడే"
 }

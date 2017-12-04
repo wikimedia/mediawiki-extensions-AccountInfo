@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP-адреса",
 	"accountinfo-ua": "Кориснички вршител",
 	"accountinfo-xff": "XFF-заглавје",
-	"accountinfo-recentchanges": "Информации во „Скорешни промени“",
-	"accountinfo-length-rc": "Информациите се чуваат $1.",
-	"accountinfo-checkuser": "Информации во Проверката на корисници (CheckUser)",
-	"accountinfo-length-cu": "Информациите се чуваат $1.",
+	"accountinfo-length": "Информациите се чуваат $1.",
 	"accountinfo-now": "Сега"
 }

@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP-osoite",
 	"accountinfo-ua": "Selaintunniste",
 	"accountinfo-xff": "XFF-otsikko",
-	"accountinfo-recentchanges": "Tiedot tuoreissa muutoksissa",
-	"accountinfo-length-rc": "Tietojen säilytysaika on $1.",
-	"accountinfo-checkuser": "Tiedot osoitepaljastimessa",
-	"accountinfo-length-cu": "Tietojen säilytysaika on $1.",
+	"accountinfo-length": "Tietojen säilytysaika on $1.",
 	"accountinfo-now": "Nyt"
 }

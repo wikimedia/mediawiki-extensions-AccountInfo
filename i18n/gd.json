@@ -10,8 +10,6 @@
 	"accountinfo-ip": "Seòladh IP",
 	"accountinfo-ua": "Àidseant a' chleachdaiche",
 	"accountinfo-xff": "Bann-cinn XFF",
-	"accountinfo-recentchanges": "Am fiosrachadh sna h-atharraichean o chionn goirid",
-	"accountinfo-length-rc": "Chaidh fiosrachadh a ghlèidheadh airson $1.",
-	"accountinfo-length-cu": "Chaidh fiosrachadh a ghlèidheadh airson $1.",
+	"accountinfo-length": "Chaidh fiosrachadh a ghlèidheadh airson $1.",
 	"accountinfo-now": "An-dràsta"
 }

@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP adresa",
 	"accountinfo-ua": "Prohlížeč",
 	"accountinfo-xff": "XFF hlavička",
-	"accountinfo-recentchanges": "Informace v posledních změnách",
-	"accountinfo-length-rc": "Informace se uchovávají $1.",
-	"accountinfo-checkuser": "Informace v CheckUser",
-	"accountinfo-length-cu": "Informace se uchovávají $1.",
+	"accountinfo-length": "Informace se uchovávají $1.",
 	"accountinfo-now": "Teď"
 }

@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP-адрес",
 	"accountinfo-ua": "Браузер",
 	"accountinfo-xff": "XFF башлығы",
-	"accountinfo-recentchanges": "Яңы үҙгәртеүҙәрҙәге мәғлүмәт",
-	"accountinfo-length-rc": "Мәғлүмәт һаҡланыу ваҡыты $1.",
-	"accountinfo-checkuser": "CheckUser мәғлүмәте",
-	"accountinfo-length-cu": "Мәғлүмәт һаҡланыу ваҡыты $1.",
+	"accountinfo-length": "Мәғлүмәт һаҡланыу ваҡыты $1.",
 	"accountinfo-now": "Әле генә"
 }

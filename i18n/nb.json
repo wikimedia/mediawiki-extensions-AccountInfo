@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP-adresse",
 	"accountinfo-ua": "Brukeragent",
 	"accountinfo-xff": "XFF-topptekst",
-	"accountinfo-recentchanges": "Informasjon i siste endringer",
-	"accountinfo-length-rc": "Informasjon blir beholdt for $1.",
-	"accountinfo-checkuser": "Informasjon i CheckUser",
-	"accountinfo-length-cu": "Informasjon blir beholdt for $1.",
+	"accountinfo-length": "Informasjon blir beholdt for $1.",
 	"accountinfo-now": "Nå"
 }

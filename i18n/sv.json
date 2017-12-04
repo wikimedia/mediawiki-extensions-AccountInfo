@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP-adress",
 	"accountinfo-ua": "Användaragent",
 	"accountinfo-xff": "XFF-huvud",
-	"accountinfo-recentchanges": "Information i \"Senaste Ändringar\"",
-	"accountinfo-length-rc": "Informationen lagras i $1.",
-	"accountinfo-checkuser": "Information i CheckUser",
-	"accountinfo-length-cu": "Informationen lagras i $1.",
+	"accountinfo-length": "Informationen lagras i $1.",
 	"accountinfo-now": "Nu"
 }

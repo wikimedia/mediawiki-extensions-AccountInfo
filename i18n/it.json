@@ -12,9 +12,6 @@
 	"accountinfo-ip": "Indirizzo IP",
 	"accountinfo-ua": "Agente utente",
 	"accountinfo-xff": "Intestazione XFF",
-	"accountinfo-recentchanges": "Informazioni dalle ultime modifiche",
-	"accountinfo-length-rc": "Le informazioni verranno mantenute per $1.",
-	"accountinfo-checkuser": "Informazioni dal CheckUser",
-	"accountinfo-length-cu": "Le informazioni verranno mantenute per $1.",
+	"accountinfo-length": "Le informazioni verranno mantenute per $1.",
 	"accountinfo-now": "Ora"
 }

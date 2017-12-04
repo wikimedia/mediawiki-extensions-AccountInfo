@@ -11,9 +11,6 @@
 	"accountinfo-ip": "Enderezo IP",
 	"accountinfo-ua": "Axente de usuario",
 	"accountinfo-xff": "Cabeceira XFF",
-	"accountinfo-recentchanges": "Información nos cambios recentes",
-	"accountinfo-length-rc": "A información gárdase durante $1.",
-	"accountinfo-checkuser": "Información na verificación de usuarios",
-	"accountinfo-length-cu": "A información gárdase durante $1.",
+	"accountinfo-length": "A información gárdase durante $1.",
 	"accountinfo-now": "Agora"
 }

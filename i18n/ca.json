@@ -13,9 +13,6 @@
 	"accountinfo-ip": "Adreça IP",
 	"accountinfo-ua": "Agent d'usuari",
 	"accountinfo-xff": "Capçalera XFF",
-	"accountinfo-recentchanges": "Informació en els canvis recents",
-	"accountinfo-length-rc": "La informació es conserva per $1.",
-	"accountinfo-checkuser": "Informació en CheckUser",
-	"accountinfo-length-cu": "La informació es conserva per $1.",
+	"accountinfo-length": "La informació es conserva per $1.",
 	"accountinfo-now": "Ara"
 }

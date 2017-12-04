@@ -13,9 +13,6 @@
 	"accountinfo-ip": "Adres IP",
 	"accountinfo-ua": "Aplikacja klienta",
 	"accountinfo-xff": "Nagłówek XFF",
-	"accountinfo-recentchanges": "Informacje w „Ostatnich zmianach”",
-	"accountinfo-length-rc": "Informacja ta jest przechowywana przez $1.",
-	"accountinfo-checkuser": "Informacje w CheckUser",
-	"accountinfo-length-cu": "Informacja ta jest przechowywana przez $1.",
+	"accountinfo-length": "Informacja ta jest przechowywana przez $1.",
 	"accountinfo-now": "Teraz"
 }

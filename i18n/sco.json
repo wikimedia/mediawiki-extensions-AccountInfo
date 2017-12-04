@@ -10,9 +10,6 @@
 	"accountinfo-ip": "IP address",
 	"accountinfo-ua": "Uiser agent",
 	"accountinfo-xff": "XFF heider",
-	"accountinfo-recentchanges": "Information in RecentChynges",
-	"accountinfo-length-rc": "Information is retained fer $1.",
-	"accountinfo-checkuser": "Information in CheckUiser",
-	"accountinfo-length-cu": "Information is retained fer $1.",
+	"accountinfo-length": "Information is retained fer $1.",
 	"accountinfo-now": "Nou"
 }

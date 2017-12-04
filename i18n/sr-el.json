@@ -8,6 +8,5 @@
 	"accountinfo-ts": "Vreme i datum",
 	"accountinfo-ip": "IP adresa",
 	"accountinfo-xff": "XFF zaglavlje",
-	"accountinfo-length-rc": "Informacija je sačuvana za $1.",
-	"accountinfo-length-cu": "Informacija je sačuvana za $1."
+	"accountinfo-length": "Informacija je sačuvana za $1."
 }

@@ -11,9 +11,6 @@
 	"accountinfo-ip": "IP adresi:",
 	"accountinfo-ua": "Kullanıcı temsilcisi",
 	"accountinfo-xff": "XFF başlığı",
-	"accountinfo-recentchanges": "Son değişiklik bilgileri",
-	"accountinfo-length-rc": "Bilgi, $1 için saklanıyor.",
-	"accountinfo-checkuser": "Denetçi bilgisi",
-	"accountinfo-length-cu": "Bilgi, $1 için saklanıyor.",
+	"accountinfo-length": "Bilgi, $1 için saklanıyor.",
 	"accountinfo-now": "Şimdi"
 }

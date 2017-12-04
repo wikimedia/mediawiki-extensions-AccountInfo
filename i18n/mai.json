@@ -10,9 +10,6 @@
 	"accountinfo-ip": "आइ.पि.पता",
 	"accountinfo-ua": "प्रयोगकर्ता एजेन्ट",
 	"accountinfo-xff": "एक्सएफएफ हेडर",
-	"accountinfo-recentchanges": "लगक परिवर्तनसभमे जानकारी",
-	"accountinfo-length-rc": "$1 को लागि जानकारी राखिएको छ।",
-	"accountinfo-checkuser": "प्रयोगकर्ता जाँचमा जानकारी",
-	"accountinfo-length-cu": "$1 को लागि जानकारी राखिएको छ।",
+	"accountinfo-length": "$1 को लागि जानकारी राखिएको छ।",
 	"accountinfo-now": "अखन"
 }
