@@ -11,6 +11,6 @@
 	"accountinfo-ip": "Dirección IP",
 	"accountinfo-ua": "Agente de usuario",
 	"accountinfo-xff": "Cabecera XFF",
-	"accountinfo-length": "La información se conserva para $1.",
+	"accountinfo-length": "La información se conserva durante $1.",
 	"accountinfo-now": "Ahora"
 }
