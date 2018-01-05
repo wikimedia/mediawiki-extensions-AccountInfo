@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Mantak111",
-			"Eitvys200"
+			"Eitvys200",
+			"Manvydasz"
 		]
 	},
 	"accountinfo": "Paskyros informacija",
-	"accountinfo-desc": "Leidžia vartotojui matyti saugomą privačią informaciją apie juos",
+	"accountinfo-desc": "Leidžia vartotojui matyti saugomą privačią informaciją apie save",
 	"accountinfo-ts": "Laiko žyma",
 	"accountinfo-ip": "IP Adresas",
 	"accountinfo-ua": "Vartotojo veiksnys",
