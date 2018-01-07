@@ -4,7 +4,8 @@
 			"Liuxinyu970226",
 			"Cwlin0416",
 			"LNDDYL",
-			"EagerLin"
+			"EagerLin",
+			"Kly"
 		]
 	},
 	"accountinfo": "帳號資訊",
@@ -13,6 +14,6 @@
 	"accountinfo-ip": "IP 位址",
 	"accountinfo-ua": "使用者代理",
 	"accountinfo-xff": "XFF 標頭",
-	"accountinfo-length": "資訊會保留 $1。",
+	"accountinfo-length": "資訊已保留 $1。",
 	"accountinfo-now": "現在"
 }
