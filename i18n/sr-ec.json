@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"Acamicamacaraca",
+			"Zoranzoki21"
 		]
 	},
 	"accountinfo": "Подаци о налогу",
+	"accountinfo-desc": "Дозвољава кориснику да види приватне податке прикупљене о њему",
 	"accountinfo-ts": "Време и датум",
-	"accountinfo-ip": "ИП адреса",
+	"accountinfo-ip": "IP адреса",
 	"accountinfo-ua": "Кориснички агент",
 	"accountinfo-xff": "XFF заглавље",
 	"accountinfo-length": "Информација је сачувана за $1.",
