@@ -3,7 +3,8 @@
 		"authors": [
 			"Milicevic01",
 			"Acamicamacaraca",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
 	"accountinfo": "Подаци о налогу",
@@ -11,7 +12,7 @@
 	"accountinfo-ts": "Време и датум",
 	"accountinfo-ip": "IP адреса",
 	"accountinfo-ua": "Кориснички агент",
-	"accountinfo-xff": "XFF заглавље",
+	"accountinfo-xff": "XFF наслов",
 	"accountinfo-length": "Информација је сачувана за $1.",
 	"accountinfo-now": "Сада"
 }
