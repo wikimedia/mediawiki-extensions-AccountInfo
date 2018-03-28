@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Inkbug"
+			"Inkbug",
+			"Guycn2"
 		]
 	},
 	"accountinfo": "פרטי חשבון",
 	"accountinfo-desc": "מאפשר למשתמשים לראות מידע פרטי שמור על עצמם",
-	"accountinfo-ts": "חותם זמן",
+	"accountinfo-ts": "תאריך ושעה",
 	"accountinfo-ip": "כתובת IP",
 	"accountinfo-ua": "זיהוי דפדפן",
 	"accountinfo-xff": "כותרת XFF",
-	"accountinfo-length": "המידע נשמר ל־$1.",
+	"accountinfo-length": "המידע נשמר למשך $1.",
 	"accountinfo-now": "עכשיו"
 }
