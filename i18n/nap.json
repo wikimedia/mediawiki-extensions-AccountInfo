@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"C.R."
+			"C.R.",
+			"Ruthven"
 		]
 	},
 	"accountinfo": "Nfurmaziune d' 'o cunto",
@@ -11,5 +12,5 @@
 	"accountinfo-ua": "Agente utente",
 	"accountinfo-xff": "Capopaggena XFF",
 	"accountinfo-length": "'E nfurmaziune sarranno astipate pe' $1.",
-	"accountinfo-now": "Mò mò"
+	"accountinfo-now": "Mo mmo"
 }
