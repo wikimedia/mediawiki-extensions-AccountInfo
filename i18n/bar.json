@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexx"
+		]
+	},
+	"accountinfo": "Nuterkóntóinformazióner",
+	"accountinfo-desc": "Daméglicht Nutzern d' Auhsicht voh eaner gspaicherde privaate Informazióner",
+	"accountinfo-ts": "Zaidstempé",
+	"accountinfo-ip": "IP-Adress",
+	"accountinfo-ua": "Browser",
+	"accountinfo-xff": "XFF-Header",
+	"accountinfo-length": "D' Informaziónen wern beraitgstöid fyr $1.",
+	"accountinfo-now": "Jetzad"
+}
