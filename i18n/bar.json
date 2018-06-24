@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alexx"
+			"Alexx",
+			"Joe Watzmo"
 		]
 	},
-	"accountinfo": "Nuterkóntóinformazióner",
-	"accountinfo-desc": "Daméglicht Nutzern d' Auhsicht voh eaner gspaicherde privaate Informazióner",
-	"accountinfo-ts": "Zaidstempé",
+	"accountinfo": "Nutzakontn-Information",
+	"accountinfo-desc": "Alaubt an Nutza, dass a se de iwa eam gspeichatn Informationa ooschaugt",
+	"accountinfo-ts": "Zeidstempe",
 	"accountinfo-ip": "IP-Adress",
 	"accountinfo-ua": "Browser",
 	"accountinfo-xff": "XFF-Header",
-	"accountinfo-length": "D' Informaziónen wern beraitgstöid fyr $1.",
-	"accountinfo-now": "Jetzad"
+	"accountinfo-length": "Informationa gibts fia $1.",
+	"accountinfo-now": "Etzad"
 }
