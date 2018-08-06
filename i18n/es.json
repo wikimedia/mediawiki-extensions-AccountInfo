@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Sporeunai"
+			"Sporeunai",
+			"Jelou"
 		]
 	},
 	"accountinfo": "Información de cuenta",
 	"accountinfo-desc": "Permite que el usuario consulte información personal almacenada",
-	"accountinfo-ts": "Fecha y hora",
+	"accountinfo-ts": "Marca de tiempo",
 	"accountinfo-ip": "Dirección IP",
 	"accountinfo-ua": "Agente de usuario",
 	"accountinfo-xff": "Cabecera XFF",
