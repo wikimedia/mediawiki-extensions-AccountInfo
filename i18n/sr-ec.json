@@ -9,7 +9,7 @@
 	},
 	"accountinfo": "Подаци о налогу",
 	"accountinfo-desc": "Дозвољава кориснику да види прикупљене приватне информације о њему",
-	"accountinfo-ts": "Време и датум",
+	"accountinfo-ts": "Временска ознака",
 	"accountinfo-ip": "IP адреса",
 	"accountinfo-ua": "Кориснички агент",
 	"accountinfo-xff": "XFF наслов",
