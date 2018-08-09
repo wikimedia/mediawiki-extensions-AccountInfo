@@ -10,7 +10,7 @@
 	"accountinfo": "Подаци о налогу",
 	"accountinfo-desc": "Дозвољава кориснику да види прикупљене приватне информације о њему",
 	"accountinfo-ts": "Временска ознака",
-	"accountinfo-ip": "IP адреса",
+	"accountinfo-ip": "ИП адреса",
 	"accountinfo-ua": "Кориснички агент",
 	"accountinfo-xff": "XFF наслов",
 	"accountinfo-length": "Информација је сачувана за $1.",
