@@ -66,7 +66,7 @@ class SpecialAccountInfo extends SpecialPage {
 		$lookup = new InfoLookup();
 		$info = $lookup->getUserInfo( $user );
 		$out->addHTML( $this->msg( 'accountinfo-length' )
-			->rawParams( $this->formatTime( $info['length'] ) )
+			->params( $this->formatTime( $info['length'] ) )
 			->parseAsBlock()
 		);
 
