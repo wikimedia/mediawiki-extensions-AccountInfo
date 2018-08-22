@@ -5,5 +5,12 @@
 			"Ruthven"
 		]
 	},
+	"accountinfo": "'Mbormaziune d'u cunde",
+	"accountinfo-desc": "Face 'ndrucà a l'utende le 'mbormaziune private reggistrate sus a jidde",
+	"accountinfo-ts": "Orarie de stambe",
+	"accountinfo-ip": "Indirizze IP",
+	"accountinfo-ua": "Utende agente",
+	"accountinfo-xff": "'Ndestazione XFF",
+	"accountinfo-length": "Le 'mbormaziune avènene mandenute pe $1.",
 	"accountinfo-now": "Mò"
 }
