@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라"
+			"아라",
+			"Kwj2772"
 		]
 	},
 	"accountinfo": "계정 정보",
@@ -10,6 +11,6 @@
 	"accountinfo-ip": "IP 주소",
 	"accountinfo-ua": "유저 에이전트",
 	"accountinfo-xff": "XFF 헤더",
-	"accountinfo-length": "정보는 $1에 그대로 유지됩니다.",
+	"accountinfo-length": "정보는 $1 동안 저장됩니다.",
 	"accountinfo-now": "지금"
 }
