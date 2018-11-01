@@ -3,7 +3,8 @@
 		"authors": [
 			"Withoutaname",
 			"Minh Nguyen",
-			"Dinhxuanduyet"
+			"Dinhxuanduyet",
+			"Vinhtantran"
 		]
 	},
 	"accountinfo": "Thông tin tài khoản",
@@ -11,6 +12,7 @@
 	"accountinfo-ts": "Thời gian",
 	"accountinfo-ip": "Địa chỉ IP",
 	"accountinfo-ua": "Tác nhân người dùng",
-	"accountinfo-length": "Thông tin được lưu trữ cho $1.",
+	"accountinfo-xff": "XFF header",
+	"accountinfo-length": "Thông tin được lưu trữ trong $1.",
 	"accountinfo-now": "Bây giờ"
 }
