@@ -3,14 +3,15 @@
 		"authors": [
 			"Beta16",
 			"FrancescaGermani",
-			"FRacco"
+			"FRacco",
+			"Daimona Eaytoy"
 		]
 	},
 	"accountinfo": "Informazioni sull'utenza",
 	"accountinfo-desc": "Consente all'utente di vedere informazioni private memorizzate su di sé",
 	"accountinfo-ts": "Data e ora",
 	"accountinfo-ip": "Indirizzo IP",
-	"accountinfo-ua": "Agente utente",
+	"accountinfo-ua": "User agent",
 	"accountinfo-xff": "Intestazione XFF",
 	"accountinfo-length": "Le informazioni verranno mantenute per $1.",
 	"accountinfo-now": "Ora"
