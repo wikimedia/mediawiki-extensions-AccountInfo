@@ -7,12 +7,12 @@
 			"BadDog"
 		]
 	},
-	"accountinfo": "Подаци о налогу",
-	"accountinfo-desc": "Дозвољава кориснику да види прикупљене приватне информације о њему",
+	"accountinfo": "Информације о налогу",
+	"accountinfo-desc": "Дозвољава кориснику да види ускладиштене приватне информације о њему",
 	"accountinfo-ts": "Временска ознака",
 	"accountinfo-ip": "IP адреса",
 	"accountinfo-ua": "Кориснички агент",
-	"accountinfo-xff": "XFF наслов",
-	"accountinfo-length": "Информација је сачувана за $1.",
+	"accountinfo-xff": "XFF заглавље",
+	"accountinfo-length": "Информације су задржане за $1.",
 	"accountinfo-now": "Сада"
 }
