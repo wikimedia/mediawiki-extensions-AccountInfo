@@ -3,10 +3,12 @@
 		"authors": [
 			"SiLveRLeaD",
 			"Stultiwikia",
-			"Sadrettin"
+			"Sadrettin",
+			"By erdo can"
 		]
 	},
 	"accountinfo": "Hesap bilgileri",
+	"accountinfo-desc": "Bir kullanıcının onlar hakkında depolanmış özel bilgileri görmesine izin verir.",
 	"accountinfo-ts": "Zaman damgası",
 	"accountinfo-ip": "IP adresi:",
 	"accountinfo-ua": "Kullanıcı temsilcisi",
