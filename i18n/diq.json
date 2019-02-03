@@ -5,7 +5,8 @@
 			"Mirzali",
 			"Marmase",
 			"Kumkumuk",
-			"Gırd"
+			"Gırd",
+			"Orbot707"
 		]
 	},
 	"accountinfo": "Melumatê hesabi",
@@ -14,6 +15,6 @@
 	"accountinfo-ip": "Adresa IPy",
 	"accountinfo-ua": "Temsilkarê karberi",
 	"accountinfo-xff": "XFF sername",
-	"accountinfo-length": "Malumat qandé $1'i nımnê no.",
+	"accountinfo-length": "Malumat qandé $1'i nımneyêno.",
 	"accountinfo-now": "Nıka"
 }
