@@ -10,6 +10,6 @@
 	"accountinfo-ip": "Adresse IP",
 	"accountinfo-ua": "Agente usator",
 	"accountinfo-xff": "Capite XFF",
-	"accountinfo-length": "Information es retenite durante $1.",
+	"accountinfo-length": "Le information es conservate durante $1.",
 	"accountinfo-now": "Ora"
 }
