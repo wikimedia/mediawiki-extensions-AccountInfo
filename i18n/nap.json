@@ -11,6 +11,6 @@
 	"accountinfo-ip": "Indirizzo IP",
 	"accountinfo-ua": "Agente utente",
 	"accountinfo-xff": "Capopaggena XFF",
-	"accountinfo-length": "'E nfurmaziune sarranno astipate pe' $1.",
+	"accountinfo-length": "'E nfurmaziune sarranno astipate pe $1.",
 	"accountinfo-now": "Mo mmo"
 }
