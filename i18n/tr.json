@@ -4,15 +4,16 @@
 			"SiLveRLeaD",
 			"Stultiwikia",
 			"Sadrettin",
-			"By erdo can"
+			"By erdo can",
+			"BaRaN6161 TURK"
 		]
 	},
 	"accountinfo": "Hesap bilgileri",
-	"accountinfo-desc": "Bir kullanıcının onlar hakkında depolanmış özel bilgileri görmesine izin verir.",
+	"accountinfo-desc": "Bir kullanıcının hakkında depolanmış özel bilgileri görmesine izin verir.",
 	"accountinfo-ts": "Zaman damgası",
-	"accountinfo-ip": "IP adresi:",
+	"accountinfo-ip": "IP adresi",
 	"accountinfo-ua": "Kullanıcı temsilcisi",
 	"accountinfo-xff": "XFF başlığı",
-	"accountinfo-length": "Bilgi, $1 için saklanıyor.",
+	"accountinfo-length": "Bilgiler $1 karşılığında saklanır.",
 	"accountinfo-now": "Şimdi"
 }
