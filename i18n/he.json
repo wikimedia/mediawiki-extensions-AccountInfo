@@ -10,7 +10,7 @@
 	"accountinfo-desc": "מתן אפשרות למשתמשים לראות מידע פרטי שמור על עצמם",
 	"accountinfo-ts": "תאריך ושעה",
 	"accountinfo-ip": "כתובת IP",
-	"accountinfo-ua": "זיהוי דפדפן",
+	"accountinfo-ua": "סוכן לקוח",
 	"accountinfo-xff": "כותרת XFF",
 	"accountinfo-length": "המידע נשמר למשך $1.",
 	"accountinfo-now": "עכשיו"
