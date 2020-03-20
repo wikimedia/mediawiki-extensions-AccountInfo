@@ -8,7 +8,7 @@
 	},
 	"accountinfo": "Información de cuenta",
 	"accountinfo-desc": "Permite que el usuario consulte información personal almacenada",
-	"accountinfo-ts": "Marca de tiempo",
+	"accountinfo-ts": "Cronomarcador",
 	"accountinfo-ip": "Dirección IP",
 	"accountinfo-ua": "Agente de usuario",
 	"accountinfo-xff": "Cabecera XFF",
