@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"NoiX180"
 		]
 	},
 	"accountinfo": "Katerangan akun",
-	"accountinfo-desc": "Ngidinaké panganggo saperlu ndeleng katerangan priangga sing sumimpen ngenani dhèwèké",
+	"accountinfo-desc": "Ngidinaké naraguna saperlu ndeleng katerangan priangga sing sumimpen ngenani dhèwèké",
 	"accountinfo-ts": "Tandha wektu",
 	"accountinfo-ip": "Alamat IP",
-	"accountinfo-ua": "Agèn panganggo",
+	"accountinfo-ua": "Agèn naraguna",
 	"accountinfo-xff": "Sesirah XFF",
 	"accountinfo-now": "Saiki"
 }
