@@ -11,6 +11,6 @@
 	"accountinfo-ip": "Alamat IP",
 	"accountinfo-ua": "Aplikasi pengguna",
 	"accountinfo-xff": "Judul XFF",
-	"accountinfo-length": "Informasi dipertahankan untuk $1.",
+	"accountinfo-length": "Informasi dipertahankan selama $1.",
 	"accountinfo-now": "Sekarang"
 }
