@@ -143,6 +143,16 @@ $specialPageAliases['pt-br'] = [
 	'AccountInfo' => [ 'Informações_da_conta' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'AccountInfo' => [ 'Информације_о_налогу' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'AccountInfo' => [ 'Informacije_o_nalogu' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'AccountInfo' => [ 'Konto_information' ],
