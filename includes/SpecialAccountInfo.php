@@ -43,12 +43,19 @@ class SpecialAccountInfo extends SpecialPage {
 		return $xff;
 	}
 
+	/**
+	 * @param string $ts
+	 * @return string
+	 */
 	private function formatTime( $ts ) {
 		return $this->getLanguage()->formatTimePeriod( $ts,
 			[ 'avoid' => 'avoidminutes', 'noabbrevs' => true ]
 		);
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function execute( $par ) {
 		$user = $this->getUser();
 		$out = $this->getOutput();

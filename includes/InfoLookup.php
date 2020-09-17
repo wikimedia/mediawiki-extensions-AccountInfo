@@ -45,6 +45,10 @@ class InfoLookup {
 		return $wgPutIPinRC;
 	}
 
+	/**
+	 * @param WebRequest $req
+	 * @return string|false
+	 */
 	public function getUserAgent( WebRequest $req ) {
 		return $req->getHeader( 'User-Agent' );
 	}
@@ -67,6 +71,10 @@ class InfoLookup {
 		return ( $xff_ip && !$isSquidOnly ) ? $xff_ip : '';
 	}
 
+	/**
+	 * @param User $user
+	 * @return array
+	 */
 	public function getUserInfo( User $user ) {
 		global $wgRCMaxAge, $wgCUDMaxAge;
 		if ( $this->areIPsInRC() && !$this->isCUInstalled() ) {
