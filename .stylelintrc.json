@@ -1,6 +1,6 @@
 {
-    "extends": "stylelint-config-wikimedia",
-    "rules": {
-        "declaration-property-value-blacklist": null
-    }
+	"extends": "stylelint-config-wikimedia",
+	"rules": {
+		"declaration-property-value-blacklist": null
+	}
 }
