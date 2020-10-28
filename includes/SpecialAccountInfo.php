@@ -33,7 +33,7 @@ class SpecialAccountInfo extends SpecialPage {
 
 	/**
 	 * @param string $xff
-	 * @return String
+	 * @return string
 	 */
 	private function formatXFF( $xff ) {
 		if ( !$xff ) {
