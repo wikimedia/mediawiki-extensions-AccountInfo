@@ -61,7 +61,7 @@ class SpecialAccountInfo extends SpecialPage {
 		$out = $this->getOutput();
 		$req = $this->getRequest();
 
-		if ( !$user->isLoggedIn() ) {
+		if ( !$user->isRegistered() ) {
 			throw new UserNotLoggedIn;
 		}
 
