@@ -82,7 +82,7 @@ class InfoLookup {
 			$rows = wfGetDB( DB_REPLICA )->select(
 				'recentchanges',
 				'DISTINCT(rc_ip) AS ip',
-				[ 'rc_user' => $user->getId() ],
+				[ 'rc_actor' => $user->getActorId() ],
 				__METHOD__
 			);
 			// Convert for table-fication...
