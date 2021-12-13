@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"SamGold"
+			"SamGold",
+			"ZlyiLev"
 		]
 	},
-	"accountinfo-ip": "IP-адрас"
+	"accountinfo-ip": "IP-адрас",
+	"accountinfo-ua": "Браўзер"
 }

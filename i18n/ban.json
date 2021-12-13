@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinamoonroll"
+		]
+	},
+	"accountinfo": "Inpormasi akun",
+	"accountinfo-desc": "Lugra sang anganggé nyingakin inpormasi paragaan sané kasimpen",
+	"accountinfo-ts": "Stempel kala",
+	"accountinfo-ip": "Alamat IP",
+	"accountinfo-ua": "Agén sang anganggé",
+	"accountinfo-xff": "Pamahbah XFF",
+	"accountinfo-length": "Inpormasi kapartahanang selami $1.",
+	"accountinfo-now": "Mangkin"
+}

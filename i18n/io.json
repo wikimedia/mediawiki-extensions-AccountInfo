@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"accountinfo": "Informo pri la konto",
+	"accountinfo-desc": "Permisas ula uzero vidar privata informo pri li",
+	"accountinfo-ts": "Dato e horo",
+	"accountinfo-ip": "IP-adreso",
+	"accountinfo-ua": "Uzero-aganto",
+	"accountinfo-xff": "titulo XFF",
+	"accountinfo-length": "Informo konservesis por $1.",
+	"accountinfo-now": "Nun"
+}

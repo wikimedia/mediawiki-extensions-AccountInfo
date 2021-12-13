@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"accountinfo": "Benotzerkontinformatioun",
@@ -10,6 +11,6 @@
 	"accountinfo-ip": "IP-Adress",
 	"accountinfo-ua": "Browser",
 	"accountinfo-xff": "XFF-Header",
-	"accountinfo-length": "D'Informatioune gi während $1 versuergt.",
+	"accountinfo-length": "D'Informatioune gi wärend $1 versuergt.",
 	"accountinfo-now": "Elo"
 }
