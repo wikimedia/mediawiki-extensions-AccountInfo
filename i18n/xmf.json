@@ -4,7 +4,10 @@
 			"Narazeni"
 		]
 	},
+	"accountinfo": "ინფორმაცია ანგარიშიშ გეშა",
+	"accountinfo-ts": "თარიღი/ბორჯი",
 	"accountinfo-ip": "IP-მიოწურაფუ",
 	"accountinfo-ua": "ბრაუზერი",
-	"accountinfo-xff": "XFF-დუდჯოხო"
+	"accountinfo-xff": "XFF-დუდჯოხო",
+	"accountinfo-now": "ასე"
 }
