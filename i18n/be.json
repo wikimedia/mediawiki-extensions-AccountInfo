@@ -2,9 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"SamGold",
+			"Vlad5250",
 			"ZlyiLev"
 		]
 	},
+	"accountinfo": "Звесткі пра рахунак",
+	"accountinfo-desc": "Дазваляе ўдельніку бачыць захаваную прыватную інфармацыю пра сябе",
+	"accountinfo-ts": "Дата/час",
 	"accountinfo-ip": "IP-адрас",
-	"accountinfo-ua": "Браўзер"
+	"accountinfo-ua": "Браўзер",
+	"accountinfo-xff": "XFF-загаловак",
+	"accountinfo-length": "Інфармацыя захоўваецца за $1.",
+	"accountinfo-now": "Зараз"
 }
