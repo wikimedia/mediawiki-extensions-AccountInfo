@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Obaid Raza"
+		]
+	},
+	"accountinfo": "معلومات کھاتہ",
+	"accountinfo-desc": "صارف کو اپنے بارے ذخیرہ شدہ نجی معلومات دیکھنے کی اجازت دیتا ہے۔",
+	"accountinfo-ts": "مہر وقت",
+	"accountinfo-ip": "آئی پی پتے",
+	"accountinfo-ua": "صارف ایجنٹ",
+	"accountinfo-xff": "ایکس ایف ایف سرخی",
+	"accountinfo-length": "معلومات $1 کے لیے رکھی جاتی ہیں۔",
+	"accountinfo-now": "ابھی"
+}
