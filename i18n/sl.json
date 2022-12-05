@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pinky sl"
+			"Pinky sl",
+			"Eleassar"
 		]
 	},
 	"accountinfo": "Informacija o uporabniku",
@@ -11,5 +12,5 @@
 	"accountinfo-ua": "Uporabniški agent",
 	"accountinfo-xff": "XFF glava",
 	"accountinfo-length": "Informacija se ohrani $1.",
-	"accountinfo-now": "Sedaj"
+	"accountinfo-now": "Zdaj"
 }
