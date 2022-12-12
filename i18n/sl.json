@@ -7,7 +7,7 @@
 	},
 	"accountinfo": "Informacija o uporabniku",
 	"accountinfo-desc": "Dovoli uporabniku da vidi shranjeno informacijo o sebi",
-	"accountinfo-ts": "Časovni žig",
+	"accountinfo-ts": "Čas",
 	"accountinfo-ip": "IP-naslov",
 	"accountinfo-ua": "Uporabniški agent",
 	"accountinfo-xff": "XFF glava",
