@@ -4,9 +4,12 @@
 			"Milicevic01"
 		]
 	},
-	"accountinfo": "Podaci o nalogu",
-	"accountinfo-ts": "Vreme i datum",
+	"accountinfo": "Informacije o nalogu",
+	"accountinfo-desc": "Dozvoljava korisniku da vidi uskladištene privatne informacije o njemu",
+	"accountinfo-ts": "Vremenska oznaka",
 	"accountinfo-ip": "IP adresa",
+	"accountinfo-ua": "Korisnički agent",
 	"accountinfo-xff": "XFF zaglavlje",
-	"accountinfo-length": "Informacija je sačuvana za $1."
+	"accountinfo-length": "Informacije su zadržane za $1.",
+	"accountinfo-now": "Sada"
 }
