@@ -20,8 +20,9 @@
 
 namespace MediaWiki\AccountInfo;
 
-use CheckUserHooks;
 use ExtensionRegistry;
+use MediaWiki\CheckUser\CheckUserUtilityService;
+use MediaWiki\MediaWikiServices;
 use User;
 use WebRequest;
 
@@ -64,7 +65,9 @@ class InfoLookup {
 			// Should not be called, but be safe.
 			return '';
 		}
-		list( $xff_ip, $isSquidOnly ) = CheckUserHooks::getClientIPfromXFF(
+		/** @var CheckUserUtilityService $checkUserUtilityService */
+		$checkUserUtilityService = MediaWikiServices::getInstance()->get( 'CheckUserUtilityService' );
+		list( $xff_ip, $isSquidOnly ) = $checkUserUtilityService->getClientIPfromXFF(
 			$req->getHeader( 'X-Forwarded-For' )
 		);
 
