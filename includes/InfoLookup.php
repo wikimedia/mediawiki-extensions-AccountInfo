@@ -105,7 +105,7 @@ class InfoLookup {
 			$rows = wfGetDB( DB_REPLICA )->select(
 				'cu_changes',
 				[ 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ],
-				[ 'cuc_user' => $user->getId() ],
+				[ 'cuc_actor' => $user->getActorId() ],
 				__METHOD__,
 				[ 'GROUP BY' => 'cuc_ip, cuc_agent, cuc_xff' ]
 			);
