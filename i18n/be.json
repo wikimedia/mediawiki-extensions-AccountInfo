@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Plaga med",
 			"SamGold",
 			"Vlad5250",
 			"ZlyiLev"
 		]
 	},
-	"accountinfo": "Звесткі пра рахунак",
+	"accountinfo": "Звесткі пра ўліковы запіс",
 	"accountinfo-desc": "Дазваляе ўдельніку бачыць захаваную прыватную інфармацыю пра сябе",
 	"accountinfo-ts": "Дата/час",
 	"accountinfo-ip": "IP-адрас",
