@@ -163,17 +163,12 @@ $specialPageAliases['vi'] = [
 	'AccountInfo' => [ 'Thông_tin_tài_khoản' ],
 ];
 
-/** Chinese (中文) */
-$specialPageAliases['zh'] = [
-	'AccountInfo' => [ '账户信息', '帐号信息', '賬戶資訊', '帳號資訊' ],
-];
-
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = [
-	'AccountInfo' => [ '账户信息' ],
+	'AccountInfo' => [ '账号信息', '账户信息', '帐号信息', '帐号资讯' ],
 ];
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = [
-	'AccountInfo' => [ '帳號資訊' ],
+	'AccountInfo' => [ '帳號資訊', '賬號信息', '賬戶信息', '帳號信息' ],
 ];
