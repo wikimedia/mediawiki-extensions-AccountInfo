@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Alexx",
-			"Joe Watzmo"
+			"Joe Watzmo",
+			"Mucalexx"
 		]
 	},
-	"accountinfo": "Nutzakontn-Information",
+	"accountinfo": "Nutzerkónten-Informazión",
 	"accountinfo-desc": "Alaubt an Nutza, dass a se de iwa eam gspeichatn Informationa ooschaugt",
 	"accountinfo-ts": "Zeidstempe",
 	"accountinfo-ip": "IP-Adress",
