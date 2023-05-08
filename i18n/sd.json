@@ -7,8 +7,11 @@
 		]
 	},
 	"accountinfo": "کاتي جي معلومات",
+	"accountinfo-desc": "واپرائيندڙن کي انھن جي باري ۾ محفوظ ڪيل نجي معلومات ڏسڻ جي اجازت ڏئي ٿي",
 	"accountinfo-ts": "اوقاتي-ٺپو",
 	"accountinfo-ip": "آئپِي پتو",
 	"accountinfo-ua": "واپرائيندڙ جو ايجنٽ",
+	"accountinfo-xff": "ايڪس.ايف.ايف ھيڊر",
+	"accountinfo-length": "معلومات $1 لاءِ رکيل آهي.",
 	"accountinfo-now": "هاڻي"
 }
