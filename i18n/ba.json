@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Рустам Нурыев"
+			"Рустам Нурыев",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"accountinfo": "Иҫәп яҙмаһы тураһында мәғлүмәт",
@@ -9,7 +10,7 @@
 	"accountinfo-ts": "Ваҡыт",
 	"accountinfo-ip": "IP-адрес",
 	"accountinfo-ua": "Браузер",
-	"accountinfo-xff": "XFF башлығы",
+	"accountinfo-xff": "XFF атамаһы",
 	"accountinfo-length": "Мәғлүмәт һаҡланыу ваҡыты $1.",
 	"accountinfo-now": "Әле генә"
 }
