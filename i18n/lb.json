@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Robby",
 			"Soued031"
 		]
 	},
 	"accountinfo": "Benotzerkontinformatioun",
-	"accountinfo-desc": "Erlaabt et engem Benotzer fir seng gespäichert privat Informatioune  ze gesinn",
+	"accountinfo-desc": "Erlaabt et engem Benotzer fir seng gespäichert privat Informatioune ze gesinn",
 	"accountinfo-ts": "Zäitstempel",
 	"accountinfo-ip": "IP-Adress",
 	"accountinfo-ua": "Browser",
