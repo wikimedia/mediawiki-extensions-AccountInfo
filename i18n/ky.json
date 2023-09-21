@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Janatkg",
 			"Элдин беги"
 		]
 	},
 	"accountinfo": "Аккаунттун маалыматы",
 	"accountinfo-desc": "Колдонуучуга алар жөнүндө сакталган купуя маалыматты көрүүгө мүмкүнчүлүк берет",
-	"accountinfo-ts": "Убакыт белгиси",
+	"accountinfo-ts": "Дата/убакыт",
 	"accountinfo-ip": "IP дарек",
 	"accountinfo-ua": "Колдонуучу агент",
 	"accountinfo-xff": "XFF аталышы",
