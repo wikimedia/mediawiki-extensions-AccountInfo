@@ -10,5 +10,6 @@
 	"accountinfo-ts": "সময়বার্তা",
 	"accountinfo-ip": "আইপি ঠিকানা",
 	"accountinfo-ua": "ব্যবহারকারী এজেন্ট",
+	"accountinfo-length": "$1-এর জন্য তথ্য রেখে দেওয়া হয়।",
 	"accountinfo-now": "এখন"
 }
