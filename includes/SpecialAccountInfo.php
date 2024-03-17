@@ -79,7 +79,7 @@ class SpecialAccountInfo extends SpecialPage {
 
 		$outRows = [];
 		foreach ( $info['rows'] as $row ) {
-			list( $ts, $ip, $ua, $xff ) = $row;
+			[ $ts, $ip, $ua, $xff ] = $row;
 			$outRows[] = [
 				$ts ? $this->getLanguage()->formatExpiry( $ts ) : '',
 				$ip ?: '',

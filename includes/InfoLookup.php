@@ -67,7 +67,7 @@ class InfoLookup {
 		}
 		/** @var CheckUserUtilityService $checkUserUtilityService */
 		$checkUserUtilityService = MediaWikiServices::getInstance()->get( 'CheckUserUtilityService' );
-		list( $xff_ip, $isSquidOnly ) = $checkUserUtilityService->getClientIPfromXFF(
+		[ $xff_ip, $isSquidOnly ] = $checkUserUtilityService->getClientIPfromXFF(
 			$req->getHeader( 'X-Forwarded-For' )
 		);
 
