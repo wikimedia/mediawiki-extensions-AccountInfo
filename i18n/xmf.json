@@ -5,9 +5,11 @@
 		]
 	},
 	"accountinfo": "ინფორმაცია ანგარიშიშ გეშა",
+	"accountinfo-desc": "მახვარებუს ნებას არზენს პიჯული ინფორმაცია ქოძირანი მუნეფიშ გეშა",
 	"accountinfo-ts": "თარიღი/ბორჯი",
 	"accountinfo-ip": "IP-მიოწურაფუ",
 	"accountinfo-ua": "ბრაუზერი",
 	"accountinfo-xff": "XFF-დუდჯოხო",
+	"accountinfo-length": "ინფორმაცია იჩუალუაფუ განწეობათ $1.",
 	"accountinfo-now": "ასე"
 }
