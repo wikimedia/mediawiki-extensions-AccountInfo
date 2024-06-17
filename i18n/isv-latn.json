@@ -4,5 +4,12 @@
 			"IJzeren Jan"
 		]
 	},
-	"accountinfo": "Informacije o kontu"
+	"accountinfo": "Informacije o kontu",
+	"accountinfo-desc": "Umožnjaje koristniku uviděti shranjene privatne dane o njim",
+	"accountinfo-ts": "Data/vrěme",
+	"accountinfo-ip": "IP-adres",
+	"accountinfo-ua": "Koristničsky agent",
+	"accountinfo-xff": "XFF-zaglavje",
+	"accountinfo-length": "Informacija skladuje se v tečenju $1.",
+	"accountinfo-now": "Tutčas"
 }
