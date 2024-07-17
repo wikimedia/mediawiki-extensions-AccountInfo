@@ -6,7 +6,7 @@
 	},
 	"accountinfo": "Informacije o kontu",
 	"accountinfo-desc": "Umožnjaje koristniku uviděti shranjene privatne dane o njim",
-	"accountinfo-ts": "Data/vrěme",
+	"accountinfo-ts": "Data/čas",
 	"accountinfo-ip": "IP-adres",
 	"accountinfo-ua": "Koristničsky agent",
 	"accountinfo-xff": "XFF-zaglavje",
