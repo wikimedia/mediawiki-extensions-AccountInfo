@@ -82,7 +82,7 @@ class InfoLookup {
 		global $wgRCMaxAge, $wgCUDMaxAge;
 		if ( $this->areIPsInRC() && !$this->isCUInstalled() ) {
 			// Check the table...
-			$rows = wfGetDB( DB_REPLICA )->select(
+			$rows = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA )->select(
 				'recentchanges',
 				'DISTINCT(rc_ip) AS ip',
 				[ 'rc_actor' => $user->getActorId() ],
@@ -102,7 +102,7 @@ class InfoLookup {
 
 		// Now CheckUser...
 		if ( $this->isCUInstalled() ) {
-			$rows = wfGetDB( DB_REPLICA )->select(
+			$rows = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA )->select(
 				'cu_changes',
 				[ 'cuc_timestamp', 'cuc_ip', 'cuc_agent', 'cuc_xff' ],
 				[ 'cuc_actor' => $user->getActorId() ],
