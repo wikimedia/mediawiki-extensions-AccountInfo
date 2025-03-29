@@ -20,7 +20,7 @@
 
 namespace MediaWiki\AccountInfo;
 
-use Html;
+use MediaWiki\Html\Html;
 use Xml;
 
 /**
