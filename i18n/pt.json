@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Mansil alfalb"
 		]
 	},
 	"accountinfo": "Informação da conta",
-	"accountinfo-desc": "Permite que um utilizador veja as informações privadas armazenadas sobre si",
+	"accountinfo-desc": "Permite que um utilizador veja a informação privada guardada sobre eles",
 	"accountinfo-ts": "Data e hora",
-	"accountinfo-ip": "Endereço IP",
-	"accountinfo-ua": "User-Agent",
-	"accountinfo-xff": "XFF header",
-	"accountinfo-length": "A informação é armazenada durante $1.",
+	"accountinfo-ip": "Endereço de IP",
+	"accountinfo-ua": "Agente do Utilizador",
+	"accountinfo-xff": "Cabeçalho XFF",
+	"accountinfo-length": "A informação é retida durante $1.",
 	"accountinfo-now": "Agora"
 }
