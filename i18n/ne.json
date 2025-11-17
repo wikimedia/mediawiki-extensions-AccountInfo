@@ -3,7 +3,8 @@
 		"authors": [
 			"Bada Kaji",
 			"बडा काजी",
-			"बिप्लब आनन्द"
+			"बिप्लब आनन्द",
+			"Nirajan pant"
 		]
 	},
 	"accountinfo": "खाता जानकारी हेर्नुहोस्",
@@ -12,6 +13,6 @@
 	"accountinfo-ip": "आइपी ठेगाना",
 	"accountinfo-ua": "प्रयोगकर्ता एजेन्ट",
 	"accountinfo-xff": "एक्सयफयफ हेडर",
-	"accountinfo-length": "सूचना $1 को लागि खोलिरहेको छ।",
+	"accountinfo-length": "जानकारी $1 का लागि कायम राखिएको छ।",
 	"accountinfo-now": "अहिले"
 }
