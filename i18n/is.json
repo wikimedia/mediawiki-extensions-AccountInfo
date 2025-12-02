@@ -4,5 +4,12 @@
 			"Sveinn í Felli"
 		]
 	},
-	"accountinfo-ts": "Tímamerki"
+	"accountinfo": "Upplýsingar um aðgang",
+	"accountinfo-desc": "Leyfir notandanum að sjá geymdar persónulegar upplýsingar um sig",
+	"accountinfo-ts": "Tímamerki",
+	"accountinfo-ip": "IP-vistfang",
+	"accountinfo-ua": "Kennistrengur",
+	"accountinfo-xff": "XFF-haus",
+	"accountinfo-length": "Upplýsingar eru geymdar fyrir $1 .",
+	"accountinfo-now": "Núna"
 }
