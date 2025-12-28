@@ -21,11 +21,7 @@
 namespace MediaWiki\AccountInfo;
 
 use MediaWiki\Html\Html;
-use Xml;
 
-/**
- * Fork of Xml::buildTable to use classes instead of ids.
- */
 class TableBuilder {
 
 	/**
@@ -35,10 +31,10 @@ class TableBuilder {
 	 * @return string
 	 */
 	public static function buildTable( $rows, $headers, $attribs = [] ) {
-		$s = Xml::openElement( 'table', $attribs );
+		$s = Html::openElement( 'table', $attribs );
 
 		if ( is_array( $headers ) ) {
-			$s .= Xml::openElement( 'thead', $attribs );
+			$s .= Html::openElement( 'thead', $attribs );
 
 			foreach ( $headers as $class => $header ) {
 				$attribs = [];
@@ -49,7 +45,7 @@ class TableBuilder {
 
 				$s .= Html::rawElement( 'th', $attribs, $header );
 			}
-			$s .= Xml::closeElement( 'thead' );
+			$s .= Html::closeElement( 'thead' );
 		}
 
 		foreach ( $rows as $class => $row ) {
@@ -62,7 +58,7 @@ class TableBuilder {
 			$s .= self::buildTableRow( $attribs, $row );
 		}
 
-		$s .= Xml::closeElement( 'table' );
+		$s .= Html::closeElement( 'table' );
 
 		return $s;
 	}
@@ -74,7 +70,7 @@ class TableBuilder {
 	 * @return string
 	 */
 	protected static function buildTableRow( $attribs, $cells ) {
-		$s = Xml::openElement( 'tr', $attribs );
+		$s = Html::openElement( 'tr', $attribs );
 
 		foreach ( $cells as $class => $cell ) {
 			$attribs = [];
@@ -86,7 +82,7 @@ class TableBuilder {
 			$s .= Html::rawElement( 'td', $attribs, $cell );
 		}
 
-		$s .= Xml::closeElement( 'tr' );
+		$s .= Html::closeElement( 'tr' );
 
 		return $s;
 	}
