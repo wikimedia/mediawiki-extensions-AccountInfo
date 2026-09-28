@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kaszeba",
-			"Kirsan"
+			"Kirsan",
+			"Orbitminis"
 		]
 	},
 	"accountinfo": "Wëdowiédzô ò kònce",
@@ -11,6 +12,6 @@
 	"accountinfo-ip": "Adresa IP",
 	"accountinfo-ua": "Browser",
 	"accountinfo-xff": "Nagłówk XFF",
-	"accountinfo-length": "Wëdowiédzô bãdze ùtrzëmónô dlô $1.",
+	"accountinfo-length": "Na wëdowiédzô bãdze ùtrzëmónô przez $1.",
 	"accountinfo-now": "Terô"
 }
