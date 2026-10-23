@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nikosguard"
+			"Nikosguard",
+			"Jimkats"
 		]
 	},
 	"accountinfo": "Πληροφορίες λογαριασμού",
@@ -9,5 +10,6 @@
 	"accountinfo-ts": "Χρονική σήμανση",
 	"accountinfo-ip": "Διεύθυνση IP",
 	"accountinfo-xff": "Επικεφαλίδα XFF",
+	"accountinfo-length": "Οι πληροφορίες διατηρούνται για $1.",
 	"accountinfo-now": "Τώρα"
 }
