@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armin1392"
+			"Armin1392",
+			"LProfo"
 		]
 	},
 	"accountinfo": "اطلاعات حساب",
 	"accountinfo-desc": "اجازه به کاربر برای مشاهده اطلاعات خصوصی ذخیره شده درباره آن‌ها",
 	"accountinfo-ts": "برچسب زمان",
-	"accountinfo-ip": "آدرس آی‌پی",
+	"accountinfo-ip": "نشانی آی‌پی",
 	"accountinfo-ua": "عامل کاربر",
 	"accountinfo-xff": "سرفصل ایکس‌اف‌اف",
 	"accountinfo-length": "اطلاعات برای $1 حفظ شده‌‌است.",
